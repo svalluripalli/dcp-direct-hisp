@@ -12,9 +12,13 @@ import org.springframework.core.task.TaskExecutor;
 import org.springframework.ws.config.annotation.EnableWs;
 import org.springframework.ws.config.annotation.WsConfigurerAdapter;
 import org.springframework.ws.server.EndpointInterceptor;
+import org.springframework.ws.soap.SoapVersion;
+import org.springframework.ws.soap.saaj.SaajSoapMessageFactory;
 import org.springframework.ws.soap.server.endpoint.interceptor.PayloadRootSmartSoapEndpointInterceptor;
 import org.springframework.ws.transport.http.MessageDispatcherServlet;
 import org.springframework.ws.wsdl.wsdl11.DefaultWsdl11Definition;
+import org.springframework.ws.wsdl.wsdl11.SimpleWsdl11Definition;
+import org.springframework.ws.wsdl.wsdl11.Wsdl11Definition;
 import org.springframework.xml.xsd.SimpleXsdSchema;
 import org.springframework.xml.xsd.XsdSchema;
 
@@ -35,20 +39,29 @@ public class WebServiceConfig extends WsConfigurerAdapter {
 		return new ServletRegistrationBean<>(servlet, "/services/*");
 	}
 
-	@Bean(name = "description")
-	public DefaultWsdl11Definition defaultWsdl11Definition(XsdSchema documentRepositorySchema) {
-		DefaultWsdl11Definition wsdl11Definition = new DefaultWsdl11Definition();
-		wsdl11Definition.setPortTypeName("port");
-		wsdl11Definition.setLocationUri("/services");
-		wsdl11Definition.setTargetNamespace("urn:ihe:iti:xds-b:2007");
-		wsdl11Definition.setSchema(documentRepositorySchema);
-		return wsdl11Definition;
+	@Bean(name = "DocumentRepository")
+	public Wsdl11Definition defaultWsdl11Definition(XsdSchema documentRepositorySchema) {
+//		DefaultWsdl11Definition wsdl11Definition = new DefaultWsdl11Definition();
+//		wsdl11Definition.setCreateSoap12Binding(true);
+//		wsdl11Definition.setPortTypeName("port");
+//		wsdl11Definition.setLocationUri("/services");
+//		wsdl11Definition.setTargetNamespace("urn:ihe:iti:xds-b:2007");
+//		wsdl11Definition.setSchema(documentRepositorySchema);
+		return new SimpleWsdl11Definition(new ClassPathResource("static/services/HISP_DocumentRepository_Service.wsdl"));
 	}
 
 	@Bean
-	public XsdSchema documentRepositorySchema() {
-		return new SimpleXsdSchema(new ClassPathResource("static/services/XDS.b_DocumentRepositoryMTOM.xsd"));
+	public SaajSoapMessageFactory messageFactory() {
+	    SaajSoapMessageFactory messageFactory = new SaajSoapMessageFactory();
+	    messageFactory.setSoapVersion(SoapVersion.SOAP_12);
+	    return messageFactory;
 	}
+
+	
+//	@Bean
+//	public XsdSchema documentRepositorySchema() {
+//		return new SimpleXsdSchema(new ClassPathResource("static/services/XDS.b_DocumentRepositoryMTOM.xsd"));
+//	}
 	
 	@Bean
 	public TaskExecutor taskExecutor() {

@@ -1,7 +1,6 @@
 package gov.cdc.dhcs.hehr.dcp.direct.service;
 
 import java.io.ByteArrayOutputStream;
-import java.io.IOException;
 import java.nio.charset.StandardCharsets;
 import java.time.Instant;
 import java.time.ZoneId;
