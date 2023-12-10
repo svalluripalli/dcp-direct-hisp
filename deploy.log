@@ -1,0 +1,1228 @@
+Apache Maven 3.9.5 (57804ffe001d7215b5e7bcb531cf83df38f93546)
+Maven home: C:\Work\Softwares\apache-maven-3.9.5
+Java version: 17.0.8.1, vendor: Microsoft, runtime: C:\Work\Softwares\jdk-17.0.8.101-hotspot
+Default locale: en_US, platform encoding: Cp1252
+OS name: "windows 10", version: "10.0", arch: "amd64", family: "windows"
+[DEBUG] Created new class realm maven.api
+[DEBUG] Importing foreign packages into class realm maven.api
+[DEBUG]   Imported: javax.annotation.* < plexus.core
+[DEBUG]   Imported: javax.annotation.security.* < plexus.core
+[DEBUG]   Imported: javax.inject.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.artifact < plexus.core
+[DEBUG]   Imported: org.apache.maven.classrealm < plexus.core
+[DEBUG]   Imported: org.apache.maven.cli < plexus.core
+[DEBUG]   Imported: org.apache.maven.configuration < plexus.core
+[DEBUG]   Imported: org.apache.maven.exception < plexus.core
+[DEBUG]   Imported: org.apache.maven.execution < plexus.core
+[DEBUG]   Imported: org.apache.maven.execution.scope < plexus.core
+[DEBUG]   Imported: org.apache.maven.graph < plexus.core
+[DEBUG]   Imported: org.apache.maven.lifecycle < plexus.core
+[DEBUG]   Imported: org.apache.maven.model < plexus.core
+[DEBUG]   Imported: org.apache.maven.monitor < plexus.core
+[DEBUG]   Imported: org.apache.maven.plugin < plexus.core
+[DEBUG]   Imported: org.apache.maven.profiles < plexus.core
+[DEBUG]   Imported: org.apache.maven.project < plexus.core
+[DEBUG]   Imported: org.apache.maven.reporting < plexus.core
+[DEBUG]   Imported: org.apache.maven.repository < plexus.core
+[DEBUG]   Imported: org.apache.maven.rtinfo < plexus.core
+[DEBUG]   Imported: org.apache.maven.settings < plexus.core
+[DEBUG]   Imported: org.apache.maven.toolchain < plexus.core
+[DEBUG]   Imported: org.apache.maven.usability < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.authentication < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.authorization < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.events < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.observers < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.proxy < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.repository < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.resource < plexus.core
+[DEBUG]   Imported: org.codehaus.classworlds < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.* < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.classworlds < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.component < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.configuration < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.container < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.context < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.lifecycle < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.logging < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.personality < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.Xpp3Dom < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlPullParser < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlPullParserException < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlSerializer < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.* < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.artifact < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.collection < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.deployment < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.graph < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.impl < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.installation < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.internal.impl < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.metadata < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.repository < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.resolution < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.spi < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.transfer < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.util < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.version < plexus.core
+[DEBUG]   Imported: org.fusesource.jansi.* < plexus.core
+[DEBUG]   Imported: org.slf4j.* < plexus.core
+[DEBUG]   Imported: org.slf4j.event.* < plexus.core
+[DEBUG]   Imported: org.slf4j.helpers.* < plexus.core
+[DEBUG]   Imported: org.slf4j.spi.* < plexus.core
+[DEBUG] Populating class realm maven.api
+[DEBUG] Created adapter factory; available factories [file-lock, rwlock-local, semaphore-local, noop]; available name mappers [discriminating, file-gav, file-hgav, file-static, gav, static]
+[INFO] Error stacktraces are turned on.
+[DEBUG] Message scheme: color
+[DEBUG] Message styles: debug info warning error success failure strong mojo project
+[DEBUG] Reading global settings from C:\Work\Softwares\apache-maven-3.9.5\conf\settings.xml
+[DEBUG] Reading user settings from C:\Users\UCN2-SU\.m2\settings.xml
+[DEBUG] Reading global toolchains from C:\Work\Softwares\apache-maven-3.9.5\conf\toolchains.xml
+[DEBUG] Reading user toolchains from C:\Users\UCN2-SU\.m2\toolchains.xml
+[DEBUG] Using local repository at C:\Users\UCN2-SU\.m2\repository
+[DEBUG] Using manager EnhancedLocalRepositoryManager with priority 10.0 for C:\Users\UCN2-SU\.m2\repository
+[INFO] Scanning for projects...
+[DEBUG] Creating adapter using nameMapper 'gav' and factory 'rwlock-local'
+[DEBUG] Extension realms for project dcp-direct-hisp:dcp-direct-hisp:jar:1.0.0.RELEASE: (none)
+[DEBUG] Looking up lifecycle mappings for packaging jar from ClassRealm[plexus.core, parent: null]
+[DEBUG] Could not find metadata org.springframework.cloud:spring-cloud-function-dependencies:4.0.0-SNAPSHOT/maven-metadata.xml in local (C:\Users\UCN2-SU\.m2\repository)
+[DEBUG] org.springframework.cloud:spring-cloud-function-dependencies:4.0.0-SNAPSHOT/maven-metadata.xml was not found in https://imagehub.cdc.gov/repository/maven-ede-group/ during a previous attempt. This failure was cached in the local repository and resolution is not be reattempted until the update interval of nexus has elapsed or updates are forced
+[DEBUG] Skipped remote request for org.springframework.cloud:spring-cloud-function-dependencies:4.0.0-SNAPSHOT/maven-metadata.xml, locally cached metadata up-to-date
+[DEBUG] org.springframework.cloud:spring-cloud-function-dependencies:4.0.0-SNAPSHOT/maven-metadata.xml was not found in https://repo.spring.io/libs-milestone-local during a previous attempt. This failure was cached in the local repository and resolution is not be reattempted until the update interval of spring-milestones has elapsed or updates are forced
+[DEBUG] org.springframework.cloud:spring-cloud-function-dependencies:4.0.0-SNAPSHOT/maven-metadata.xml was not found in https://repo.spring.io/release during a previous attempt. This failure was cached in the local repository and resolution is not be reattempted until the update interval of spring-releases has elapsed or updates are forced
+[DEBUG] Could not find metadata org.springframework.cloud:spring-cloud-dependencies-parent:4.0.0-SNAPSHOT/maven-metadata.xml in local (C:\Users\UCN2-SU\.m2\repository)
+[DEBUG] org.springframework.cloud:spring-cloud-dependencies-parent:4.0.0-SNAPSHOT/maven-metadata.xml was not found in https://imagehub.cdc.gov/repository/maven-ede-group/ during a previous attempt. This failure was cached in the local repository and resolution is not be reattempted until the update interval of nexus has elapsed or updates are forced
+[DEBUG] Skipped remote request for org.springframework.cloud:spring-cloud-dependencies-parent:4.0.0-SNAPSHOT/maven-metadata.xml, locally cached metadata up-to-date
+[DEBUG] org.springframework.cloud:spring-cloud-dependencies-parent:4.0.0-SNAPSHOT/maven-metadata.xml was not found in https://repo.spring.io/libs-milestone-local during a previous attempt. This failure was cached in the local repository and resolution is not be reattempted until the update interval of spring-milestones has elapsed or updates are forced
+[DEBUG] org.springframework.cloud:spring-cloud-dependencies-parent:4.0.0-SNAPSHOT/maven-metadata.xml was not found in https://repo.spring.io/release during a previous attempt. This failure was cached in the local repository and resolution is not be reattempted until the update interval of spring-releases has elapsed or updates are forced
+[DEBUG] Extension realms for project org.springframework.boot:spring-boot-starter-parent:pom:3.0.7: (none)
+[DEBUG] Looking up lifecycle mappings for packaging pom from ClassRealm[plexus.core, parent: null]
+[DEBUG] Extension realms for project org.springframework.boot:spring-boot-dependencies:pom:3.0.7: (none)
+[DEBUG] Looking up lifecycle mappings for packaging pom from ClassRealm[plexus.core, parent: null]
+[DEBUG] Resolving plugin prefix azure-webapp from [org.apache.maven.plugins, org.codehaus.mojo]
+[DEBUG] Resolved plugin prefix azure-webapp to com.microsoft.azure:azure-webapp-maven-plugin from POM dcp-direct-hisp:dcp-direct-hisp:jar:1.0.0.RELEASE
+[DEBUG] === REACTOR BUILD PLAN ================================================
+[DEBUG] Project: dcp-direct-hisp:dcp-direct-hisp:jar:1.0.0.RELEASE
+[DEBUG] Tasks:   [azure-webapp:deploy]
+[DEBUG] Style:   Regular
+[DEBUG] =======================================================================
+[INFO] 
+[INFO] ------------------< dcp-direct-hisp:dcp-direct-hisp >-------------------
+[INFO] Building dcp-direct-hisp 1.0.0.RELEASE
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[DEBUG] Resolving plugin prefix azure-webapp from [org.apache.maven.plugins, org.codehaus.mojo]
+[DEBUG] Resolved plugin prefix azure-webapp to com.microsoft.azure:azure-webapp-maven-plugin from POM dcp-direct-hisp:dcp-direct-hisp:jar:1.0.0.RELEASE
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] === PROJECT BUILD PLAN ================================================
+[DEBUG] Project:       dcp-direct-hisp:dcp-direct-hisp:1.0.0.RELEASE
+[DEBUG] Dependencies (collect): []
+[DEBUG] Dependencies (resolve): []
+[DEBUG] Repositories (dependencies): [nexus (https://imagehub.cdc.gov/repository/maven-ede-group/, default, releases+snapshots), spring-snapshots (https://repo.spring.io/libs-snapshot-local, default, releases+snapshots), spring-milestones (https://repo.spring.io/libs-milestone-local, default, releases+snapshots), spring-releases (https://repo.spring.io/release, default, releases+snapshots), central (https://repo.maven.apache.org/maven2, default, releases)]
+[DEBUG] Repositories (plugins)     : [spring-snapshots (https://repo.spring.io/libs-snapshot-local, default, snapshots), spring-milestones (https://repo.spring.io/libs-milestone-local, default, releases), spring-releases (https://repo.spring.io/libs-release-local, default, releases), central (https://repo.maven.apache.org/maven2, default, releases)]
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          com.microsoft.azure:azure-webapp-maven-plugin:2.2.0:deploy (default-cli)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <allowTelemetry default-value="true">${allowTelemetry}</allowTelemetry>
+  <appName>nchs-ede-dev-hehrxdr-as</appName>
+  <appServicePlanName>nchs-ede-hehrxdrsoap-app-service-plan2</appServicePlanName>
+  <appServicePlanResourceGroup>nchs-hehr-dev-moderate-xdr-rg</appServicePlanResourceGroup>
+  <appSettings>
+    <property>
+      <name>WEBSITE_RUN_FROM_PACKAGE</name>
+      <value>1</value>
+    </property>
+    <property>
+      <name>FUNCTIONS_EXTENSION_VERSION</name>
+      <value>~4</value>
+    </property>
+    <property>
+      <name>FUNCTIONS_WORKER_RUNTIME</name>
+      <value>java</value>
+    </property>
+  </appSettings>
+  <auth>
+    <type>azure_cli</type>${auth}</auth>
+  <authType>${authType}</authType>
+  <buildDirectory default-value="${project.build.directory}"/>
+  <deployment>
+    <resources>
+      <resource>
+        <directory>C:\Work\NCHS\XDRJavaCode\dcp-direct-hisp/target</directory>
+        <includes>
+          <include>*.jar</include>
+        </includes>
+      </resource>
+    </resources>${deployment}</deployment>
+  <deploymentType>${deploymentType}</deploymentType>
+  <failsOnError default-value="true">${failsOnError}</failsOnError>
+  <httpProxyHost>${httpProxyHost}</httpProxyHost>
+  <httpProxyPort>${httpProxyPort}</httpProxyPort>
+  <plugin default-value="${plugin}"/>
+  <pricingTier>${webapp.pricingTier}</pricingTier>
+  <project default-value="${project}"/>
+  <region>eastus</region>
+  <resourceGroup>nchs-hehr-dev-moderate-xdr-rg</resourceGroup>
+  <runtime>
+    <os>Windows</os>
+    <javaVersion>Java 17</javaVersion>
+    <webContainer>Java SE</webContainer>${runtime}</runtime>
+  <schemaVersion default-value="v2">v2</schemaVersion>
+  <session default-value="${session}"/>
+  <settings default-value="${settings}"/>
+  <skip default-value="false">${webapp.skip}</skip>
+  <skipAzureResourceCreate default-value="false">${azure.resource.create.skip}</skipAzureResourceCreate>
+  <skipCreateAzureResource>${skipCreateAzureResource}</skipCreateAzureResource>
+  <stopAppDuringDeployment default-value="false">${webapp.stopAppDuringDeployment}</stopAppDuringDeployment>
+  <subscriptionId>78f4d198-9cd7-44f1-9e55-61a5e012d4e8</subscriptionId>
+</configuration>
+[DEBUG] =======================================================================
+[INFO] 
+[INFO] --- azure-webapp:2.2.0:deploy (default-cli) @ dcp-direct-hisp ---
+[DEBUG] Using mirror maven-default-http-blocker (http://0.0.0.0/) for apache.snapshots (http://repository.apache.org/snapshots).
+[DEBUG] Could not find metadata net.minidev:json-smart/maven-metadata.xml in local (C:\Users\UCN2-SU\.m2\repository)
+[DEBUG] net.minidev:json-smart/maven-metadata.xml was not found in https://repo.spring.io/libs-snapshot-local during a previous attempt. This failure was cached in the local repository and resolution is not be reattempted until the update interval of spring-snapshots has elapsed or updates are forced
+[DEBUG] net.minidev:json-smart/maven-metadata.xml was not found in https://repo.spring.io/libs-milestone-local during a previous attempt. This failure was cached in the local repository and resolution is not be reattempted until the update interval of spring-milestones has elapsed or updates are forced
+[DEBUG] Skipped remote request for net.minidev:json-smart/maven-metadata.xml, locally cached metadata up-to-date
+[DEBUG] net.minidev:json-smart/maven-metadata.xml was not found in https://build.shibboleth.net/nexus/content/repositories/releases/ during a previous attempt. This failure was cached in the local repository and resolution is not be reattempted until the update interval of shibboleth-repo has elapsed or updates are forced
+[DEBUG] Could not find metadata net.minidev:json-smart/maven-metadata.xml in local (C:\Users\UCN2-SU\.m2\repository)
+[DEBUG] net.minidev:json-smart/maven-metadata.xml was not found in https://repo.spring.io/libs-snapshot-local during a previous attempt. This failure was cached in the local repository and resolution is not be reattempted until the update interval of spring-snapshots has elapsed or updates are forced
+[DEBUG] net.minidev:json-smart/maven-metadata.xml was not found in https://repo.spring.io/libs-milestone-local during a previous attempt. This failure was cached in the local repository and resolution is not be reattempted until the update interval of spring-milestones has elapsed or updates are forced
+[DEBUG] Skipped remote request for net.minidev:json-smart/maven-metadata.xml, locally cached metadata up-to-date
+[DEBUG] net.minidev:json-smart/maven-metadata.xml was not found in https://build.shibboleth.net/nexus/content/repositories/releases/ during a previous attempt. This failure was cached in the local repository and resolution is not be reattempted until the update interval of shibboleth-repo has elapsed or updates are forced
+[DEBUG] Using transporter HttpTransporter with priority 5.0 for https://repo.spring.io/libs-release-local
+[DEBUG] Using connector BasicRepositoryConnector with priority 0.0 for https://repo.spring.io/libs-release-local
+Downloading from spring-releases: https://repo.spring.io/libs-release-local/net/minidev/json-smart/maven-metadata.xml
+[DEBUG] Writing tracking file 'C:\Users\UCN2-SU\.m2\repository\net\minidev\json-smart\resolver-status.properties'
+[WARNING] Could not transfer metadata net.minidev:json-smart/maven-metadata.xml from/to spring-releases (https://repo.spring.io/libs-release-local): status code: 401, reason phrase:  (401)
+org.eclipse.aether.transfer.MetadataTransferException: Could not transfer metadata net.minidev:json-smart/maven-metadata.xml from/to spring-releases (https://repo.spring.io/libs-release-local): status code: 401, reason phrase:  (401)
+    at org.eclipse.aether.connector.basic.MetadataTransportListener.transferFailed (MetadataTransportListener.java:44)
+    at org.eclipse.aether.connector.basic.BasicRepositoryConnector$TaskRunner.run (BasicRepositoryConnector.java:417)
+    at org.eclipse.aether.connector.basic.BasicRepositoryConnector.get (BasicRepositoryConnector.java:215)
+    at org.eclipse.aether.internal.impl.DefaultMetadataResolver$ResolveTask.run (DefaultMetadataResolver.java:559)
+    at org.eclipse.aether.util.concurrency.RunnableErrorForwarder.lambda$wrap$0 (RunnableErrorForwarder.java:66)
+    at org.eclipse.aether.internal.impl.DefaultMetadataResolver.resolve (DefaultMetadataResolver.java:352)
+    at org.eclipse.aether.internal.impl.DefaultMetadataResolver.resolveMetadata (DefaultMetadataResolver.java:180)
+    at org.apache.maven.repository.internal.DefaultVersionRangeResolver.getVersions (DefaultVersionRangeResolver.java:192)
+    at org.apache.maven.repository.internal.DefaultVersionRangeResolver.resolveVersionRange (DefaultVersionRangeResolver.java:145)
+    at org.eclipse.aether.internal.impl.collect.DependencyCollectorDelegate.cachedResolveRangeResult (DependencyCollectorDelegate.java:406)
+    at org.eclipse.aether.internal.impl.collect.df.DfDependencyCollector.processDependency (DfDependencyCollector.java:202)
+    at org.eclipse.aether.internal.impl.collect.df.DfDependencyCollector.processDependency (DfDependencyCollector.java:156)
+    at org.eclipse.aether.internal.impl.collect.df.DfDependencyCollector.process (DfDependencyCollector.java:138)
+    at org.eclipse.aether.internal.impl.collect.df.DfDependencyCollector.doRecurse (DfDependencyCollector.java:343)
+    at org.eclipse.aether.internal.impl.collect.df.DfDependencyCollector.processDependency (DfDependencyCollector.java:277)
+    at org.eclipse.aether.internal.impl.collect.df.DfDependencyCollector.processDependency (DfDependencyCollector.java:156)
+    at org.eclipse.aether.internal.impl.collect.df.DfDependencyCollector.process (DfDependencyCollector.java:138)
+    at org.eclipse.aether.internal.impl.collect.df.DfDependencyCollector.doRecurse (DfDependencyCollector.java:343)
+    at org.eclipse.aether.internal.impl.collect.df.DfDependencyCollector.processDependency (DfDependencyCollector.java:277)
+    at org.eclipse.aether.internal.impl.collect.df.DfDependencyCollector.processDependency (DfDependencyCollector.java:156)
+    at org.eclipse.aether.internal.impl.collect.df.DfDependencyCollector.process (DfDependencyCollector.java:138)
+    at org.eclipse.aether.internal.impl.collect.df.DfDependencyCollector.doRecurse (DfDependencyCollector.java:343)
+    at org.eclipse.aether.internal.impl.collect.df.DfDependencyCollector.processDependency (DfDependencyCollector.java:277)
+    at org.eclipse.aether.internal.impl.collect.df.DfDependencyCollector.processDependency (DfDependencyCollector.java:156)
+    at org.eclipse.aether.internal.impl.collect.df.DfDependencyCollector.process (DfDependencyCollector.java:138)
+    at org.eclipse.aether.internal.impl.collect.df.DfDependencyCollector.doRecurse (DfDependencyCollector.java:343)
+    at org.eclipse.aether.internal.impl.collect.df.DfDependencyCollector.processDependency (DfDependencyCollector.java:277)
+    at org.eclipse.aether.internal.impl.collect.df.DfDependencyCollector.processDependency (DfDependencyCollector.java:156)
+    at org.eclipse.aether.internal.impl.collect.df.DfDependencyCollector.process (DfDependencyCollector.java:138)
+    at org.eclipse.aether.internal.impl.collect.df.DfDependencyCollector.doCollectDependencies (DfDependencyCollector.java:108)
+    at org.eclipse.aether.internal.impl.collect.DependencyCollectorDelegate.collectDependencies (DependencyCollectorDelegate.java:222)
+    at org.eclipse.aether.internal.impl.collect.DefaultDependencyCollector.collectDependencies (DefaultDependencyCollector.java:87)
+    at org.eclipse.aether.internal.impl.DefaultRepositorySystem.collectDependencies (DefaultRepositorySystem.java:306)
+    at org.apache.maven.plugin.internal.DefaultPluginDependenciesResolver.resolveInternal (DefaultPluginDependenciesResolver.java:212)
+    at org.apache.maven.plugin.internal.DefaultPluginDependenciesResolver.resolve (DefaultPluginDependenciesResolver.java:165)
+    at org.apache.maven.plugin.internal.DefaultMavenPluginManager.createPluginRealm (DefaultMavenPluginManager.java:377)
+    at org.apache.maven.plugin.internal.DefaultMavenPluginManager.lambda$setupPluginRealm$1 (DefaultMavenPluginManager.java:340)
+    at org.apache.maven.plugin.DefaultPluginRealmCache.lambda$get$0 (DefaultPluginRealmCache.java:156)
+    at java.util.concurrent.ConcurrentHashMap.computeIfAbsent (ConcurrentHashMap.java:1708)
+    at org.apache.maven.plugin.DefaultPluginRealmCache.get (DefaultPluginRealmCache.java:154)
+    at org.apache.maven.plugin.internal.DefaultMavenPluginManager.setupPluginRealm (DefaultMavenPluginManager.java:339)
+    at org.apache.maven.plugin.DefaultBuildPluginManager.getPluginRealm (DefaultBuildPluginManager.java:205)
+    at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo (DefaultBuildPluginManager.java:98)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute2 (MojoExecutor.java:328)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute (MojoExecutor.java:316)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:212)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:174)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.access$000 (MojoExecutor.java:75)
+    at org.apache.maven.lifecycle.internal.MojoExecutor$1.run (MojoExecutor.java:162)
+    at org.apache.maven.plugin.DefaultMojosExecutionStrategy.execute (DefaultMojosExecutionStrategy.java:39)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:159)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:105)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:73)
+    at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build (SingleThreadedBuilder.java:53)
+    at org.apache.maven.lifecycle.internal.LifecycleStarter.execute (LifecycleStarter.java:118)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:261)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:173)
+    at org.apache.maven.DefaultMaven.execute (DefaultMaven.java:101)
+    at org.apache.maven.cli.MavenCli.execute (MavenCli.java:906)
+    at org.apache.maven.cli.MavenCli.doMain (MavenCli.java:283)
+    at org.apache.maven.cli.MavenCli.main (MavenCli.java:206)
+    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0 (Native Method)
+    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke (NativeMethodAccessorImpl.java:77)
+    at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke (DelegatingMethodAccessorImpl.java:43)
+    at java.lang.reflect.Method.invoke (Method.java:568)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced (Launcher.java:283)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launch (Launcher.java:226)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode (Launcher.java:407)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.main (Launcher.java:348)
+Caused by: org.apache.http.client.HttpResponseException: status code: 401, reason phrase:  (401)
+    at org.eclipse.aether.transport.http.HttpTransporter.handleStatus (HttpTransporter.java:610)
+    at org.eclipse.aether.transport.http.HttpTransporter.execute (HttpTransporter.java:479)
+    at org.eclipse.aether.transport.http.HttpTransporter.implGet (HttpTransporter.java:426)
+    at org.eclipse.aether.spi.connector.transport.AbstractTransporter.get (AbstractTransporter.java:64)
+    at org.eclipse.aether.connector.basic.BasicRepositoryConnector$GetTaskRunner.runTask (BasicRepositoryConnector.java:482)
+    at org.eclipse.aether.connector.basic.BasicRepositoryConnector$TaskRunner.run (BasicRepositoryConnector.java:414)
+    at org.eclipse.aether.connector.basic.BasicRepositoryConnector.get (BasicRepositoryConnector.java:215)
+    at org.eclipse.aether.internal.impl.DefaultMetadataResolver$ResolveTask.run (DefaultMetadataResolver.java:559)
+    at org.eclipse.aether.util.concurrency.RunnableErrorForwarder.lambda$wrap$0 (RunnableErrorForwarder.java:66)
+    at org.eclipse.aether.internal.impl.DefaultMetadataResolver.resolve (DefaultMetadataResolver.java:352)
+    at org.eclipse.aether.internal.impl.DefaultMetadataResolver.resolveMetadata (DefaultMetadataResolver.java:180)
+    at org.apache.maven.repository.internal.DefaultVersionRangeResolver.getVersions (DefaultVersionRangeResolver.java:192)
+    at org.apache.maven.repository.internal.DefaultVersionRangeResolver.resolveVersionRange (DefaultVersionRangeResolver.java:145)
+    at org.eclipse.aether.internal.impl.collect.DependencyCollectorDelegate.cachedResolveRangeResult (DependencyCollectorDelegate.java:406)
+    at org.eclipse.aether.internal.impl.collect.df.DfDependencyCollector.processDependency (DfDependencyCollector.java:202)
+    at org.eclipse.aether.internal.impl.collect.df.DfDependencyCollector.processDependency (DfDependencyCollector.java:156)
+    at org.eclipse.aether.internal.impl.collect.df.DfDependencyCollector.process (DfDependencyCollector.java:138)
+    at org.eclipse.aether.internal.impl.collect.df.DfDependencyCollector.doRecurse (DfDependencyCollector.java:343)
+    at org.eclipse.aether.internal.impl.collect.df.DfDependencyCollector.processDependency (DfDependencyCollector.java:277)
+    at org.eclipse.aether.internal.impl.collect.df.DfDependencyCollector.processDependency (DfDependencyCollector.java:156)
+    at org.eclipse.aether.internal.impl.collect.df.DfDependencyCollector.process (DfDependencyCollector.java:138)
+    at org.eclipse.aether.internal.impl.collect.df.DfDependencyCollector.doRecurse (DfDependencyCollector.java:343)
+    at org.eclipse.aether.internal.impl.collect.df.DfDependencyCollector.processDependency (DfDependencyCollector.java:277)
+    at org.eclipse.aether.internal.impl.collect.df.DfDependencyCollector.processDependency (DfDependencyCollector.java:156)
+    at org.eclipse.aether.internal.impl.collect.df.DfDependencyCollector.process (DfDependencyCollector.java:138)
+    at org.eclipse.aether.internal.impl.collect.df.DfDependencyCollector.doRecurse (DfDependencyCollector.java:343)
+    at org.eclipse.aether.internal.impl.collect.df.DfDependencyCollector.processDependency (DfDependencyCollector.java:277)
+    at org.eclipse.aether.internal.impl.collect.df.DfDependencyCollector.processDependency (DfDependencyCollector.java:156)
+    at org.eclipse.aether.internal.impl.collect.df.DfDependencyCollector.process (DfDependencyCollector.java:138)
+    at org.eclipse.aether.internal.impl.collect.df.DfDependencyCollector.doRecurse (DfDependencyCollector.java:343)
+    at org.eclipse.aether.internal.impl.collect.df.DfDependencyCollector.processDependency (DfDependencyCollector.java:277)
+    at org.eclipse.aether.internal.impl.collect.df.DfDependencyCollector.processDependency (DfDependencyCollector.java:156)
+    at org.eclipse.aether.internal.impl.collect.df.DfDependencyCollector.process (DfDependencyCollector.java:138)
+    at org.eclipse.aether.internal.impl.collect.df.DfDependencyCollector.doCollectDependencies (DfDependencyCollector.java:108)
+    at org.eclipse.aether.internal.impl.collect.DependencyCollectorDelegate.collectDependencies (DependencyCollectorDelegate.java:222)
+    at org.eclipse.aether.internal.impl.collect.DefaultDependencyCollector.collectDependencies (DefaultDependencyCollector.java:87)
+    at org.eclipse.aether.internal.impl.DefaultRepositorySystem.collectDependencies (DefaultRepositorySystem.java:306)
+    at org.apache.maven.plugin.internal.DefaultPluginDependenciesResolver.resolveInternal (DefaultPluginDependenciesResolver.java:212)
+    at org.apache.maven.plugin.internal.DefaultPluginDependenciesResolver.resolve (DefaultPluginDependenciesResolver.java:165)
+    at org.apache.maven.plugin.internal.DefaultMavenPluginManager.createPluginRealm (DefaultMavenPluginManager.java:377)
+    at org.apache.maven.plugin.internal.DefaultMavenPluginManager.lambda$setupPluginRealm$1 (DefaultMavenPluginManager.java:340)
+    at org.apache.maven.plugin.DefaultPluginRealmCache.lambda$get$0 (DefaultPluginRealmCache.java:156)
+    at java.util.concurrent.ConcurrentHashMap.computeIfAbsent (ConcurrentHashMap.java:1708)
+    at org.apache.maven.plugin.DefaultPluginRealmCache.get (DefaultPluginRealmCache.java:154)
+    at org.apache.maven.plugin.internal.DefaultMavenPluginManager.setupPluginRealm (DefaultMavenPluginManager.java:339)
+    at org.apache.maven.plugin.DefaultBuildPluginManager.getPluginRealm (DefaultBuildPluginManager.java:205)
+    at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo (DefaultBuildPluginManager.java:98)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute2 (MojoExecutor.java:328)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute (MojoExecutor.java:316)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:212)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:174)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.access$000 (MojoExecutor.java:75)
+    at org.apache.maven.lifecycle.internal.MojoExecutor$1.run (MojoExecutor.java:162)
+    at org.apache.maven.plugin.DefaultMojosExecutionStrategy.execute (DefaultMojosExecutionStrategy.java:39)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:159)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:105)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:73)
+    at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build (SingleThreadedBuilder.java:53)
+    at org.apache.maven.lifecycle.internal.LifecycleStarter.execute (LifecycleStarter.java:118)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:261)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:173)
+    at org.apache.maven.DefaultMaven.execute (DefaultMaven.java:101)
+    at org.apache.maven.cli.MavenCli.execute (MavenCli.java:906)
+    at org.apache.maven.cli.MavenCli.doMain (MavenCli.java:283)
+    at org.apache.maven.cli.MavenCli.main (MavenCli.java:206)
+    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0 (Native Method)
+    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke (NativeMethodAccessorImpl.java:77)
+    at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke (DelegatingMethodAccessorImpl.java:43)
+    at java.lang.reflect.Method.invoke (Method.java:568)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced (Launcher.java:283)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launch (Launcher.java:226)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode (Launcher.java:407)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.main (Launcher.java:348)
+[DEBUG] Using mirror maven-default-http-blocker (http://0.0.0.0/) for ow2-snapshot (http://repository.ow2.org/nexus/content/repositories/snapshots).
+[DEBUG] Using mirror maven-default-http-blocker (http://0.0.0.0/) for repository.jboss.org (http://repository.jboss.org/maven2).
+[DEBUG] Using mirror maven-default-http-blocker (http://0.0.0.0/) for snapshots.jboss.org (http://snapshots.jboss.org/maven2).
+[DEBUG] Using mirror maven-default-http-blocker (http://0.0.0.0/) for oss.sonatype.org/jboss-snapshots (http://oss.sonatype.org/content/repositories/jboss-snapshots).
+[DEBUG] Dependency collection stats {ConflictMarker.analyzeTime=3340600, ConflictMarker.markTime=1139900, ConflictMarker.nodeCount=821, ConflictIdSorter.graphTime=1760600, ConflictIdSorter.topsortTime=717000, ConflictIdSorter.conflictIdCount=213, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=28066500, ConflictResolver.conflictItemCount=539, DfDependencyCollector.collectTime=2942179800, DfDependencyCollector.transformTime=38163200}
+[DEBUG] com.microsoft.azure:azure-webapp-maven-plugin:jar:2.2.0
+[DEBUG]    com.microsoft.azure:azure-toolkit-appservice-lib:jar:0.12.0:compile
+[DEBUG]       org.apache.commons:commons-lang3:jar:3.12.0:compile (version managed from default)
+[DEBUG]       com.google.code.gson:gson:jar:2.8.7:compile (version managed from default)
+[DEBUG]       com.google.guava:guava:jar:30.1.1-jre:compile (version managed from default) (exclusions managed from default)
+[DEBUG]          com.google.guava:failureaccess:jar:1.0.1:compile
+[DEBUG]          com.google.guava:listenablefuture:jar:9999.0-empty-to-avoid-conflict-with-guava:compile
+[DEBUG]          org.checkerframework:checker-qual:jar:3.8.0:compile
+[DEBUG]          com.google.j2objc:j2objc-annotations:jar:1.3:compile
+[DEBUG]       com.azure.resourcemanager:azure-resourcemanager:jar:2.5.0:compile (version managed from default)
+[DEBUG]          com.azure.resourcemanager:azure-resourcemanager-resources:jar:2.5.0:compile (version managed from default)
+[DEBUG]             com.azure:azure-core-management:jar:1.2.2:compile
+[DEBUG]          com.azure.resourcemanager:azure-resourcemanager-storage:jar:2.5.0:compile (version managed from default)
+[DEBUG]          com.azure.resourcemanager:azure-resourcemanager-compute:jar:2.5.0:compile (version managed from default)
+[DEBUG]          com.azure.resourcemanager:azure-resourcemanager-network:jar:2.5.0:compile
+[DEBUG]          com.azure.resourcemanager:azure-resourcemanager-keyvault:jar:2.5.0:compile
+[DEBUG]             com.azure:azure-security-keyvault-keys:jar:4.2.8:compile (version managed from default)
+[DEBUG]             com.azure:azure-security-keyvault-secrets:jar:4.2.8:compile (version managed from default)
+[DEBUG]          com.azure.resourcemanager:azure-resourcemanager-msi:jar:2.5.0:compile
+[DEBUG]          com.azure.resourcemanager:azure-resourcemanager-sql:jar:2.5.0:compile (version managed from default)
+[DEBUG]          com.azure.resourcemanager:azure-resourcemanager-authorization:jar:2.5.0:compile
+[DEBUG]          com.azure.resourcemanager:azure-resourcemanager-appservice:jar:2.5.0:compile
+[DEBUG]          com.azure.resourcemanager:azure-resourcemanager-cosmos:jar:2.5.0:compile
+[DEBUG]          com.azure.resourcemanager:azure-resourcemanager-containerservice:jar:2.5.0:compile
+[DEBUG]          com.azure.resourcemanager:azure-resourcemanager-monitor:jar:2.5.0:compile
+[DEBUG]          com.azure.resourcemanager:azure-resourcemanager-containerregistry:jar:2.5.0:compile
+[DEBUG]          com.azure.resourcemanager:azure-resourcemanager-dns:jar:2.5.0:compile
+[DEBUG]          com.azure.resourcemanager:azure-resourcemanager-appplatform:jar:2.5.0:compile (version managed from default)
+[DEBUG]             com.azure:azure-storage-file-share:jar:12.9.1:compile (version managed from default)
+[DEBUG]                com.azure:azure-storage-common:jar:12.11.1:compile
+[DEBUG]          com.azure.resourcemanager:azure-resourcemanager-containerinstance:jar:2.5.0:compile
+[DEBUG]          com.azure.resourcemanager:azure-resourcemanager-privatedns:jar:2.5.0:compile
+[DEBUG]          com.azure.resourcemanager:azure-resourcemanager-redis:jar:2.7.0:compile (version managed from default)
+[DEBUG]          com.azure.resourcemanager:azure-resourcemanager-eventhubs:jar:2.5.0:compile
+[DEBUG]          com.azure.resourcemanager:azure-resourcemanager-trafficmanager:jar:2.5.0:compile
+[DEBUG]          com.azure.resourcemanager:azure-resourcemanager-servicebus:jar:2.5.0:compile
+[DEBUG]          com.azure.resourcemanager:azure-resourcemanager-cdn:jar:2.5.0:compile
+[DEBUG]          com.azure.resourcemanager:azure-resourcemanager-search:jar:2.5.0:compile
+[DEBUG]       com.microsoft.azure:azure-toolkit-common-lib:jar:0.12.0:compile (version managed from default)
+[DEBUG]          com.networknt:json-schema-validator:jar:1.0.57:compile (version managed from default) (exclusions managed from default)
+[DEBUG]          org.aspectj:aspectjrt:jar:1.9.7.M3:compile (version managed from default)
+[DEBUG]          org.aspectj:aspectjweaver:jar:1.9.7.M3:compile (version managed from default)
+[DEBUG]          org.apache.commons:commons-exec:jar:1.3:compile (version managed from default)
+[DEBUG]          commons-io:commons-io:jar:2.9.0:compile (version managed from default)
+[DEBUG]          com.fasterxml.jackson.core:jackson-core:jar:2.12.3:compile (version managed from default)
+[DEBUG]          com.google.code.findbugs:jsr305:jar:3.0.2:compile (version managed from default)
+[DEBUG]          io.reactivex:rxjava:jar:1.3.8:compile (version managed from default)
+[DEBUG]          org.jetbrains:annotations:jar:21.0.1:compile (version managed from default)
+[DEBUG]          org.codehaus.groovy:groovy-templates:jar:3.0.9:compile (version managed from default)
+[DEBUG]             org.codehaus.groovy:groovy:jar:3.0.9:compile
+[DEBUG]             org.codehaus.groovy:groovy-xml:jar:3.0.9:runtime
+[DEBUG]          com.squareup.okhttp3:okhttp:jar:4.9.1:compile (version managed from default)
+[DEBUG]             com.squareup.okio:okio:jar:2.8.0:compile
+[DEBUG]                org.jetbrains.kotlin:kotlin-stdlib-common:jar:1.4.0:compile
+[DEBUG]             org.jetbrains.kotlin:kotlin-stdlib:jar:1.4.10:compile
+[DEBUG]          org.apache.httpcomponents:httpclient:jar:4.5.13:compile (version managed from default)
+[DEBUG]             org.apache.httpcomponents:httpcore:jar:4.4.14:compile (version managed from default)
+[DEBUG]             commons-logging:commons-logging:jar:1.2:compile
+[DEBUG]          com.microsoft.azure:applicationinsights-web:jar:2.6.3:compile (version managed from default)
+[DEBUG]          com.microsoft.azure:adal4j:jar:1.6.7:compile (version managed from default)
+[DEBUG]       com.microsoft.azure:azure-toolkit-auth-lib:jar:0.12.0:compile (version managed from default)
+[DEBUG]          com.azure:azure-core:jar:1.16.0:compile (version managed from default) (exclusions managed from default)
+[DEBUG]             com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.12.3:compile (version managed from default)
+[DEBUG]             com.fasterxml.jackson.dataformat:jackson-dataformat-xml:jar:2.12.3:compile (version managed from default)
+[DEBUG]                com.fasterxml.jackson.module:jackson-module-jaxb-annotations:jar:2.12.3:compile (version managed from default)
+[DEBUG]                   jakarta.activation:jakarta.activation-api:jar:1.2.1:compile
+[DEBUG]                org.codehaus.woodstox:stax2-api:jar:4.2.1:compile
+[DEBUG]                com.fasterxml.woodstox:woodstox-core:jar:6.2.4:compile
+[DEBUG]             io.projectreactor:reactor-core:jar:3.4.5:compile
+[DEBUG]                org.reactivestreams:reactive-streams:jar:1.0.3:compile
+[DEBUG]             io.netty:netty-tcnative-boringssl-static:jar:2.0.38.Final:compile
+[DEBUG]          com.azure:azure-core-http-okhttp:jar:1.6.2:compile (version managed from default)
+[DEBUG]          com.microsoft.azure:azure-client-runtime:jar:1.7.12:compile (version managed from default)
+[DEBUG]          com.azure:azure-identity:jar:1.3.0:compile (version managed from default) (exclusions managed from default)
+[DEBUG]             com.microsoft.azure:msal4j:jar:1.10.0:compile
+[DEBUG]             com.microsoft.azure:msal4j-persistence-extension:jar:1.1.0:compile
+[DEBUG]                net.java.dev.jna:jna:jar:5.5.0:compile
+[DEBUG]             net.java.dev.jna:jna-platform:jar:5.6.0:compile
+[DEBUG]          com.nimbusds:oauth2-oidc-sdk:jar:9.15:compile (version managed from default)
+[DEBUG]             com.github.stephenc.jcip:jcip-annotations:jar:1.0-1:compile
+[DEBUG]             com.nimbusds:content-type:jar:2.1:compile
+[DEBUG]             net.minidev:json-smart:jar:2.4.7:compile
+[DEBUG]                net.minidev:accessors-smart:jar:2.4.7:compile
+[DEBUG]             com.nimbusds:lang-tag:jar:1.5:compile
+[DEBUG]             com.nimbusds:nimbus-jose-jwt:jar:9.9.3:compile (version managed from default)
+[DEBUG]          me.alexpanov:free-port-finder:jar:1.1.1:compile (version managed from default)
+[DEBUG]          io.jsonwebtoken:jjwt:jar:0.9.1:compile (version managed from default)
+[DEBUG]          com.vdurmont:semver4j:jar:3.1.0:compile (version managed from default)
+[DEBUG]       com.microsoft.azure.functions:azure-functions-java-library:jar:1.4.2:compile (version managed from default)
+[DEBUG]       org.reflections:reflections:jar:0.9.12:compile (version managed from default)
+[DEBUG]          org.javassist:javassist:jar:3.26.0-GA:compile
+[DEBUG]       com.github.zafarkhaja:java-semver:jar:0.9.0:compile (version managed from default)
+[DEBUG]       org.yaml:snakeyaml:jar:1.28:compile (version managed from default)
+[DEBUG]       com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:jar:2.12.3:compile (version managed from default)
+[DEBUG]       com.fasterxml.jackson.core:jackson-databind:jar:2.12.3:compile (version managed from default)
+[DEBUG]          com.fasterxml.jackson.core:jackson-annotations:jar:2.12.3:compile (version managed from default)
+[DEBUG]       commons-codec:commons-codec:jar:1.15:compile (version managed from default)
+[DEBUG]       org.zeroturnaround:zt-zip:jar:1.14:compile (version managed from default)
+[DEBUG]       commons-net:commons-net:jar:3.8.0:compile (version managed from default)
+[DEBUG]       org.slf4j:slf4j-api:jar:1.7.30:compile (version managed from default)
+[DEBUG]       org.fusesource.jansi:jansi:jar:2.3.2:compile (version managed from default)
+[DEBUG]       com.microsoft.azure:azure-toolkit-resource-lib:jar:0.12.0:compile (version managed from default)
+[DEBUG]          org.projectlombok:lombok:jar:1.18.20:provided (scope managed from default) (version managed from default)
+[DEBUG]       org.jacoco:org.jacoco.agent:jar:runtime:0.8.7:compile (version managed from default)
+[DEBUG]       com.microsoft.azure:azure-arm-client-runtime:jar:1.7.12:compile (version managed from default)
+[DEBUG]          com.microsoft.rest:client-runtime:jar:1.7.12:compile (version managed from default)
+[DEBUG]             com.squareup.retrofit2:retrofit:jar:2.6.4:compile
+[DEBUG]             com.squareup.okhttp3:logging-interceptor:jar:4.9.1:compile (version managed from default)
+[DEBUG]                org.jetbrains.kotlin:kotlin-stdlib-jdk8:jar:1.4.10:compile
+[DEBUG]                   org.jetbrains.kotlin:kotlin-stdlib-jdk7:jar:1.4.10:compile
+[DEBUG]             com.squareup.okhttp3:okhttp-urlconnection:jar:4.9.1:compile (version managed from default)
+[DEBUG]             com.squareup.retrofit2:converter-jackson:jar:2.6.4:compile
+[DEBUG]             com.fasterxml.jackson.datatype:jackson-datatype-joda:jar:2.12.3:compile (version managed from default)
+[DEBUG]             com.squareup.retrofit2:adapter-rxjava:jar:2.6.4:compile
+[DEBUG]             com.microsoft.azure:azure-annotations:jar:1.10.0:compile (version managed from default)
+[DEBUG]       com.microsoft.azure:azure:jar:1.41.1:compile (version managed from default) (exclusions managed from default)
+[DEBUG]          com.microsoft.azure:azure-client-authentication:jar:1.7.12:compile (version managed from default)
+[DEBUG]          com.microsoft.azure:azure-mgmt-resources:jar:1.41.1:compile (version managed from default)
+[DEBUG]          com.microsoft.azure:azure-mgmt-storage:jar:1.41.1:compile (version managed from default)
+[DEBUG]          com.microsoft.azure:azure-mgmt-network:jar:1.41.1:compile
+[DEBUG]          com.microsoft.azure:azure-mgmt-compute:jar:1.41.1:compile
+[DEBUG]          com.microsoft.azure:azure-mgmt-graph-rbac:jar:1.41.1:compile
+[DEBUG]          com.microsoft.azure:azure-mgmt-keyvault:jar:1.41.1:compile
+[DEBUG]             com.microsoft.azure:azure-keyvault:jar:1.0.0:compile
+[DEBUG]                com.microsoft.azure:azure-keyvault-webkey:jar:1.0.0:compile
+[DEBUG]          com.microsoft.azure:azure-mgmt-batch:jar:1.41.1:compile
+[DEBUG]          com.microsoft.azure:azure-mgmt-trafficmanager:jar:1.41.1:compile
+[DEBUG]          com.microsoft.azure:azure-mgmt-dns:jar:1.41.1:compile
+[DEBUG]          com.microsoft.azure:azure-mgmt-redis:jar:1.41.1:compile
+[DEBUG]          com.microsoft.azure:azure-mgmt-appservice:jar:1.41.1:compile
+[DEBUG]          com.microsoft.azure:azure-mgmt-locks:jar:1.41.1:compile
+[DEBUG]          com.microsoft.azure:azure-mgmt-eventhub:jar:1.41.1:compile
+[DEBUG]             com.microsoft.azure:azure-storage:jar:8.6.6:compile (version managed from default)
+[DEBUG]                com.microsoft.azure:azure-keyvault-core:jar:1.2.4:compile
+[DEBUG]          com.microsoft.azure:azure-mgmt-cdn:jar:1.41.1:compile
+[DEBUG]          com.microsoft.azure:azure-mgmt-sql:jar:1.41.1:compile
+[DEBUG]          com.microsoft.azure:azure-mgmt-containerinstance:jar:1.41.1:compile
+[DEBUG]          com.microsoft.azure:azure-mgmt-containerregistry:jar:1.41.1:compile
+[DEBUG]          com.microsoft.azure:azure-mgmt-containerservice:jar:1.41.1:compile
+[DEBUG]          com.microsoft.azure:azure-mgmt-cosmosdb:jar:1.41.1:compile
+[DEBUG]          com.microsoft.azure:azure-mgmt-search:jar:1.41.1:compile
+[DEBUG]          com.microsoft.azure:azure-mgmt-msi:jar:1.41.1:compile
+[DEBUG]          com.microsoft.azure:azure-mgmt-monitor:jar:1.41.1:compile
+[DEBUG]          com.microsoft.azure:azure-mgmt-servicebus:jar:1.41.1:compile
+[DEBUG]          com.microsoft.azure:azure-mgmt-batchai:jar:1.41.1:compile
+[DEBUG]       com.microsoft.azure:azure-toolkit-applicationinsights-lib:jar:0.12.0:compile (version managed from default)
+[DEBUG]          com.azure.resourcemanager:azure-resourcemanager-applicationinsights:jar:1.0.0-beta.1:compile (version managed from default) (exclusions managed from default)
+[DEBUG]    org.dom4j:dom4j:jar:2.1.3:compile
+[DEBUG]    org.apache.commons:commons-collections4:jar:4.4:compile
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:3.3.3:compile
+[DEBUG]       org.apache.maven:maven-artifact:jar:3.3.3:provided (scope managed from default) (version managed from default)
+[DEBUG]       org.eclipse.sisu:org.eclipse.sisu.plexus:jar:0.3.0:compile
+[DEBUG]          javax.enterprise:cdi-api:jar:1.0:compile
+[DEBUG]             javax.annotation:jsr250-api:jar:1.0:compile
+[DEBUG]             javax.inject:javax.inject:jar:1:compile
+[DEBUG]          org.eclipse.sisu:org.eclipse.sisu.inject:jar:0.3.0:compile
+[DEBUG]          org.codehaus.plexus:plexus-component-annotations:jar:1.5.5:compile
+[DEBUG]          org.codehaus.plexus:plexus-classworlds:jar:2.5.2:compile
+[DEBUG]    org.apache.maven:maven-settings:jar:3.3.3:compile
+[DEBUG]    org.apache.maven:maven-model:jar:3.3.3:compile
+[DEBUG]    org.codehaus.plexus:plexus-utils:jar:3.3.0:compile
+[DEBUG]    com.microsoft.azure:azure-maven-plugin-lib:jar:1.14.0:compile
+[DEBUG]       org.apache.maven.shared:maven-filtering:jar:3.2.0:compile (version managed from default)
+[DEBUG]          org.apache.maven:maven-core:jar:3.3.3:provided (scope managed from default) (version managed from default) (exclusions managed from default)
+[DEBUG]             org.apache.maven:maven-settings-builder:jar:3.3.3:provided (version managed from default)
+[DEBUG]                org.apache.maven:maven-builder-support:jar:3.3.3:provided
+[DEBUG]             org.apache.maven:maven-repository-metadata:jar:3.3.3:provided
+[DEBUG]             org.apache.maven:maven-model-builder:jar:3.3.3:test (scope managed from default) (version managed from default)
+[DEBUG]             org.apache.maven:maven-aether-provider:jar:3.3.3:provided
+[DEBUG]                org.eclipse.aether:aether-spi:jar:1.0.2.v20150114:provided
+[DEBUG]             org.eclipse.aether:aether-impl:jar:1.0.2.v20150114:provided
+[DEBUG]             org.eclipse.aether:aether-api:jar:1.0.2.v20150114:provided
+[DEBUG]             org.eclipse.aether:aether-util:jar:1.0.2.v20150114:provided
+[DEBUG]             org.sonatype.sisu:sisu-guice:jar:no_aop:3.2.5:provided
+[DEBUG]                aopalliance:aopalliance:jar:1.0:provided
+[DEBUG]             org.sonatype.plexus:plexus-sec-dispatcher:jar:1.3:provided
+[DEBUG]                org.sonatype.plexus:plexus-cipher:jar:1.4:provided
+[DEBUG]          org.apache.maven.shared:maven-shared-utils:jar:3.3.4:compile (version managed from default)
+[DEBUG]          org.codehaus.plexus:plexus-interpolation:jar:1.26:compile (version managed from default)
+[DEBUG]          org.sonatype.plexus:plexus-build-api:jar:0.0.7:compile
+[DEBUG]       com.microsoft.azure:applicationinsights-core:jar:2.6.3:compile (version managed from default)
+[DEBUG]       org.beryx:text-io:jar:3.4.1:compile (version managed from default)
+[DEBUG]          jline:jline:jar:2.14.6:runtime
+[DEBUG]          org.beryx:awt-color-factory:jar:1.0.1:runtime
+[DEBUG]       jakarta.xml.bind:jakarta.xml.bind-api:jar:3.0.1:compile (version managed from default)
+[DEBUG]          com.sun.activation:jakarta.activation:jar:2.0.1:compile
+[DEBUG]       org.glassfish.jaxb:jaxb-runtime:jar:3.0.2:compile (version managed from default)
+[DEBUG]          org.glassfish.jaxb:jaxb-core:jar:3.0.2:compile
+[DEBUG]             org.glassfish.jaxb:txw2:jar:3.0.2:compile
+[DEBUG]             com.sun.istack:istack-commons-runtime:jar:4.0.1:compile
+[DEBUG]       org.jtwig:jtwig-core:jar:5.87.0.RELEASE:compile (version managed from default) (exclusions managed from default)
+[DEBUG]          org.jtwig:jtwig-reflection:jar:5.87.0.RELEASE:compile
+[DEBUG]          org.parboiled:parboiled-java:jar:1.1.7:compile
+[DEBUG]             org.parboiled:parboiled-core:jar:1.1.7:compile
+[DEBUG]             org.ow2.asm:asm:jar:5.0.3:compile
+[DEBUG]             org.ow2.asm:asm-tree:jar:5.0.3:compile
+[DEBUG]             org.ow2.asm:asm-analysis:jar:5.0.3:compile
+[DEBUG]             org.ow2.asm:asm-util:jar:5.0.3:compile
+[DEBUG]          com.googlecode.concurrentlinkedhashmap:concurrentlinkedhashmap-lru:jar:1.4.2:compile
+[DEBUG]       com.github.java-json-tools:json-schema-validator:jar:2.2.14:compile (version managed from default) (exclusions managed from default)
+[DEBUG]          com.github.java-json-tools:jackson-coreutils-equivalence:jar:1.0:compile
+[DEBUG]             com.github.java-json-tools:jackson-coreutils:jar:2.0:compile
+[DEBUG]                com.github.java-json-tools:msg-simple:jar:1.2:compile
+[DEBUG]                   com.github.java-json-tools:btf:jar:1.3:compile
+[DEBUG]          com.github.java-json-tools:json-schema-core:jar:1.2.14:compile
+[DEBUG]             com.github.java-json-tools:uri-template:jar:0.10:compile
+[DEBUG]             org.mozilla:rhino:jar:1.7.7.2:compile
+[DEBUG]          com.sun.mail:mailapi:jar:1.6.2:compile
+[DEBUG]          joda-time:joda-time:jar:2.10.10:compile (version managed from default)
+[DEBUG]          com.googlecode.libphonenumber:libphonenumber:jar:8.11.1:compile
+[DEBUG]          net.sf.jopt-simple:jopt-simple:jar:5.0.4:compile
+[DEBUG] Created new class realm plugin>com.microsoft.azure:azure-webapp-maven-plugin:2.2.0
+[DEBUG] Importing foreign packages into class realm plugin>com.microsoft.azure:azure-webapp-maven-plugin:2.2.0
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm plugin>com.microsoft.azure:azure-webapp-maven-plugin:2.2.0
+[DEBUG]   Included: com.microsoft.azure:azure-webapp-maven-plugin:jar:2.2.0
+[DEBUG]   Included: com.microsoft.azure:azure-toolkit-appservice-lib:jar:0.12.0
+[DEBUG]   Included: org.apache.commons:commons-lang3:jar:3.12.0
+[DEBUG]   Included: com.google.code.gson:gson:jar:2.8.7
+[DEBUG]   Included: com.google.guava:guava:jar:30.1.1-jre
+[DEBUG]   Included: com.google.guava:failureaccess:jar:1.0.1
+[DEBUG]   Included: com.google.guava:listenablefuture:jar:9999.0-empty-to-avoid-conflict-with-guava
+[DEBUG]   Included: org.checkerframework:checker-qual:jar:3.8.0
+[DEBUG]   Included: com.google.j2objc:j2objc-annotations:jar:1.3
+[DEBUG]   Included: com.azure.resourcemanager:azure-resourcemanager:jar:2.5.0
+[DEBUG]   Included: com.azure.resourcemanager:azure-resourcemanager-resources:jar:2.5.0
+[DEBUG]   Included: com.azure:azure-core-management:jar:1.2.2
+[DEBUG]   Included: com.azure.resourcemanager:azure-resourcemanager-storage:jar:2.5.0
+[DEBUG]   Included: com.azure.resourcemanager:azure-resourcemanager-compute:jar:2.5.0
+[DEBUG]   Included: com.azure.resourcemanager:azure-resourcemanager-network:jar:2.5.0
+[DEBUG]   Included: com.azure.resourcemanager:azure-resourcemanager-keyvault:jar:2.5.0
+[DEBUG]   Included: com.azure:azure-security-keyvault-keys:jar:4.2.8
+[DEBUG]   Included: com.azure:azure-security-keyvault-secrets:jar:4.2.8
+[DEBUG]   Included: com.azure.resourcemanager:azure-resourcemanager-msi:jar:2.5.0
+[DEBUG]   Included: com.azure.resourcemanager:azure-resourcemanager-sql:jar:2.5.0
+[DEBUG]   Included: com.azure.resourcemanager:azure-resourcemanager-authorization:jar:2.5.0
+[DEBUG]   Included: com.azure.resourcemanager:azure-resourcemanager-appservice:jar:2.5.0
+[DEBUG]   Included: com.azure.resourcemanager:azure-resourcemanager-cosmos:jar:2.5.0
+[DEBUG]   Included: com.azure.resourcemanager:azure-resourcemanager-containerservice:jar:2.5.0
+[DEBUG]   Included: com.azure.resourcemanager:azure-resourcemanager-monitor:jar:2.5.0
+[DEBUG]   Included: com.azure.resourcemanager:azure-resourcemanager-containerregistry:jar:2.5.0
+[DEBUG]   Included: com.azure.resourcemanager:azure-resourcemanager-dns:jar:2.5.0
+[DEBUG]   Included: com.azure.resourcemanager:azure-resourcemanager-appplatform:jar:2.5.0
+[DEBUG]   Included: com.azure:azure-storage-file-share:jar:12.9.1
+[DEBUG]   Included: com.azure:azure-storage-common:jar:12.11.1
+[DEBUG]   Included: com.azure.resourcemanager:azure-resourcemanager-containerinstance:jar:2.5.0
+[DEBUG]   Included: com.azure.resourcemanager:azure-resourcemanager-privatedns:jar:2.5.0
+[DEBUG]   Included: com.azure.resourcemanager:azure-resourcemanager-redis:jar:2.7.0
+[DEBUG]   Included: com.azure.resourcemanager:azure-resourcemanager-eventhubs:jar:2.5.0
+[DEBUG]   Included: com.azure.resourcemanager:azure-resourcemanager-trafficmanager:jar:2.5.0
+[DEBUG]   Included: com.azure.resourcemanager:azure-resourcemanager-servicebus:jar:2.5.0
+[DEBUG]   Included: com.azure.resourcemanager:azure-resourcemanager-cdn:jar:2.5.0
+[DEBUG]   Included: com.azure.resourcemanager:azure-resourcemanager-search:jar:2.5.0
+[DEBUG]   Included: com.microsoft.azure:azure-toolkit-common-lib:jar:0.12.0
+[DEBUG]   Included: com.networknt:json-schema-validator:jar:1.0.57
+[DEBUG]   Included: org.aspectj:aspectjrt:jar:1.9.7.M3
+[DEBUG]   Included: org.aspectj:aspectjweaver:jar:1.9.7.M3
+[DEBUG]   Included: org.apache.commons:commons-exec:jar:1.3
+[DEBUG]   Included: commons-io:commons-io:jar:2.9.0
+[DEBUG]   Included: com.fasterxml.jackson.core:jackson-core:jar:2.12.3
+[DEBUG]   Included: com.google.code.findbugs:jsr305:jar:3.0.2
+[DEBUG]   Included: io.reactivex:rxjava:jar:1.3.8
+[DEBUG]   Included: org.jetbrains:annotations:jar:21.0.1
+[DEBUG]   Included: org.codehaus.groovy:groovy-templates:jar:3.0.9
+[DEBUG]   Included: org.codehaus.groovy:groovy:jar:3.0.9
+[DEBUG]   Included: org.codehaus.groovy:groovy-xml:jar:3.0.9
+[DEBUG]   Included: com.squareup.okhttp3:okhttp:jar:4.9.1
+[DEBUG]   Included: com.squareup.okio:okio:jar:2.8.0
+[DEBUG]   Included: org.jetbrains.kotlin:kotlin-stdlib-common:jar:1.4.0
+[DEBUG]   Included: org.jetbrains.kotlin:kotlin-stdlib:jar:1.4.10
+[DEBUG]   Included: org.apache.httpcomponents:httpclient:jar:4.5.13
+[DEBUG]   Included: org.apache.httpcomponents:httpcore:jar:4.4.14
+[DEBUG]   Included: commons-logging:commons-logging:jar:1.2
+[DEBUG]   Included: com.microsoft.azure:applicationinsights-web:jar:2.6.3
+[DEBUG]   Included: com.microsoft.azure:adal4j:jar:1.6.7
+[DEBUG]   Included: com.microsoft.azure:azure-toolkit-auth-lib:jar:0.12.0
+[DEBUG]   Included: com.azure:azure-core:jar:1.16.0
+[DEBUG]   Included: com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.12.3
+[DEBUG]   Included: com.fasterxml.jackson.dataformat:jackson-dataformat-xml:jar:2.12.3
+[DEBUG]   Included: com.fasterxml.jackson.module:jackson-module-jaxb-annotations:jar:2.12.3
+[DEBUG]   Included: jakarta.activation:jakarta.activation-api:jar:1.2.1
+[DEBUG]   Included: org.codehaus.woodstox:stax2-api:jar:4.2.1
+[DEBUG]   Included: com.fasterxml.woodstox:woodstox-core:jar:6.2.4
+[DEBUG]   Included: io.projectreactor:reactor-core:jar:3.4.5
+[DEBUG]   Included: org.reactivestreams:reactive-streams:jar:1.0.3
+[DEBUG]   Included: io.netty:netty-tcnative-boringssl-static:jar:2.0.38.Final
+[DEBUG]   Included: com.azure:azure-core-http-okhttp:jar:1.6.2
+[DEBUG]   Included: com.microsoft.azure:azure-client-runtime:jar:1.7.12
+[DEBUG]   Included: com.azure:azure-identity:jar:1.3.0
+[DEBUG]   Included: com.microsoft.azure:msal4j:jar:1.10.0
+[DEBUG]   Included: com.microsoft.azure:msal4j-persistence-extension:jar:1.1.0
+[DEBUG]   Included: net.java.dev.jna:jna:jar:5.5.0
+[DEBUG]   Included: net.java.dev.jna:jna-platform:jar:5.6.0
+[DEBUG]   Included: com.nimbusds:oauth2-oidc-sdk:jar:9.15
+[DEBUG]   Included: com.github.stephenc.jcip:jcip-annotations:jar:1.0-1
+[DEBUG]   Included: com.nimbusds:content-type:jar:2.1
+[DEBUG]   Included: net.minidev:json-smart:jar:2.4.7
+[DEBUG]   Included: net.minidev:accessors-smart:jar:2.4.7
+[DEBUG]   Included: com.nimbusds:lang-tag:jar:1.5
+[DEBUG]   Included: com.nimbusds:nimbus-jose-jwt:jar:9.9.3
+[DEBUG]   Included: me.alexpanov:free-port-finder:jar:1.1.1
+[DEBUG]   Included: io.jsonwebtoken:jjwt:jar:0.9.1
+[DEBUG]   Included: com.vdurmont:semver4j:jar:3.1.0
+[DEBUG]   Included: com.microsoft.azure.functions:azure-functions-java-library:jar:1.4.2
+[DEBUG]   Included: org.reflections:reflections:jar:0.9.12
+[DEBUG]   Included: org.javassist:javassist:jar:3.26.0-GA
+[DEBUG]   Included: com.github.zafarkhaja:java-semver:jar:0.9.0
+[DEBUG]   Included: org.yaml:snakeyaml:jar:1.28
+[DEBUG]   Included: com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:jar:2.12.3
+[DEBUG]   Included: com.fasterxml.jackson.core:jackson-databind:jar:2.12.3
+[DEBUG]   Included: com.fasterxml.jackson.core:jackson-annotations:jar:2.12.3
+[DEBUG]   Included: commons-codec:commons-codec:jar:1.15
+[DEBUG]   Included: org.zeroturnaround:zt-zip:jar:1.14
+[DEBUG]   Included: commons-net:commons-net:jar:3.8.0
+[DEBUG]   Included: com.microsoft.azure:azure-toolkit-resource-lib:jar:0.12.0
+[DEBUG]   Included: org.jacoco:org.jacoco.agent:jar:runtime:0.8.7
+[DEBUG]   Included: com.microsoft.azure:azure-arm-client-runtime:jar:1.7.12
+[DEBUG]   Included: com.microsoft.rest:client-runtime:jar:1.7.12
+[DEBUG]   Included: com.squareup.retrofit2:retrofit:jar:2.6.4
+[DEBUG]   Included: com.squareup.okhttp3:logging-interceptor:jar:4.9.1
+[DEBUG]   Included: org.jetbrains.kotlin:kotlin-stdlib-jdk8:jar:1.4.10
+[DEBUG]   Included: org.jetbrains.kotlin:kotlin-stdlib-jdk7:jar:1.4.10
+[DEBUG]   Included: com.squareup.okhttp3:okhttp-urlconnection:jar:4.9.1
+[DEBUG]   Included: com.squareup.retrofit2:converter-jackson:jar:2.6.4
+[DEBUG]   Included: com.fasterxml.jackson.datatype:jackson-datatype-joda:jar:2.12.3
+[DEBUG]   Included: com.squareup.retrofit2:adapter-rxjava:jar:2.6.4
+[DEBUG]   Included: com.microsoft.azure:azure-annotations:jar:1.10.0
+[DEBUG]   Included: com.microsoft.azure:azure:jar:1.41.1
+[DEBUG]   Included: com.microsoft.azure:azure-client-authentication:jar:1.7.12
+[DEBUG]   Included: com.microsoft.azure:azure-mgmt-resources:jar:1.41.1
+[DEBUG]   Included: com.microsoft.azure:azure-mgmt-storage:jar:1.41.1
+[DEBUG]   Included: com.microsoft.azure:azure-mgmt-network:jar:1.41.1
+[DEBUG]   Included: com.microsoft.azure:azure-mgmt-compute:jar:1.41.1
+[DEBUG]   Included: com.microsoft.azure:azure-mgmt-graph-rbac:jar:1.41.1
+[DEBUG]   Included: com.microsoft.azure:azure-mgmt-keyvault:jar:1.41.1
+[DEBUG]   Included: com.microsoft.azure:azure-keyvault:jar:1.0.0
+[DEBUG]   Included: com.microsoft.azure:azure-keyvault-webkey:jar:1.0.0
+[DEBUG]   Included: com.microsoft.azure:azure-mgmt-batch:jar:1.41.1
+[DEBUG]   Included: com.microsoft.azure:azure-mgmt-trafficmanager:jar:1.41.1
+[DEBUG]   Included: com.microsoft.azure:azure-mgmt-dns:jar:1.41.1
+[DEBUG]   Included: com.microsoft.azure:azure-mgmt-redis:jar:1.41.1
+[DEBUG]   Included: com.microsoft.azure:azure-mgmt-appservice:jar:1.41.1
+[DEBUG]   Included: com.microsoft.azure:azure-mgmt-locks:jar:1.41.1
+[DEBUG]   Included: com.microsoft.azure:azure-mgmt-eventhub:jar:1.41.1
+[DEBUG]   Included: com.microsoft.azure:azure-storage:jar:8.6.6
+[DEBUG]   Included: com.microsoft.azure:azure-keyvault-core:jar:1.2.4
+[DEBUG]   Included: com.microsoft.azure:azure-mgmt-cdn:jar:1.41.1
+[DEBUG]   Included: com.microsoft.azure:azure-mgmt-sql:jar:1.41.1
+[DEBUG]   Included: com.microsoft.azure:azure-mgmt-containerinstance:jar:1.41.1
+[DEBUG]   Included: com.microsoft.azure:azure-mgmt-containerregistry:jar:1.41.1
+[DEBUG]   Included: com.microsoft.azure:azure-mgmt-containerservice:jar:1.41.1
+[DEBUG]   Included: com.microsoft.azure:azure-mgmt-cosmosdb:jar:1.41.1
+[DEBUG]   Included: com.microsoft.azure:azure-mgmt-search:jar:1.41.1
+[DEBUG]   Included: com.microsoft.azure:azure-mgmt-msi:jar:1.41.1
+[DEBUG]   Included: com.microsoft.azure:azure-mgmt-monitor:jar:1.41.1
+[DEBUG]   Included: com.microsoft.azure:azure-mgmt-servicebus:jar:1.41.1
+[DEBUG]   Included: com.microsoft.azure:azure-mgmt-batchai:jar:1.41.1
+[DEBUG]   Included: com.microsoft.azure:azure-toolkit-applicationinsights-lib:jar:0.12.0
+[DEBUG]   Included: com.azure.resourcemanager:azure-resourcemanager-applicationinsights:jar:1.0.0-beta.1
+[DEBUG]   Included: org.dom4j:dom4j:jar:2.1.3
+[DEBUG]   Included: org.apache.commons:commons-collections4:jar:4.4
+[DEBUG]   Included: javax.enterprise:cdi-api:jar:1.0
+[DEBUG]   Included: javax.annotation:jsr250-api:jar:1.0
+[DEBUG]   Included: org.eclipse.sisu:org.eclipse.sisu.inject:jar:0.3.0
+[DEBUG]   Included: org.codehaus.plexus:plexus-component-annotations:jar:1.5.5
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:3.3.0
+[DEBUG]   Included: com.microsoft.azure:azure-maven-plugin-lib:jar:1.14.0
+[DEBUG]   Included: org.apache.maven.shared:maven-filtering:jar:3.2.0
+[DEBUG]   Included: org.apache.maven.shared:maven-shared-utils:jar:3.3.4
+[DEBUG]   Included: org.codehaus.plexus:plexus-interpolation:jar:1.26
+[DEBUG]   Included: org.sonatype.plexus:plexus-build-api:jar:0.0.7
+[DEBUG]   Included: com.microsoft.azure:applicationinsights-core:jar:2.6.3
+[DEBUG]   Included: org.beryx:text-io:jar:3.4.1
+[DEBUG]   Included: jline:jline:jar:2.14.6
+[DEBUG]   Included: org.beryx:awt-color-factory:jar:1.0.1
+[DEBUG]   Included: jakarta.xml.bind:jakarta.xml.bind-api:jar:3.0.1
+[DEBUG]   Included: com.sun.activation:jakarta.activation:jar:2.0.1
+[DEBUG]   Included: org.glassfish.jaxb:jaxb-runtime:jar:3.0.2
+[DEBUG]   Included: org.glassfish.jaxb:jaxb-core:jar:3.0.2
+[DEBUG]   Included: org.glassfish.jaxb:txw2:jar:3.0.2
+[DEBUG]   Included: com.sun.istack:istack-commons-runtime:jar:4.0.1
+[DEBUG]   Included: org.jtwig:jtwig-core:jar:5.87.0.RELEASE
+[DEBUG]   Included: org.jtwig:jtwig-reflection:jar:5.87.0.RELEASE
+[DEBUG]   Included: org.parboiled:parboiled-java:jar:1.1.7
+[DEBUG]   Included: org.parboiled:parboiled-core:jar:1.1.7
+[DEBUG]   Included: org.ow2.asm:asm:jar:5.0.3
+[DEBUG]   Included: org.ow2.asm:asm-tree:jar:5.0.3
+[DEBUG]   Included: org.ow2.asm:asm-analysis:jar:5.0.3
+[DEBUG]   Included: org.ow2.asm:asm-util:jar:5.0.3
+[DEBUG]   Included: com.googlecode.concurrentlinkedhashmap:concurrentlinkedhashmap-lru:jar:1.4.2
+[DEBUG]   Included: com.github.java-json-tools:json-schema-validator:jar:2.2.14
+[DEBUG]   Included: com.github.java-json-tools:jackson-coreutils-equivalence:jar:1.0
+[DEBUG]   Included: com.github.java-json-tools:jackson-coreutils:jar:2.0
+[DEBUG]   Included: com.github.java-json-tools:msg-simple:jar:1.2
+[DEBUG]   Included: com.github.java-json-tools:btf:jar:1.3
+[DEBUG]   Included: com.github.java-json-tools:json-schema-core:jar:1.2.14
+[DEBUG]   Included: com.github.java-json-tools:uri-template:jar:0.10
+[DEBUG]   Included: org.mozilla:rhino:jar:1.7.7.2
+[DEBUG]   Included: com.sun.mail:mailapi:jar:1.6.2
+[DEBUG]   Included: joda-time:joda-time:jar:2.10.10
+[DEBUG]   Included: com.googlecode.libphonenumber:libphonenumber:jar:8.11.1
+[DEBUG]   Included: net.sf.jopt-simple:jopt-simple:jar:5.0.4
+[DEBUG] Loading mojo com.microsoft.azure:azure-webapp-maven-plugin:2.2.0:deploy from plugin realm ClassRealm[plugin>com.microsoft.azure:azure-webapp-maven-plugin:2.2.0, parent: jdk.internal.loader.ClassLoaders$AppClassLoader@2a139a55]
+[DEBUG] Configuring mojo execution 'com.microsoft.azure:azure-webapp-maven-plugin:2.2.0:deploy:default-cli' with basic configurator -->
+[DEBUG]   (f) allowTelemetry = true
+[DEBUG]   (f) appName = nchs-ede-dev-hehrxdr-as
+[DEBUG]   (f) appServicePlanName = nchs-ede-hehrxdrsoap-app-service-plan2
+[DEBUG]   (f) appServicePlanResourceGroup = nchs-hehr-dev-moderate-xdr-rg
+[DEBUG]   (f) appSettings = {WEBSITE_RUN_FROM_PACKAGE=1, FUNCTIONS_EXTENSION_VERSION=~4, FUNCTIONS_WORKER_RUNTIME=java}
+[DEBUG]   (s) type = azure_cli
+[DEBUG]   (f) auth = com.microsoft.azure.maven.model.MavenAuthConfiguration@45eab322
+[DEBUG]   (f) buildDirectory = C:\Work\NCHS\XDRJavaCode\dcp-direct-hisp\target
+[DEBUG]   (s) directory = C:\Work\NCHS\XDRJavaCode\dcp-direct-hisp/target
+[DEBUG]   (s) includes = [*.jar]
+[DEBUG]   (s) resources = [DeploymentResource{type=null, Resource {targetPath: null, filtering: false, FileSet {directory: C:\Work\NCHS\XDRJavaCode\dcp-direct-hisp/target, PatternSet [includes: {*.jar}, excludes: {}]}}}]
+[DEBUG]   (f) deployment = com.microsoft.azure.maven.webapp.configuration.Deployment@394a6d2b
+[DEBUG]   (f) failsOnError = true
+[DEBUG]   (f) plugin = Component Descriptor: role: 'org.apache.maven.plugin.Mojo', implementation: 'com.microsoft.azure.maven.webapp.ConfigMojo', role hint: 'com.microsoft.azure:azure-webapp-maven-plugin:2.2.0:config'
+role: 'org.apache.maven.plugin.Mojo', implementation: 'com.microsoft.azure.maven.webapp.DeployMojo', role hint: 'com.microsoft.azure:azure-webapp-maven-plugin:2.2.0:deploy'
+role: 'org.apache.maven.plugin.Mojo', implementation: 'com.microsoft.azure.maven.webapp.HelpMojo', role hint: 'com.microsoft.azure:azure-webapp-maven-plugin:2.2.0:help'
+---
+[DEBUG]   (f) project = MavenProject: dcp-direct-hisp:dcp-direct-hisp:1.0.0.RELEASE @ C:\Work\NCHS\XDRJavaCode\dcp-direct-hisp\pom.xml
+[DEBUG]   (f) region = eastus
+[DEBUG]   (f) resourceGroup = nchs-hehr-dev-moderate-xdr-rg
+[DEBUG]   (f) os = Windows
+[DEBUG]   (f) javaVersion = Java 17
+[DEBUG]   (f) webContainer = Java SE
+[DEBUG]   (s) runtime = com.microsoft.azure.maven.webapp.configuration.MavenRuntimeConfig@62735b13
+[DEBUG]   (f) schemaVersion = v2
+[DEBUG]   (f) session = org.apache.maven.execution.MavenSession@7aae1170
+[DEBUG]   (f) settings = org.apache.maven.execution.SettingsAdapter@4ef5dd23
+[DEBUG]   (f) skip = false
+[DEBUG]   (f) skipAzureResourceCreate = false
+[DEBUG]   (f) stopAppDuringDeployment = false
+[DEBUG]   (f) subscriptionId = 78f4d198-9cd7-44f1-9e55-61a5e012d4e8
+[DEBUG] -- end configuration --
+[DEBUG] validate( {"subscriptionId":"78f4d198-9cd7-44f1-9e55-61a5e012d4e8","allowTelemetry":true,"failsOnError":true,"auth":{"type":"azure_cli"},"resourceGroup":"nchs-hehr-dev-moderate-xdr-rg","appName":"nchs-ede-dev-hehrxdr-as","appServicePlanResourceGroup":"nchs-hehr-dev-moderate-xdr-rg","appServicePlanName":"nchs-ede-hehrxdrsoap-app-service-plan2","appSettings":{"WEBSITE_RUN_FROM_PACKAGE":"1","FUNCTIONS_EXTENSION_VERSION":"~4","FUNCTIONS_WORKER_RUNTIME":"java"},"stopAppDuringDeployment":false,"skip":false,"region":"eastus","schemaVersion":"v2","runtime":{"os":"Windows","javaVersion":"Java 17","webContainer":"Java SE"},"deployment":{"resources":[{"includes":["*.jar"],"directory":"C:\\Work\\NCHS\\XDRJavaCode\\dcp-direct-hisp/target"}]}}, {"subscriptionId":"78f4d198-9cd7-44f1-9e55-61a5e012d4e8","allowTelemetry":true,"failsOnError":true,"auth":{"type":"azure_cli"},"resourceGroup":"nchs-hehr-dev-moderate-xdr-rg","appName":"nchs-ede-dev-hehrxdr-as","appServicePlanResourceGroup":"nchs-hehr-dev-moderate-xdr-rg","appServicePlanName":"nchs-ede-hehrxdrsoap-app-service-plan2","appSettings":{"WEBSITE_RUN_FROM_PACKAGE":"1","FUNCTIONS_EXTENSION_VERSION":"~4","FUNCTIONS_WORKER_RUNTIME":"java"},"stopAppDuringDeployment":false,"skip":false,"region":"eastus","schemaVersion":"v2","runtime":{"os":"Windows","javaVersion":"Java 17","webContainer":"Java SE"},"deployment":{"resources":[{"includes":["*.jar"],"directory":"C:\\Work\\NCHS\\XDRJavaCode\\dcp-direct-hisp/target"}]}}, configuration)
+[DEBUG] validate( {"subscriptionId":"78f4d198-9cd7-44f1-9e55-61a5e012d4e8","allowTelemetry":true,"failsOnError":true,"auth":{"type":"azure_cli"},"resourceGroup":"nchs-hehr-dev-moderate-xdr-rg","appName":"nchs-ede-dev-hehrxdr-as","appServicePlanResourceGroup":"nchs-hehr-dev-moderate-xdr-rg","appServicePlanName":"nchs-ede-hehrxdrsoap-app-service-plan2","appSettings":{"WEBSITE_RUN_FROM_PACKAGE":"1","FUNCTIONS_EXTENSION_VERSION":"~4","FUNCTIONS_WORKER_RUNTIME":"java"},"stopAppDuringDeployment":false,"skip":false,"region":"eastus","schemaVersion":"v2","runtime":{"os":"Windows","javaVersion":"Java 17","webContainer":"Java SE"},"deployment":{"resources":[{"includes":["*.jar"],"directory":"C:\\Work\\NCHS\\XDRJavaCode\\dcp-direct-hisp/target"}]}}, {"subscriptionId":"78f4d198-9cd7-44f1-9e55-61a5e012d4e8","allowTelemetry":true,"failsOnError":true,"auth":{"type":"azure_cli"},"resourceGroup":"nchs-hehr-dev-moderate-xdr-rg","appName":"nchs-ede-dev-hehrxdr-as","appServicePlanResourceGroup":"nchs-hehr-dev-moderate-xdr-rg","appServicePlanName":"nchs-ede-hehrxdrsoap-app-service-plan2","appSettings":{"WEBSITE_RUN_FROM_PACKAGE":"1","FUNCTIONS_EXTENSION_VERSION":"~4","FUNCTIONS_WORKER_RUNTIME":"java"},"stopAppDuringDeployment":false,"skip":false,"region":"eastus","schemaVersion":"v2","runtime":{"os":"Windows","javaVersion":"Java 17","webContainer":"Java SE"},"deployment":{"resources":[{"includes":["*.jar"],"directory":"C:\\Work\\NCHS\\XDRJavaCode\\dcp-direct-hisp/target"}]}}, configuration)
+[DEBUG] validate( {"subscriptionId":"78f4d198-9cd7-44f1-9e55-61a5e012d4e8","allowTelemetry":true,"failsOnError":true,"auth":{"type":"azure_cli"},"resourceGroup":"nchs-hehr-dev-moderate-xdr-rg","appName":"nchs-ede-dev-hehrxdr-as","appServicePlanResourceGroup":"nchs-hehr-dev-moderate-xdr-rg","appServicePlanName":"nchs-ede-hehrxdrsoap-app-service-plan2","appSettings":{"WEBSITE_RUN_FROM_PACKAGE":"1","FUNCTIONS_EXTENSION_VERSION":"~4","FUNCTIONS_WORKER_RUNTIME":"java"},"stopAppDuringDeployment":false,"skip":false,"region":"eastus","schemaVersion":"v2","runtime":{"os":"Windows","javaVersion":"Java 17","webContainer":"Java SE"},"deployment":{"resources":[{"includes":["*.jar"],"directory":"C:\\Work\\NCHS\\XDRJavaCode\\dcp-direct-hisp/target"}]}}, {"subscriptionId":"78f4d198-9cd7-44f1-9e55-61a5e012d4e8","allowTelemetry":true,"failsOnError":true,"auth":{"type":"azure_cli"},"resourceGroup":"nchs-hehr-dev-moderate-xdr-rg","appName":"nchs-ede-dev-hehrxdr-as","appServicePlanResourceGroup":"nchs-hehr-dev-moderate-xdr-rg","appServicePlanName":"nchs-ede-hehrxdrsoap-app-service-plan2","appSettings":{"WEBSITE_RUN_FROM_PACKAGE":"1","FUNCTIONS_EXTENSION_VERSION":"~4","FUNCTIONS_WORKER_RUNTIME":"java"},"stopAppDuringDeployment":false,"skip":false,"region":"eastus","schemaVersion":"v2","runtime":{"os":"Windows","javaVersion":"Java 17","webContainer":"Java SE"},"deployment":{"resources":[{"includes":["*.jar"],"directory":"C:\\Work\\NCHS\\XDRJavaCode\\dcp-direct-hisp/target"}]}}, configuration)
+[DEBUG] validate( {"subscriptionId":"78f4d198-9cd7-44f1-9e55-61a5e012d4e8","allowTelemetry":true,"failsOnError":true,"auth":{"type":"azure_cli"},"resourceGroup":"nchs-hehr-dev-moderate-xdr-rg","appName":"nchs-ede-dev-hehrxdr-as","appServicePlanResourceGroup":"nchs-hehr-dev-moderate-xdr-rg","appServicePlanName":"nchs-ede-hehrxdrsoap-app-service-plan2","appSettings":{"WEBSITE_RUN_FROM_PACKAGE":"1","FUNCTIONS_EXTENSION_VERSION":"~4","FUNCTIONS_WORKER_RUNTIME":"java"},"stopAppDuringDeployment":false,"skip":false,"region":"eastus","schemaVersion":"v2","runtime":{"os":"Windows","javaVersion":"Java 17","webContainer":"Java SE"},"deployment":{"resources":[{"includes":["*.jar"],"directory":"C:\\Work\\NCHS\\XDRJavaCode\\dcp-direct-hisp/target"}]}}, {"subscriptionId":"78f4d198-9cd7-44f1-9e55-61a5e012d4e8","allowTelemetry":true,"failsOnError":true,"auth":{"type":"azure_cli"},"resourceGroup":"nchs-hehr-dev-moderate-xdr-rg","appName":"nchs-ede-dev-hehrxdr-as","appServicePlanResourceGroup":"nchs-hehr-dev-moderate-xdr-rg","appServicePlanName":"nchs-ede-hehrxdrsoap-app-service-plan2","appSettings":{"WEBSITE_RUN_FROM_PACKAGE":"1","FUNCTIONS_EXTENSION_VERSION":"~4","FUNCTIONS_WORKER_RUNTIME":"java"},"stopAppDuringDeployment":false,"skip":false,"region":"eastus","schemaVersion":"v2","runtime":{"os":"Windows","javaVersion":"Java 17","webContainer":"Java SE"},"deployment":{"resources":[{"includes":["*.jar"],"directory":"C:\\Work\\NCHS\\XDRJavaCode\\dcp-direct-hisp/target"}]}}, configuration)
+[DEBUG] validate( "nchs-hehr-dev-moderate-xdr-rg", {"subscriptionId":"78f4d198-9cd7-44f1-9e55-61a5e012d4e8","allowTelemetry":true,"failsOnError":true,"auth":{"type":"azure_cli"},"resourceGroup":"nchs-hehr-dev-moderate-xdr-rg","appName":"nchs-ede-dev-hehrxdr-as","appServicePlanResourceGroup":"nchs-hehr-dev-moderate-xdr-rg","appServicePlanName":"nchs-ede-hehrxdrsoap-app-service-plan2","appSettings":{"WEBSITE_RUN_FROM_PACKAGE":"1","FUNCTIONS_EXTENSION_VERSION":"~4","FUNCTIONS_WORKER_RUNTIME":"java"},"stopAppDuringDeployment":false,"skip":false,"region":"eastus","schemaVersion":"v2","runtime":{"os":"Windows","javaVersion":"Java 17","webContainer":"Java SE"},"deployment":{"resources":[{"includes":["*.jar"],"directory":"C:\\Work\\NCHS\\XDRJavaCode\\dcp-direct-hisp/target"}]}}, configuration.resourceGroup)
+[DEBUG] validate( "nchs-hehr-dev-moderate-xdr-rg", {"subscriptionId":"78f4d198-9cd7-44f1-9e55-61a5e012d4e8","allowTelemetry":true,"failsOnError":true,"auth":{"type":"azure_cli"},"resourceGroup":"nchs-hehr-dev-moderate-xdr-rg","appName":"nchs-ede-dev-hehrxdr-as","appServicePlanResourceGroup":"nchs-hehr-dev-moderate-xdr-rg","appServicePlanName":"nchs-ede-hehrxdrsoap-app-service-plan2","appSettings":{"WEBSITE_RUN_FROM_PACKAGE":"1","FUNCTIONS_EXTENSION_VERSION":"~4","FUNCTIONS_WORKER_RUNTIME":"java"},"stopAppDuringDeployment":false,"skip":false,"region":"eastus","schemaVersion":"v2","runtime":{"os":"Windows","javaVersion":"Java 17","webContainer":"Java SE"},"deployment":{"resources":[{"includes":["*.jar"],"directory":"C:\\Work\\NCHS\\XDRJavaCode\\dcp-direct-hisp/target"}]}}, configuration.resourceGroup)
+[DEBUG] validate( "nchs-hehr-dev-moderate-xdr-rg", {"subscriptionId":"78f4d198-9cd7-44f1-9e55-61a5e012d4e8","allowTelemetry":true,"failsOnError":true,"auth":{"type":"azure_cli"},"resourceGroup":"nchs-hehr-dev-moderate-xdr-rg","appName":"nchs-ede-dev-hehrxdr-as","appServicePlanResourceGroup":"nchs-hehr-dev-moderate-xdr-rg","appServicePlanName":"nchs-ede-hehrxdrsoap-app-service-plan2","appSettings":{"WEBSITE_RUN_FROM_PACKAGE":"1","FUNCTIONS_EXTENSION_VERSION":"~4","FUNCTIONS_WORKER_RUNTIME":"java"},"stopAppDuringDeployment":false,"skip":false,"region":"eastus","schemaVersion":"v2","runtime":{"os":"Windows","javaVersion":"Java 17","webContainer":"Java SE"},"deployment":{"resources":[{"includes":["*.jar"],"directory":"C:\\Work\\NCHS\\XDRJavaCode\\dcp-direct-hisp/target"}]}}, configuration.resourceGroup)
+[DEBUG] validate( "nchs-hehr-dev-moderate-xdr-rg", {"subscriptionId":"78f4d198-9cd7-44f1-9e55-61a5e012d4e8","allowTelemetry":true,"failsOnError":true,"auth":{"type":"azure_cli"},"resourceGroup":"nchs-hehr-dev-moderate-xdr-rg","appName":"nchs-ede-dev-hehrxdr-as","appServicePlanResourceGroup":"nchs-hehr-dev-moderate-xdr-rg","appServicePlanName":"nchs-ede-hehrxdrsoap-app-service-plan2","appSettings":{"WEBSITE_RUN_FROM_PACKAGE":"1","FUNCTIONS_EXTENSION_VERSION":"~4","FUNCTIONS_WORKER_RUNTIME":"java"},"stopAppDuringDeployment":false,"skip":false,"region":"eastus","schemaVersion":"v2","runtime":{"os":"Windows","javaVersion":"Java 17","webContainer":"Java SE"},"deployment":{"resources":[{"includes":["*.jar"],"directory":"C:\\Work\\NCHS\\XDRJavaCode\\dcp-direct-hisp/target"}]}}, configuration.resourceGroup)
+[DEBUG] validate( "nchs-hehr-dev-moderate-xdr-rg", {"subscriptionId":"78f4d198-9cd7-44f1-9e55-61a5e012d4e8","allowTelemetry":true,"failsOnError":true,"auth":{"type":"azure_cli"},"resourceGroup":"nchs-hehr-dev-moderate-xdr-rg","appName":"nchs-ede-dev-hehrxdr-as","appServicePlanResourceGroup":"nchs-hehr-dev-moderate-xdr-rg","appServicePlanName":"nchs-ede-hehrxdrsoap-app-service-plan2","appSettings":{"WEBSITE_RUN_FROM_PACKAGE":"1","FUNCTIONS_EXTENSION_VERSION":"~4","FUNCTIONS_WORKER_RUNTIME":"java"},"stopAppDuringDeployment":false,"skip":false,"region":"eastus","schemaVersion":"v2","runtime":{"os":"Windows","javaVersion":"Java 17","webContainer":"Java SE"},"deployment":{"resources":[{"includes":["*.jar"],"directory":"C:\\Work\\NCHS\\XDRJavaCode\\dcp-direct-hisp/target"}]}}, configuration.resourceGroup)
+[DEBUG] validate( {"WEBSITE_RUN_FROM_PACKAGE":"1","FUNCTIONS_EXTENSION_VERSION":"~4","FUNCTIONS_WORKER_RUNTIME":"java"}, {"subscriptionId":"78f4d198-9cd7-44f1-9e55-61a5e012d4e8","allowTelemetry":true,"failsOnError":true,"auth":{"type":"azure_cli"},"resourceGroup":"nchs-hehr-dev-moderate-xdr-rg","appName":"nchs-ede-dev-hehrxdr-as","appServicePlanResourceGroup":"nchs-hehr-dev-moderate-xdr-rg","appServicePlanName":"nchs-ede-hehrxdrsoap-app-service-plan2","appSettings":{"WEBSITE_RUN_FROM_PACKAGE":"1","FUNCTIONS_EXTENSION_VERSION":"~4","FUNCTIONS_WORKER_RUNTIME":"java"},"stopAppDuringDeployment":false,"skip":false,"region":"eastus","schemaVersion":"v2","runtime":{"os":"Windows","javaVersion":"Java 17","webContainer":"Java SE"},"deployment":{"resources":[{"includes":["*.jar"],"directory":"C:\\Work\\NCHS\\XDRJavaCode\\dcp-direct-hisp/target"}]}}, configuration.appSettings)
+[DEBUG] validate( "nchs-hehr-dev-moderate-xdr-rg", {"subscriptionId":"78f4d198-9cd7-44f1-9e55-61a5e012d4e8","allowTelemetry":true,"failsOnError":true,"auth":{"type":"azure_cli"},"resourceGroup":"nchs-hehr-dev-moderate-xdr-rg","appName":"nchs-ede-dev-hehrxdr-as","appServicePlanResourceGroup":"nchs-hehr-dev-moderate-xdr-rg","appServicePlanName":"nchs-ede-hehrxdrsoap-app-service-plan2","appSettings":{"WEBSITE_RUN_FROM_PACKAGE":"1","FUNCTIONS_EXTENSION_VERSION":"~4","FUNCTIONS_WORKER_RUNTIME":"java"},"stopAppDuringDeployment":false,"skip":false,"region":"eastus","schemaVersion":"v2","runtime":{"os":"Windows","javaVersion":"Java 17","webContainer":"Java SE"},"deployment":{"resources":[{"includes":["*.jar"],"directory":"C:\\Work\\NCHS\\XDRJavaCode\\dcp-direct-hisp/target"}]}}, configuration.appServicePlanResourceGroup)
+[DEBUG] validate( "nchs-hehr-dev-moderate-xdr-rg", {"subscriptionId":"78f4d198-9cd7-44f1-9e55-61a5e012d4e8","allowTelemetry":true,"failsOnError":true,"auth":{"type":"azure_cli"},"resourceGroup":"nchs-hehr-dev-moderate-xdr-rg","appName":"nchs-ede-dev-hehrxdr-as","appServicePlanResourceGroup":"nchs-hehr-dev-moderate-xdr-rg","appServicePlanName":"nchs-ede-hehrxdrsoap-app-service-plan2","appSettings":{"WEBSITE_RUN_FROM_PACKAGE":"1","FUNCTIONS_EXTENSION_VERSION":"~4","FUNCTIONS_WORKER_RUNTIME":"java"},"stopAppDuringDeployment":false,"skip":false,"region":"eastus","schemaVersion":"v2","runtime":{"os":"Windows","javaVersion":"Java 17","webContainer":"Java SE"},"deployment":{"resources":[{"includes":["*.jar"],"directory":"C:\\Work\\NCHS\\XDRJavaCode\\dcp-direct-hisp/target"}]}}, configuration.appServicePlanResourceGroup)
+[DEBUG] validate( "nchs-hehr-dev-moderate-xdr-rg", {"subscriptionId":"78f4d198-9cd7-44f1-9e55-61a5e012d4e8","allowTelemetry":true,"failsOnError":true,"auth":{"type":"azure_cli"},"resourceGroup":"nchs-hehr-dev-moderate-xdr-rg","appName":"nchs-ede-dev-hehrxdr-as","appServicePlanResourceGroup":"nchs-hehr-dev-moderate-xdr-rg","appServicePlanName":"nchs-ede-hehrxdrsoap-app-service-plan2","appSettings":{"WEBSITE_RUN_FROM_PACKAGE":"1","FUNCTIONS_EXTENSION_VERSION":"~4","FUNCTIONS_WORKER_RUNTIME":"java"},"stopAppDuringDeployment":false,"skip":false,"region":"eastus","schemaVersion":"v2","runtime":{"os":"Windows","javaVersion":"Java 17","webContainer":"Java SE"},"deployment":{"resources":[{"includes":["*.jar"],"directory":"C:\\Work\\NCHS\\XDRJavaCode\\dcp-direct-hisp/target"}]}}, configuration.appServicePlanResourceGroup)
+[DEBUG] validate( "nchs-hehr-dev-moderate-xdr-rg", {"subscriptionId":"78f4d198-9cd7-44f1-9e55-61a5e012d4e8","allowTelemetry":true,"failsOnError":true,"auth":{"type":"azure_cli"},"resourceGroup":"nchs-hehr-dev-moderate-xdr-rg","appName":"nchs-ede-dev-hehrxdr-as","appServicePlanResourceGroup":"nchs-hehr-dev-moderate-xdr-rg","appServicePlanName":"nchs-ede-hehrxdrsoap-app-service-plan2","appSettings":{"WEBSITE_RUN_FROM_PACKAGE":"1","FUNCTIONS_EXTENSION_VERSION":"~4","FUNCTIONS_WORKER_RUNTIME":"java"},"stopAppDuringDeployment":false,"skip":false,"region":"eastus","schemaVersion":"v2","runtime":{"os":"Windows","javaVersion":"Java 17","webContainer":"Java SE"},"deployment":{"resources":[{"includes":["*.jar"],"directory":"C:\\Work\\NCHS\\XDRJavaCode\\dcp-direct-hisp/target"}]}}, configuration.appServicePlanResourceGroup)
+[DEBUG] validate( "nchs-hehr-dev-moderate-xdr-rg", {"subscriptionId":"78f4d198-9cd7-44f1-9e55-61a5e012d4e8","allowTelemetry":true,"failsOnError":true,"auth":{"type":"azure_cli"},"resourceGroup":"nchs-hehr-dev-moderate-xdr-rg","appName":"nchs-ede-dev-hehrxdr-as","appServicePlanResourceGroup":"nchs-hehr-dev-moderate-xdr-rg","appServicePlanName":"nchs-ede-hehrxdrsoap-app-service-plan2","appSettings":{"WEBSITE_RUN_FROM_PACKAGE":"1","FUNCTIONS_EXTENSION_VERSION":"~4","FUNCTIONS_WORKER_RUNTIME":"java"},"stopAppDuringDeployment":false,"skip":false,"region":"eastus","schemaVersion":"v2","runtime":{"os":"Windows","javaVersion":"Java 17","webContainer":"Java SE"},"deployment":{"resources":[{"includes":["*.jar"],"directory":"C:\\Work\\NCHS\\XDRJavaCode\\dcp-direct-hisp/target"}]}}, configuration.appServicePlanResourceGroup)
+[DEBUG] validate( true, {"subscriptionId":"78f4d198-9cd7-44f1-9e55-61a5e012d4e8","allowTelemetry":true,"failsOnError":true,"auth":{"type":"azure_cli"},"resourceGroup":"nchs-hehr-dev-moderate-xdr-rg","appName":"nchs-ede-dev-hehrxdr-as","appServicePlanResourceGroup":"nchs-hehr-dev-moderate-xdr-rg","appServicePlanName":"nchs-ede-hehrxdrsoap-app-service-plan2","appSettings":{"WEBSITE_RUN_FROM_PACKAGE":"1","FUNCTIONS_EXTENSION_VERSION":"~4","FUNCTIONS_WORKER_RUNTIME":"java"},"stopAppDuringDeployment":false,"skip":false,"region":"eastus","schemaVersion":"v2","runtime":{"os":"Windows","javaVersion":"Java 17","webContainer":"Java SE"},"deployment":{"resources":[{"includes":["*.jar"],"directory":"C:\\Work\\NCHS\\XDRJavaCode\\dcp-direct-hisp/target"}]}}, configuration.allowTelemetry)
+[DEBUG] validate( {"type":"azure_cli"}, {"subscriptionId":"78f4d198-9cd7-44f1-9e55-61a5e012d4e8","allowTelemetry":true,"failsOnError":true,"auth":{"type":"azure_cli"},"resourceGroup":"nchs-hehr-dev-moderate-xdr-rg","appName":"nchs-ede-dev-hehrxdr-as","appServicePlanResourceGroup":"nchs-hehr-dev-moderate-xdr-rg","appServicePlanName":"nchs-ede-hehrxdrsoap-app-service-plan2","appSettings":{"WEBSITE_RUN_FROM_PACKAGE":"1","FUNCTIONS_EXTENSION_VERSION":"~4","FUNCTIONS_WORKER_RUNTIME":"java"},"stopAppDuringDeployment":false,"skip":false,"region":"eastus","schemaVersion":"v2","runtime":{"os":"Windows","javaVersion":"Java 17","webContainer":"Java SE"},"deployment":{"resources":[{"includes":["*.jar"],"directory":"C:\\Work\\NCHS\\XDRJavaCode\\dcp-direct-hisp/target"}]}}, configuration.auth)
+[DEBUG] validate( {"type":"azure_cli"}, {"subscriptionId":"78f4d198-9cd7-44f1-9e55-61a5e012d4e8","allowTelemetry":true,"failsOnError":true,"auth":{"type":"azure_cli"},"resourceGroup":"nchs-hehr-dev-moderate-xdr-rg","appName":"nchs-ede-dev-hehrxdr-as","appServicePlanResourceGroup":"nchs-hehr-dev-moderate-xdr-rg","appServicePlanName":"nchs-ede-hehrxdrsoap-app-service-plan2","appSettings":{"WEBSITE_RUN_FROM_PACKAGE":"1","FUNCTIONS_EXTENSION_VERSION":"~4","FUNCTIONS_WORKER_RUNTIME":"java"},"stopAppDuringDeployment":false,"skip":false,"region":"eastus","schemaVersion":"v2","runtime":{"os":"Windows","javaVersion":"Java 17","webContainer":"Java SE"},"deployment":{"resources":[{"includes":["*.jar"],"directory":"C:\\Work\\NCHS\\XDRJavaCode\\dcp-direct-hisp/target"}]}}, configuration.auth)
+[DEBUG] validate( "azure_cli", {"subscriptionId":"78f4d198-9cd7-44f1-9e55-61a5e012d4e8","allowTelemetry":true,"failsOnError":true,"auth":{"type":"azure_cli"},"resourceGroup":"nchs-hehr-dev-moderate-xdr-rg","appName":"nchs-ede-dev-hehrxdr-as","appServicePlanResourceGroup":"nchs-hehr-dev-moderate-xdr-rg","appServicePlanName":"nchs-ede-hehrxdrsoap-app-service-plan2","appSettings":{"WEBSITE_RUN_FROM_PACKAGE":"1","FUNCTIONS_EXTENSION_VERSION":"~4","FUNCTIONS_WORKER_RUNTIME":"java"},"stopAppDuringDeployment":false,"skip":false,"region":"eastus","schemaVersion":"v2","runtime":{"os":"Windows","javaVersion":"Java 17","webContainer":"Java SE"},"deployment":{"resources":[{"includes":["*.jar"],"directory":"C:\\Work\\NCHS\\XDRJavaCode\\dcp-direct-hisp/target"}]}}, configuration.auth.type)
+[DEBUG] validate( "azure_cli", {"subscriptionId":"78f4d198-9cd7-44f1-9e55-61a5e012d4e8","allowTelemetry":true,"failsOnError":true,"auth":{"type":"azure_cli"},"resourceGroup":"nchs-hehr-dev-moderate-xdr-rg","appName":"nchs-ede-dev-hehrxdr-as","appServicePlanResourceGroup":"nchs-hehr-dev-moderate-xdr-rg","appServicePlanName":"nchs-ede-hehrxdrsoap-app-service-plan2","appSettings":{"WEBSITE_RUN_FROM_PACKAGE":"1","FUNCTIONS_EXTENSION_VERSION":"~4","FUNCTIONS_WORKER_RUNTIME":"java"},"stopAppDuringDeployment":false,"skip":false,"region":"eastus","schemaVersion":"v2","runtime":{"os":"Windows","javaVersion":"Java 17","webContainer":"Java SE"},"deployment":{"resources":[{"includes":["*.jar"],"directory":"C:\\Work\\NCHS\\XDRJavaCode\\dcp-direct-hisp/target"}]}}, configuration.auth.type)
+[DEBUG] validate( "azure_cli", {"subscriptionId":"78f4d198-9cd7-44f1-9e55-61a5e012d4e8","allowTelemetry":true,"failsOnError":true,"auth":{"type":"azure_cli"},"resourceGroup":"nchs-hehr-dev-moderate-xdr-rg","appName":"nchs-ede-dev-hehrxdr-as","appServicePlanResourceGroup":"nchs-hehr-dev-moderate-xdr-rg","appServicePlanName":"nchs-ede-hehrxdrsoap-app-service-plan2","appSettings":{"WEBSITE_RUN_FROM_PACKAGE":"1","FUNCTIONS_EXTENSION_VERSION":"~4","FUNCTIONS_WORKER_RUNTIME":"java"},"stopAppDuringDeployment":false,"skip":false,"region":"eastus","schemaVersion":"v2","runtime":{"os":"Windows","javaVersion":"Java 17","webContainer":"Java SE"},"deployment":{"resources":[{"includes":["*.jar"],"directory":"C:\\Work\\NCHS\\XDRJavaCode\\dcp-direct-hisp/target"}]}}, configuration.auth.type)
+[DEBUG] validate( {"type":"azure_cli"}, {"subscriptionId":"78f4d198-9cd7-44f1-9e55-61a5e012d4e8","allowTelemetry":true,"failsOnError":true,"auth":{"type":"azure_cli"},"resourceGroup":"nchs-hehr-dev-moderate-xdr-rg","appName":"nchs-ede-dev-hehrxdr-as","appServicePlanResourceGroup":"nchs-hehr-dev-moderate-xdr-rg","appServicePlanName":"nchs-ede-hehrxdrsoap-app-service-plan2","appSettings":{"WEBSITE_RUN_FROM_PACKAGE":"1","FUNCTIONS_EXTENSION_VERSION":"~4","FUNCTIONS_WORKER_RUNTIME":"java"},"stopAppDuringDeployment":false,"skip":false,"region":"eastus","schemaVersion":"v2","runtime":{"os":"Windows","javaVersion":"Java 17","webContainer":"Java SE"},"deployment":{"resources":[{"includes":["*.jar"],"directory":"C:\\Work\\NCHS\\XDRJavaCode\\dcp-direct-hisp/target"}]}}, configuration.auth)
+[DEBUG] validate( {"type":"azure_cli"}, {"subscriptionId":"78f4d198-9cd7-44f1-9e55-61a5e012d4e8","allowTelemetry":true,"failsOnError":true,"auth":{"type":"azure_cli"},"resourceGroup":"nchs-hehr-dev-moderate-xdr-rg","appName":"nchs-ede-dev-hehrxdr-as","appServicePlanResourceGroup":"nchs-hehr-dev-moderate-xdr-rg","appServicePlanName":"nchs-ede-hehrxdrsoap-app-service-plan2","appSettings":{"WEBSITE_RUN_FROM_PACKAGE":"1","FUNCTIONS_EXTENSION_VERSION":"~4","FUNCTIONS_WORKER_RUNTIME":"java"},"stopAppDuringDeployment":false,"skip":false,"region":"eastus","schemaVersion":"v2","runtime":{"os":"Windows","javaVersion":"Java 17","webContainer":"Java SE"},"deployment":{"resources":[{"includes":["*.jar"],"directory":"C:\\Work\\NCHS\\XDRJavaCode\\dcp-direct-hisp/target"}]}}, configuration.auth)
+[DEBUG] validate( {"type":"azure_cli"}, {"subscriptionId":"78f4d198-9cd7-44f1-9e55-61a5e012d4e8","allowTelemetry":true,"failsOnError":true,"auth":{"type":"azure_cli"},"resourceGroup":"nchs-hehr-dev-moderate-xdr-rg","appName":"nchs-ede-dev-hehrxdr-as","appServicePlanResourceGroup":"nchs-hehr-dev-moderate-xdr-rg","appServicePlanName":"nchs-ede-hehrxdrsoap-app-service-plan2","appSettings":{"WEBSITE_RUN_FROM_PACKAGE":"1","FUNCTIONS_EXTENSION_VERSION":"~4","FUNCTIONS_WORKER_RUNTIME":"java"},"stopAppDuringDeployment":false,"skip":false,"region":"eastus","schemaVersion":"v2","runtime":{"os":"Windows","javaVersion":"Java 17","webContainer":"Java SE"},"deployment":{"resources":[{"includes":["*.jar"],"directory":"C:\\Work\\NCHS\\XDRJavaCode\\dcp-direct-hisp/target"}]}}, configuration.auth)
+[DEBUG] validate( {"type":"azure_cli"}, {"subscriptionId":"78f4d198-9cd7-44f1-9e55-61a5e012d4e8","allowTelemetry":true,"failsOnError":true,"auth":{"type":"azure_cli"},"resourceGroup":"nchs-hehr-dev-moderate-xdr-rg","appName":"nchs-ede-dev-hehrxdr-as","appServicePlanResourceGroup":"nchs-hehr-dev-moderate-xdr-rg","appServicePlanName":"nchs-ede-hehrxdrsoap-app-service-plan2","appSettings":{"WEBSITE_RUN_FROM_PACKAGE":"1","FUNCTIONS_EXTENSION_VERSION":"~4","FUNCTIONS_WORKER_RUNTIME":"java"},"stopAppDuringDeployment":false,"skip":false,"region":"eastus","schemaVersion":"v2","runtime":{"os":"Windows","javaVersion":"Java 17","webContainer":"Java SE"},"deployment":{"resources":[{"includes":["*.jar"],"directory":"C:\\Work\\NCHS\\XDRJavaCode\\dcp-direct-hisp/target"}]}}, configuration.auth)
+[DEBUG] validate( {"type":"azure_cli"}, {"subscriptionId":"78f4d198-9cd7-44f1-9e55-61a5e012d4e8","allowTelemetry":true,"failsOnError":true,"auth":{"type":"azure_cli"},"resourceGroup":"nchs-hehr-dev-moderate-xdr-rg","appName":"nchs-ede-dev-hehrxdr-as","appServicePlanResourceGroup":"nchs-hehr-dev-moderate-xdr-rg","appServicePlanName":"nchs-ede-hehrxdrsoap-app-service-plan2","appSettings":{"WEBSITE_RUN_FROM_PACKAGE":"1","FUNCTIONS_EXTENSION_VERSION":"~4","FUNCTIONS_WORKER_RUNTIME":"java"},"stopAppDuringDeployment":false,"skip":false,"region":"eastus","schemaVersion":"v2","runtime":{"os":"Windows","javaVersion":"Java 17","webContainer":"Java SE"},"deployment":{"resources":[{"includes":["*.jar"],"directory":"C:\\Work\\NCHS\\XDRJavaCode\\dcp-direct-hisp/target"}]}}, configuration.auth)
+[DEBUG] validate( "azure_cli", {"subscriptionId":"78f4d198-9cd7-44f1-9e55-61a5e012d4e8","allowTelemetry":true,"failsOnError":true,"auth":{"type":"azure_cli"},"resourceGroup":"nchs-hehr-dev-moderate-xdr-rg","appName":"nchs-ede-dev-hehrxdr-as","appServicePlanResourceGroup":"nchs-hehr-dev-moderate-xdr-rg","appServicePlanName":"nchs-ede-hehrxdrsoap-app-service-plan2","appSettings":{"WEBSITE_RUN_FROM_PACKAGE":"1","FUNCTIONS_EXTENSION_VERSION":"~4","FUNCTIONS_WORKER_RUNTIME":"java"},"stopAppDuringDeployment":false,"skip":false,"region":"eastus","schemaVersion":"v2","runtime":{"os":"Windows","javaVersion":"Java 17","webContainer":"Java SE"},"deployment":{"resources":[{"includes":["*.jar"],"directory":"C:\\Work\\NCHS\\XDRJavaCode\\dcp-direct-hisp/target"}]}}, configuration.auth.type)
+[DEBUG] validate( {"type":"azure_cli"}, {"subscriptionId":"78f4d198-9cd7-44f1-9e55-61a5e012d4e8","allowTelemetry":true,"failsOnError":true,"auth":{"type":"azure_cli"},"resourceGroup":"nchs-hehr-dev-moderate-xdr-rg","appName":"nchs-ede-dev-hehrxdr-as","appServicePlanResourceGroup":"nchs-hehr-dev-moderate-xdr-rg","appServicePlanName":"nchs-ede-hehrxdrsoap-app-service-plan2","appSettings":{"WEBSITE_RUN_FROM_PACKAGE":"1","FUNCTIONS_EXTENSION_VERSION":"~4","FUNCTIONS_WORKER_RUNTIME":"java"},"stopAppDuringDeployment":false,"skip":false,"region":"eastus","schemaVersion":"v2","runtime":{"os":"Windows","javaVersion":"Java 17","webContainer":"Java SE"},"deployment":{"resources":[{"includes":["*.jar"],"directory":"C:\\Work\\NCHS\\XDRJavaCode\\dcp-direct-hisp/target"}]}}, configuration.auth)
+[DEBUG] validate( {"type":"azure_cli"}, {"subscriptionId":"78f4d198-9cd7-44f1-9e55-61a5e012d4e8","allowTelemetry":true,"failsOnError":true,"auth":{"type":"azure_cli"},"resourceGroup":"nchs-hehr-dev-moderate-xdr-rg","appName":"nchs-ede-dev-hehrxdr-as","appServicePlanResourceGroup":"nchs-hehr-dev-moderate-xdr-rg","appServicePlanName":"nchs-ede-hehrxdrsoap-app-service-plan2","appSettings":{"WEBSITE_RUN_FROM_PACKAGE":"1","FUNCTIONS_EXTENSION_VERSION":"~4","FUNCTIONS_WORKER_RUNTIME":"java"},"stopAppDuringDeployment":false,"skip":false,"region":"eastus","schemaVersion":"v2","runtime":{"os":"Windows","javaVersion":"Java 17","webContainer":"Java SE"},"deployment":{"resources":[{"includes":["*.jar"],"directory":"C:\\Work\\NCHS\\XDRJavaCode\\dcp-direct-hisp/target"}]}}, configuration.auth)
+[DEBUG] validate( {"type":"azure_cli"}, {"subscriptionId":"78f4d198-9cd7-44f1-9e55-61a5e012d4e8","allowTelemetry":true,"failsOnError":true,"auth":{"type":"azure_cli"},"resourceGroup":"nchs-hehr-dev-moderate-xdr-rg","appName":"nchs-ede-dev-hehrxdr-as","appServicePlanResourceGroup":"nchs-hehr-dev-moderate-xdr-rg","appServicePlanName":"nchs-ede-hehrxdrsoap-app-service-plan2","appSettings":{"WEBSITE_RUN_FROM_PACKAGE":"1","FUNCTIONS_EXTENSION_VERSION":"~4","FUNCTIONS_WORKER_RUNTIME":"java"},"stopAppDuringDeployment":false,"skip":false,"region":"eastus","schemaVersion":"v2","runtime":{"os":"Windows","javaVersion":"Java 17","webContainer":"Java SE"},"deployment":{"resources":[{"includes":["*.jar"],"directory":"C:\\Work\\NCHS\\XDRJavaCode\\dcp-direct-hisp/target"}]}}, configuration.auth)
+[DEBUG] validate( "nchs-ede-dev-hehrxdr-as", {"subscriptionId":"78f4d198-9cd7-44f1-9e55-61a5e012d4e8","allowTelemetry":true,"failsOnError":true,"auth":{"type":"azure_cli"},"resourceGroup":"nchs-hehr-dev-moderate-xdr-rg","appName":"nchs-ede-dev-hehrxdr-as","appServicePlanResourceGroup":"nchs-hehr-dev-moderate-xdr-rg","appServicePlanName":"nchs-ede-hehrxdrsoap-app-service-plan2","appSettings":{"WEBSITE_RUN_FROM_PACKAGE":"1","FUNCTIONS_EXTENSION_VERSION":"~4","FUNCTIONS_WORKER_RUNTIME":"java"},"stopAppDuringDeployment":false,"skip":false,"region":"eastus","schemaVersion":"v2","runtime":{"os":"Windows","javaVersion":"Java 17","webContainer":"Java SE"},"deployment":{"resources":[{"includes":["*.jar"],"directory":"C:\\Work\\NCHS\\XDRJavaCode\\dcp-direct-hisp/target"}]}}, configuration.appName)
+[DEBUG] validate( "nchs-ede-dev-hehrxdr-as", {"subscriptionId":"78f4d198-9cd7-44f1-9e55-61a5e012d4e8","allowTelemetry":true,"failsOnError":true,"auth":{"type":"azure_cli"},"resourceGroup":"nchs-hehr-dev-moderate-xdr-rg","appName":"nchs-ede-dev-hehrxdr-as","appServicePlanResourceGroup":"nchs-hehr-dev-moderate-xdr-rg","appServicePlanName":"nchs-ede-hehrxdrsoap-app-service-plan2","appSettings":{"WEBSITE_RUN_FROM_PACKAGE":"1","FUNCTIONS_EXTENSION_VERSION":"~4","FUNCTIONS_WORKER_RUNTIME":"java"},"stopAppDuringDeployment":false,"skip":false,"region":"eastus","schemaVersion":"v2","runtime":{"os":"Windows","javaVersion":"Java 17","webContainer":"Java SE"},"deployment":{"resources":[{"includes":["*.jar"],"directory":"C:\\Work\\NCHS\\XDRJavaCode\\dcp-direct-hisp/target"}]}}, configuration.appName)
+[DEBUG] validate( "nchs-ede-dev-hehrxdr-as", {"subscriptionId":"78f4d198-9cd7-44f1-9e55-61a5e012d4e8","allowTelemetry":true,"failsOnError":true,"auth":{"type":"azure_cli"},"resourceGroup":"nchs-hehr-dev-moderate-xdr-rg","appName":"nchs-ede-dev-hehrxdr-as","appServicePlanResourceGroup":"nchs-hehr-dev-moderate-xdr-rg","appServicePlanName":"nchs-ede-hehrxdrsoap-app-service-plan2","appSettings":{"WEBSITE_RUN_FROM_PACKAGE":"1","FUNCTIONS_EXTENSION_VERSION":"~4","FUNCTIONS_WORKER_RUNTIME":"java"},"stopAppDuringDeployment":false,"skip":false,"region":"eastus","schemaVersion":"v2","runtime":{"os":"Windows","javaVersion":"Java 17","webContainer":"Java SE"},"deployment":{"resources":[{"includes":["*.jar"],"directory":"C:\\Work\\NCHS\\XDRJavaCode\\dcp-direct-hisp/target"}]}}, configuration.appName)
+[DEBUG] validate( "nchs-ede-dev-hehrxdr-as", {"subscriptionId":"78f4d198-9cd7-44f1-9e55-61a5e012d4e8","allowTelemetry":true,"failsOnError":true,"auth":{"type":"azure_cli"},"resourceGroup":"nchs-hehr-dev-moderate-xdr-rg","appName":"nchs-ede-dev-hehrxdr-as","appServicePlanResourceGroup":"nchs-hehr-dev-moderate-xdr-rg","appServicePlanName":"nchs-ede-hehrxdrsoap-app-service-plan2","appSettings":{"WEBSITE_RUN_FROM_PACKAGE":"1","FUNCTIONS_EXTENSION_VERSION":"~4","FUNCTIONS_WORKER_RUNTIME":"java"},"stopAppDuringDeployment":false,"skip":false,"region":"eastus","schemaVersion":"v2","runtime":{"os":"Windows","javaVersion":"Java 17","webContainer":"Java SE"},"deployment":{"resources":[{"includes":["*.jar"],"directory":"C:\\Work\\NCHS\\XDRJavaCode\\dcp-direct-hisp/target"}]}}, configuration.appName)
+[DEBUG] validate( "nchs-ede-dev-hehrxdr-as", {"subscriptionId":"78f4d198-9cd7-44f1-9e55-61a5e012d4e8","allowTelemetry":true,"failsOnError":true,"auth":{"type":"azure_cli"},"resourceGroup":"nchs-hehr-dev-moderate-xdr-rg","appName":"nchs-ede-dev-hehrxdr-as","appServicePlanResourceGroup":"nchs-hehr-dev-moderate-xdr-rg","appServicePlanName":"nchs-ede-hehrxdrsoap-app-service-plan2","appSettings":{"WEBSITE_RUN_FROM_PACKAGE":"1","FUNCTIONS_EXTENSION_VERSION":"~4","FUNCTIONS_WORKER_RUNTIME":"java"},"stopAppDuringDeployment":false,"skip":false,"region":"eastus","schemaVersion":"v2","runtime":{"os":"Windows","javaVersion":"Java 17","webContainer":"Java SE"},"deployment":{"resources":[{"includes":["*.jar"],"directory":"C:\\Work\\NCHS\\XDRJavaCode\\dcp-direct-hisp/target"}]}}, configuration.appName)
+[DEBUG] validate( "nchs-ede-hehrxdrsoap-app-service-plan2", {"subscriptionId":"78f4d198-9cd7-44f1-9e55-61a5e012d4e8","allowTelemetry":true,"failsOnError":true,"auth":{"type":"azure_cli"},"resourceGroup":"nchs-hehr-dev-moderate-xdr-rg","appName":"nchs-ede-dev-hehrxdr-as","appServicePlanResourceGroup":"nchs-hehr-dev-moderate-xdr-rg","appServicePlanName":"nchs-ede-hehrxdrsoap-app-service-plan2","appSettings":{"WEBSITE_RUN_FROM_PACKAGE":"1","FUNCTIONS_EXTENSION_VERSION":"~4","FUNCTIONS_WORKER_RUNTIME":"java"},"stopAppDuringDeployment":false,"skip":false,"region":"eastus","schemaVersion":"v2","runtime":{"os":"Windows","javaVersion":"Java 17","webContainer":"Java SE"},"deployment":{"resources":[{"includes":["*.jar"],"directory":"C:\\Work\\NCHS\\XDRJavaCode\\dcp-direct-hisp/target"}]}}, configuration.appServicePlanName)
+[DEBUG] validate( "nchs-ede-hehrxdrsoap-app-service-plan2", {"subscriptionId":"78f4d198-9cd7-44f1-9e55-61a5e012d4e8","allowTelemetry":true,"failsOnError":true,"auth":{"type":"azure_cli"},"resourceGroup":"nchs-hehr-dev-moderate-xdr-rg","appName":"nchs-ede-dev-hehrxdr-as","appServicePlanResourceGroup":"nchs-hehr-dev-moderate-xdr-rg","appServicePlanName":"nchs-ede-hehrxdrsoap-app-service-plan2","appSettings":{"WEBSITE_RUN_FROM_PACKAGE":"1","FUNCTIONS_EXTENSION_VERSION":"~4","FUNCTIONS_WORKER_RUNTIME":"java"},"stopAppDuringDeployment":false,"skip":false,"region":"eastus","schemaVersion":"v2","runtime":{"os":"Windows","javaVersion":"Java 17","webContainer":"Java SE"},"deployment":{"resources":[{"includes":["*.jar"],"directory":"C:\\Work\\NCHS\\XDRJavaCode\\dcp-direct-hisp/target"}]}}, configuration.appServicePlanName)
+[DEBUG] validate( "nchs-ede-hehrxdrsoap-app-service-plan2", {"subscriptionId":"78f4d198-9cd7-44f1-9e55-61a5e012d4e8","allowTelemetry":true,"failsOnError":true,"auth":{"type":"azure_cli"},"resourceGroup":"nchs-hehr-dev-moderate-xdr-rg","appName":"nchs-ede-dev-hehrxdr-as","appServicePlanResourceGroup":"nchs-hehr-dev-moderate-xdr-rg","appServicePlanName":"nchs-ede-hehrxdrsoap-app-service-plan2","appSettings":{"WEBSITE_RUN_FROM_PACKAGE":"1","FUNCTIONS_EXTENSION_VERSION":"~4","FUNCTIONS_WORKER_RUNTIME":"java"},"stopAppDuringDeployment":false,"skip":false,"region":"eastus","schemaVersion":"v2","runtime":{"os":"Windows","javaVersion":"Java 17","webContainer":"Java SE"},"deployment":{"resources":[{"includes":["*.jar"],"directory":"C:\\Work\\NCHS\\XDRJavaCode\\dcp-direct-hisp/target"}]}}, configuration.appServicePlanName)
+[DEBUG] validate( "nchs-ede-hehrxdrsoap-app-service-plan2", {"subscriptionId":"78f4d198-9cd7-44f1-9e55-61a5e012d4e8","allowTelemetry":true,"failsOnError":true,"auth":{"type":"azure_cli"},"resourceGroup":"nchs-hehr-dev-moderate-xdr-rg","appName":"nchs-ede-dev-hehrxdr-as","appServicePlanResourceGroup":"nchs-hehr-dev-moderate-xdr-rg","appServicePlanName":"nchs-ede-hehrxdrsoap-app-service-plan2","appSettings":{"WEBSITE_RUN_FROM_PACKAGE":"1","FUNCTIONS_EXTENSION_VERSION":"~4","FUNCTIONS_WORKER_RUNTIME":"java"},"stopAppDuringDeployment":false,"skip":false,"region":"eastus","schemaVersion":"v2","runtime":{"os":"Windows","javaVersion":"Java 17","webContainer":"Java SE"},"deployment":{"resources":[{"includes":["*.jar"],"directory":"C:\\Work\\NCHS\\XDRJavaCode\\dcp-direct-hisp/target"}]}}, configuration.appServicePlanName)
+[DEBUG] validate( "nchs-ede-hehrxdrsoap-app-service-plan2", {"subscriptionId":"78f4d198-9cd7-44f1-9e55-61a5e012d4e8","allowTelemetry":true,"failsOnError":true,"auth":{"type":"azure_cli"},"resourceGroup":"nchs-hehr-dev-moderate-xdr-rg","appName":"nchs-ede-dev-hehrxdr-as","appServicePlanResourceGroup":"nchs-hehr-dev-moderate-xdr-rg","appServicePlanName":"nchs-ede-hehrxdrsoap-app-service-plan2","appSettings":{"WEBSITE_RUN_FROM_PACKAGE":"1","FUNCTIONS_EXTENSION_VERSION":"~4","FUNCTIONS_WORKER_RUNTIME":"java"},"stopAppDuringDeployment":false,"skip":false,"region":"eastus","schemaVersion":"v2","runtime":{"os":"Windows","javaVersion":"Java 17","webContainer":"Java SE"},"deployment":{"resources":[{"includes":["*.jar"],"directory":"C:\\Work\\NCHS\\XDRJavaCode\\dcp-direct-hisp/target"}]}}, configuration.appServicePlanName)
+[DEBUG] validate( "78f4d198-9cd7-44f1-9e55-61a5e012d4e8", {"subscriptionId":"78f4d198-9cd7-44f1-9e55-61a5e012d4e8","allowTelemetry":true,"failsOnError":true,"auth":{"type":"azure_cli"},"resourceGroup":"nchs-hehr-dev-moderate-xdr-rg","appName":"nchs-ede-dev-hehrxdr-as","appServicePlanResourceGroup":"nchs-hehr-dev-moderate-xdr-rg","appServicePlanName":"nchs-ede-hehrxdrsoap-app-service-plan2","appSettings":{"WEBSITE_RUN_FROM_PACKAGE":"1","FUNCTIONS_EXTENSION_VERSION":"~4","FUNCTIONS_WORKER_RUNTIME":"java"},"stopAppDuringDeployment":false,"skip":false,"region":"eastus","schemaVersion":"v2","runtime":{"os":"Windows","javaVersion":"Java 17","webContainer":"Java SE"},"deployment":{"resources":[{"includes":["*.jar"],"directory":"C:\\Work\\NCHS\\XDRJavaCode\\dcp-direct-hisp/target"}]}}, configuration.subscriptionId)
+[DEBUG] validate( "78f4d198-9cd7-44f1-9e55-61a5e012d4e8", {"subscriptionId":"78f4d198-9cd7-44f1-9e55-61a5e012d4e8","allowTelemetry":true,"failsOnError":true,"auth":{"type":"azure_cli"},"resourceGroup":"nchs-hehr-dev-moderate-xdr-rg","appName":"nchs-ede-dev-hehrxdr-as","appServicePlanResourceGroup":"nchs-hehr-dev-moderate-xdr-rg","appServicePlanName":"nchs-ede-hehrxdrsoap-app-service-plan2","appSettings":{"WEBSITE_RUN_FROM_PACKAGE":"1","FUNCTIONS_EXTENSION_VERSION":"~4","FUNCTIONS_WORKER_RUNTIME":"java"},"stopAppDuringDeployment":false,"skip":false,"region":"eastus","schemaVersion":"v2","runtime":{"os":"Windows","javaVersion":"Java 17","webContainer":"Java SE"},"deployment":{"resources":[{"includes":["*.jar"],"directory":"C:\\Work\\NCHS\\XDRJavaCode\\dcp-direct-hisp/target"}]}}, configuration.subscriptionId)
+[DEBUG] validate( "78f4d198-9cd7-44f1-9e55-61a5e012d4e8", {"subscriptionId":"78f4d198-9cd7-44f1-9e55-61a5e012d4e8","allowTelemetry":true,"failsOnError":true,"auth":{"type":"azure_cli"},"resourceGroup":"nchs-hehr-dev-moderate-xdr-rg","appName":"nchs-ede-dev-hehrxdr-as","appServicePlanResourceGroup":"nchs-hehr-dev-moderate-xdr-rg","appServicePlanName":"nchs-ede-hehrxdrsoap-app-service-plan2","appSettings":{"WEBSITE_RUN_FROM_PACKAGE":"1","FUNCTIONS_EXTENSION_VERSION":"~4","FUNCTIONS_WORKER_RUNTIME":"java"},"stopAppDuringDeployment":false,"skip":false,"region":"eastus","schemaVersion":"v2","runtime":{"os":"Windows","javaVersion":"Java 17","webContainer":"Java SE"},"deployment":{"resources":[{"includes":["*.jar"],"directory":"C:\\Work\\NCHS\\XDRJavaCode\\dcp-direct-hisp/target"}]}}, configuration.subscriptionId)
+[DEBUG] validate( true, {"subscriptionId":"78f4d198-9cd7-44f1-9e55-61a5e012d4e8","allowTelemetry":true,"failsOnError":true,"auth":{"type":"azure_cli"},"resourceGroup":"nchs-hehr-dev-moderate-xdr-rg","appName":"nchs-ede-dev-hehrxdr-as","appServicePlanResourceGroup":"nchs-hehr-dev-moderate-xdr-rg","appServicePlanName":"nchs-ede-hehrxdrsoap-app-service-plan2","appSettings":{"WEBSITE_RUN_FROM_PACKAGE":"1","FUNCTIONS_EXTENSION_VERSION":"~4","FUNCTIONS_WORKER_RUNTIME":"java"},"stopAppDuringDeployment":false,"skip":false,"region":"eastus","schemaVersion":"v2","runtime":{"os":"Windows","javaVersion":"Java 17","webContainer":"Java SE"},"deployment":{"resources":[{"includes":["*.jar"],"directory":"C:\\Work\\NCHS\\XDRJavaCode\\dcp-direct-hisp/target"}]}}, configuration.failsOnError)
+[DEBUG] validate( {"subscriptionId":"78f4d198-9cd7-44f1-9e55-61a5e012d4e8","allowTelemetry":true,"failsOnError":true,"auth":{"type":"azure_cli"},"resourceGroup":"nchs-hehr-dev-moderate-xdr-rg","appName":"nchs-ede-dev-hehrxdr-as","appServicePlanResourceGroup":"nchs-hehr-dev-moderate-xdr-rg","appServicePlanName":"nchs-ede-hehrxdrsoap-app-service-plan2","appSettings":{"WEBSITE_RUN_FROM_PACKAGE":"1","FUNCTIONS_EXTENSION_VERSION":"~4","FUNCTIONS_WORKER_RUNTIME":"java"},"stopAppDuringDeployment":false,"skip":false,"region":"eastus","schemaVersion":"v2","runtime":{"os":"Windows","javaVersion":"Java 17","webContainer":"Java SE"},"deployment":{"resources":[{"includes":["*.jar"],"directory":"C:\\Work\\NCHS\\XDRJavaCode\\dcp-direct-hisp/target"}]}}, {"subscriptionId":"78f4d198-9cd7-44f1-9e55-61a5e012d4e8","allowTelemetry":true,"failsOnError":true,"auth":{"type":"azure_cli"},"resourceGroup":"nchs-hehr-dev-moderate-xdr-rg","appName":"nchs-ede-dev-hehrxdr-as","appServicePlanResourceGroup":"nchs-hehr-dev-moderate-xdr-rg","appServicePlanName":"nchs-ede-hehrxdrsoap-app-service-plan2","appSettings":{"WEBSITE_RUN_FROM_PACKAGE":"1","FUNCTIONS_EXTENSION_VERSION":"~4","FUNCTIONS_WORKER_RUNTIME":"java"},"stopAppDuringDeployment":false,"skip":false,"region":"eastus","schemaVersion":"v2","runtime":{"os":"Windows","javaVersion":"Java 17","webContainer":"Java SE"},"deployment":{"resources":[{"includes":["*.jar"],"directory":"C:\\Work\\NCHS\\XDRJavaCode\\dcp-direct-hisp/target"}]}}, configuration)
+[DEBUG] validate( {"subscriptionId":"78f4d198-9cd7-44f1-9e55-61a5e012d4e8","allowTelemetry":true,"failsOnError":true,"auth":{"type":"azure_cli"},"resourceGroup":"nchs-hehr-dev-moderate-xdr-rg","appName":"nchs-ede-dev-hehrxdr-as","appServicePlanResourceGroup":"nchs-hehr-dev-moderate-xdr-rg","appServicePlanName":"nchs-ede-hehrxdrsoap-app-service-plan2","appSettings":{"WEBSITE_RUN_FROM_PACKAGE":"1","FUNCTIONS_EXTENSION_VERSION":"~4","FUNCTIONS_WORKER_RUNTIME":"java"},"stopAppDuringDeployment":false,"skip":false,"region":"eastus","schemaVersion":"v2","runtime":{"os":"Windows","javaVersion":"Java 17","webContainer":"Java SE"},"deployment":{"resources":[{"includes":["*.jar"],"directory":"C:\\Work\\NCHS\\XDRJavaCode\\dcp-direct-hisp/target"}]}}, {"subscriptionId":"78f4d198-9cd7-44f1-9e55-61a5e012d4e8","allowTelemetry":true,"failsOnError":true,"auth":{"type":"azure_cli"},"resourceGroup":"nchs-hehr-dev-moderate-xdr-rg","appName":"nchs-ede-dev-hehrxdr-as","appServicePlanResourceGroup":"nchs-hehr-dev-moderate-xdr-rg","appServicePlanName":"nchs-ede-hehrxdrsoap-app-service-plan2","appSettings":{"WEBSITE_RUN_FROM_PACKAGE":"1","FUNCTIONS_EXTENSION_VERSION":"~4","FUNCTIONS_WORKER_RUNTIME":"java"},"stopAppDuringDeployment":false,"skip":false,"region":"eastus","schemaVersion":"v2","runtime":{"os":"Windows","javaVersion":"Java 17","webContainer":"Java SE"},"deployment":{"resources":[{"includes":["*.jar"],"directory":"C:\\Work\\NCHS\\XDRJavaCode\\dcp-direct-hisp/target"}]}}, configuration)
+[DEBUG] validate( {"subscriptionId":"78f4d198-9cd7-44f1-9e55-61a5e012d4e8","allowTelemetry":true,"failsOnError":true,"auth":{"type":"azure_cli"},"resourceGroup":"nchs-hehr-dev-moderate-xdr-rg","appName":"nchs-ede-dev-hehrxdr-as","appServicePlanResourceGroup":"nchs-hehr-dev-moderate-xdr-rg","appServicePlanName":"nchs-ede-hehrxdrsoap-app-service-plan2","appSettings":{"WEBSITE_RUN_FROM_PACKAGE":"1","FUNCTIONS_EXTENSION_VERSION":"~4","FUNCTIONS_WORKER_RUNTIME":"java"},"stopAppDuringDeployment":false,"skip":false,"region":"eastus","schemaVersion":"v2","runtime":{"os":"Windows","javaVersion":"Java 17","webContainer":"Java SE"},"deployment":{"resources":[{"includes":["*.jar"],"directory":"C:\\Work\\NCHS\\XDRJavaCode\\dcp-direct-hisp/target"}]}}, {"subscriptionId":"78f4d198-9cd7-44f1-9e55-61a5e012d4e8","allowTelemetry":true,"failsOnError":true,"auth":{"type":"azure_cli"},"resourceGroup":"nchs-hehr-dev-moderate-xdr-rg","appName":"nchs-ede-dev-hehrxdr-as","appServicePlanResourceGroup":"nchs-hehr-dev-moderate-xdr-rg","appServicePlanName":"nchs-ede-hehrxdrsoap-app-service-plan2","appSettings":{"WEBSITE_RUN_FROM_PACKAGE":"1","FUNCTIONS_EXTENSION_VERSION":"~4","FUNCTIONS_WORKER_RUNTIME":"java"},"stopAppDuringDeployment":false,"skip":false,"region":"eastus","schemaVersion":"v2","runtime":{"os":"Windows","javaVersion":"Java 17","webContainer":"Java SE"},"deployment":{"resources":[{"includes":["*.jar"],"directory":"C:\\Work\\NCHS\\XDRJavaCode\\dcp-direct-hisp/target"}]}}, configuration)
+[DEBUG] validate( false, {"subscriptionId":"78f4d198-9cd7-44f1-9e55-61a5e012d4e8","allowTelemetry":true,"failsOnError":true,"auth":{"type":"azure_cli"},"resourceGroup":"nchs-hehr-dev-moderate-xdr-rg","appName":"nchs-ede-dev-hehrxdr-as","appServicePlanResourceGroup":"nchs-hehr-dev-moderate-xdr-rg","appServicePlanName":"nchs-ede-hehrxdrsoap-app-service-plan2","appSettings":{"WEBSITE_RUN_FROM_PACKAGE":"1","FUNCTIONS_EXTENSION_VERSION":"~4","FUNCTIONS_WORKER_RUNTIME":"java"},"stopAppDuringDeployment":false,"skip":false,"region":"eastus","schemaVersion":"v2","runtime":{"os":"Windows","javaVersion":"Java 17","webContainer":"Java SE"},"deployment":{"resources":[{"includes":["*.jar"],"directory":"C:\\Work\\NCHS\\XDRJavaCode\\dcp-direct-hisp/target"}]}}, configuration.stopAppDuringDeployment)
+[DEBUG] validate( "v2", {"subscriptionId":"78f4d198-9cd7-44f1-9e55-61a5e012d4e8","allowTelemetry":true,"failsOnError":true,"auth":{"type":"azure_cli"},"resourceGroup":"nchs-hehr-dev-moderate-xdr-rg","appName":"nchs-ede-dev-hehrxdr-as","appServicePlanResourceGroup":"nchs-hehr-dev-moderate-xdr-rg","appServicePlanName":"nchs-ede-hehrxdrsoap-app-service-plan2","appSettings":{"WEBSITE_RUN_FROM_PACKAGE":"1","FUNCTIONS_EXTENSION_VERSION":"~4","FUNCTIONS_WORKER_RUNTIME":"java"},"stopAppDuringDeployment":false,"skip":false,"region":"eastus","schemaVersion":"v2","runtime":{"os":"Windows","javaVersion":"Java 17","webContainer":"Java SE"},"deployment":{"resources":[{"includes":["*.jar"],"directory":"C:\\Work\\NCHS\\XDRJavaCode\\dcp-direct-hisp/target"}]}}, configuration.schemaVersion)
+[DEBUG] validate( {"os":"Windows","javaVersion":"Java 17","webContainer":"Java SE"}, {"subscriptionId":"78f4d198-9cd7-44f1-9e55-61a5e012d4e8","allowTelemetry":true,"failsOnError":true,"auth":{"type":"azure_cli"},"resourceGroup":"nchs-hehr-dev-moderate-xdr-rg","appName":"nchs-ede-dev-hehrxdr-as","appServicePlanResourceGroup":"nchs-hehr-dev-moderate-xdr-rg","appServicePlanName":"nchs-ede-hehrxdrsoap-app-service-plan2","appSettings":{"WEBSITE_RUN_FROM_PACKAGE":"1","FUNCTIONS_EXTENSION_VERSION":"~4","FUNCTIONS_WORKER_RUNTIME":"java"},"stopAppDuringDeployment":false,"skip":false,"region":"eastus","schemaVersion":"v2","runtime":{"os":"Windows","javaVersion":"Java 17","webContainer":"Java SE"},"deployment":{"resources":[{"includes":["*.jar"],"directory":"C:\\Work\\NCHS\\XDRJavaCode\\dcp-direct-hisp/target"}]}}, configuration.runtime)
+[DEBUG] validate( {"os":"Windows","javaVersion":"Java 17","webContainer":"Java SE"}, {"subscriptionId":"78f4d198-9cd7-44f1-9e55-61a5e012d4e8","allowTelemetry":true,"failsOnError":true,"auth":{"type":"azure_cli"},"resourceGroup":"nchs-hehr-dev-moderate-xdr-rg","appName":"nchs-ede-dev-hehrxdr-as","appServicePlanResourceGroup":"nchs-hehr-dev-moderate-xdr-rg","appServicePlanName":"nchs-ede-hehrxdrsoap-app-service-plan2","appSettings":{"WEBSITE_RUN_FROM_PACKAGE":"1","FUNCTIONS_EXTENSION_VERSION":"~4","FUNCTIONS_WORKER_RUNTIME":"java"},"stopAppDuringDeployment":false,"skip":false,"region":"eastus","schemaVersion":"v2","runtime":{"os":"Windows","javaVersion":"Java 17","webContainer":"Java SE"},"deployment":{"resources":[{"includes":["*.jar"],"directory":"C:\\Work\\NCHS\\XDRJavaCode\\dcp-direct-hisp/target"}]}}, configuration.runtime)
+[DEBUG] validate( {"os":"Windows","javaVersion":"Java 17","webContainer":"Java SE"}, {"subscriptionId":"78f4d198-9cd7-44f1-9e55-61a5e012d4e8","allowTelemetry":true,"failsOnError":true,"auth":{"type":"azure_cli"},"resourceGroup":"nchs-hehr-dev-moderate-xdr-rg","appName":"nchs-ede-dev-hehrxdr-as","appServicePlanResourceGroup":"nchs-hehr-dev-moderate-xdr-rg","appServicePlanName":"nchs-ede-hehrxdrsoap-app-service-plan2","appSettings":{"WEBSITE_RUN_FROM_PACKAGE":"1","FUNCTIONS_EXTENSION_VERSION":"~4","FUNCTIONS_WORKER_RUNTIME":"java"},"stopAppDuringDeployment":false,"skip":false,"region":"eastus","schemaVersion":"v2","runtime":{"os":"Windows","javaVersion":"Java 17","webContainer":"Java SE"},"deployment":{"resources":[{"includes":["*.jar"],"directory":"C:\\Work\\NCHS\\XDRJavaCode\\dcp-direct-hisp/target"}]}}, configuration.runtime)
+[DEBUG] validate( {"os":"Windows","javaVersion":"Java 17","webContainer":"Java SE"}, {"subscriptionId":"78f4d198-9cd7-44f1-9e55-61a5e012d4e8","allowTelemetry":true,"failsOnError":true,"auth":{"type":"azure_cli"},"resourceGroup":"nchs-hehr-dev-moderate-xdr-rg","appName":"nchs-ede-dev-hehrxdr-as","appServicePlanResourceGroup":"nchs-hehr-dev-moderate-xdr-rg","appServicePlanName":"nchs-ede-hehrxdrsoap-app-service-plan2","appSettings":{"WEBSITE_RUN_FROM_PACKAGE":"1","FUNCTIONS_EXTENSION_VERSION":"~4","FUNCTIONS_WORKER_RUNTIME":"java"},"stopAppDuringDeployment":false,"skip":false,"region":"eastus","schemaVersion":"v2","runtime":{"os":"Windows","javaVersion":"Java 17","webContainer":"Java SE"},"deployment":{"resources":[{"includes":["*.jar"],"directory":"C:\\Work\\NCHS\\XDRJavaCode\\dcp-direct-hisp/target"}]}}, configuration.runtime)
+[DEBUG] validate( "Java SE", {"subscriptionId":"78f4d198-9cd7-44f1-9e55-61a5e012d4e8","allowTelemetry":true,"failsOnError":true,"auth":{"type":"azure_cli"},"resourceGroup":"nchs-hehr-dev-moderate-xdr-rg","appName":"nchs-ede-dev-hehrxdr-as","appServicePlanResourceGroup":"nchs-hehr-dev-moderate-xdr-rg","appServicePlanName":"nchs-ede-hehrxdrsoap-app-service-plan2","appSettings":{"WEBSITE_RUN_FROM_PACKAGE":"1","FUNCTIONS_EXTENSION_VERSION":"~4","FUNCTIONS_WORKER_RUNTIME":"java"},"stopAppDuringDeployment":false,"skip":false,"region":"eastus","schemaVersion":"v2","runtime":{"os":"Windows","javaVersion":"Java 17","webContainer":"Java SE"},"deployment":{"resources":[{"includes":["*.jar"],"directory":"C:\\Work\\NCHS\\XDRJavaCode\\dcp-direct-hisp/target"}]}}, configuration.runtime.webContainer)
+[DEBUG] validate( "Java SE", {"subscriptionId":"78f4d198-9cd7-44f1-9e55-61a5e012d4e8","allowTelemetry":true,"failsOnError":true,"auth":{"type":"azure_cli"},"resourceGroup":"nchs-hehr-dev-moderate-xdr-rg","appName":"nchs-ede-dev-hehrxdr-as","appServicePlanResourceGroup":"nchs-hehr-dev-moderate-xdr-rg","appServicePlanName":"nchs-ede-hehrxdrsoap-app-service-plan2","appSettings":{"WEBSITE_RUN_FROM_PACKAGE":"1","FUNCTIONS_EXTENSION_VERSION":"~4","FUNCTIONS_WORKER_RUNTIME":"java"},"stopAppDuringDeployment":false,"skip":false,"region":"eastus","schemaVersion":"v2","runtime":{"os":"Windows","javaVersion":"Java 17","webContainer":"Java SE"},"deployment":{"resources":[{"includes":["*.jar"],"directory":"C:\\Work\\NCHS\\XDRJavaCode\\dcp-direct-hisp/target"}]}}, configuration.runtime.webContainer)
+[DEBUG] validate( "Java SE", {"subscriptionId":"78f4d198-9cd7-44f1-9e55-61a5e012d4e8","allowTelemetry":true,"failsOnError":true,"auth":{"type":"azure_cli"},"resourceGroup":"nchs-hehr-dev-moderate-xdr-rg","appName":"nchs-ede-dev-hehrxdr-as","appServicePlanResourceGroup":"nchs-hehr-dev-moderate-xdr-rg","appServicePlanName":"nchs-ede-hehrxdrsoap-app-service-plan2","appSettings":{"WEBSITE_RUN_FROM_PACKAGE":"1","FUNCTIONS_EXTENSION_VERSION":"~4","FUNCTIONS_WORKER_RUNTIME":"java"},"stopAppDuringDeployment":false,"skip":false,"region":"eastus","schemaVersion":"v2","runtime":{"os":"Windows","javaVersion":"Java 17","webContainer":"Java SE"},"deployment":{"resources":[{"includes":["*.jar"],"directory":"C:\\Work\\NCHS\\XDRJavaCode\\dcp-direct-hisp/target"}]}}, configuration.runtime.webContainer)
+[DEBUG] validate( "Windows", {"subscriptionId":"78f4d198-9cd7-44f1-9e55-61a5e012d4e8","allowTelemetry":true,"failsOnError":true,"auth":{"type":"azure_cli"},"resourceGroup":"nchs-hehr-dev-moderate-xdr-rg","appName":"nchs-ede-dev-hehrxdr-as","appServicePlanResourceGroup":"nchs-hehr-dev-moderate-xdr-rg","appServicePlanName":"nchs-ede-hehrxdrsoap-app-service-plan2","appSettings":{"WEBSITE_RUN_FROM_PACKAGE":"1","FUNCTIONS_EXTENSION_VERSION":"~4","FUNCTIONS_WORKER_RUNTIME":"java"},"stopAppDuringDeployment":false,"skip":false,"region":"eastus","schemaVersion":"v2","runtime":{"os":"Windows","javaVersion":"Java 17","webContainer":"Java SE"},"deployment":{"resources":[{"includes":["*.jar"],"directory":"C:\\Work\\NCHS\\XDRJavaCode\\dcp-direct-hisp/target"}]}}, configuration.runtime.os)
+[DEBUG] validate( "Windows", {"subscriptionId":"78f4d198-9cd7-44f1-9e55-61a5e012d4e8","allowTelemetry":true,"failsOnError":true,"auth":{"type":"azure_cli"},"resourceGroup":"nchs-hehr-dev-moderate-xdr-rg","appName":"nchs-ede-dev-hehrxdr-as","appServicePlanResourceGroup":"nchs-hehr-dev-moderate-xdr-rg","appServicePlanName":"nchs-ede-hehrxdrsoap-app-service-plan2","appSettings":{"WEBSITE_RUN_FROM_PACKAGE":"1","FUNCTIONS_EXTENSION_VERSION":"~4","FUNCTIONS_WORKER_RUNTIME":"java"},"stopAppDuringDeployment":false,"skip":false,"region":"eastus","schemaVersion":"v2","runtime":{"os":"Windows","javaVersion":"Java 17","webContainer":"Java SE"},"deployment":{"resources":[{"includes":["*.jar"],"directory":"C:\\Work\\NCHS\\XDRJavaCode\\dcp-direct-hisp/target"}]}}, configuration.runtime.os)
+[DEBUG] validate( "Windows", {"subscriptionId":"78f4d198-9cd7-44f1-9e55-61a5e012d4e8","allowTelemetry":true,"failsOnError":true,"auth":{"type":"azure_cli"},"resourceGroup":"nchs-hehr-dev-moderate-xdr-rg","appName":"nchs-ede-dev-hehrxdr-as","appServicePlanResourceGroup":"nchs-hehr-dev-moderate-xdr-rg","appServicePlanName":"nchs-ede-hehrxdrsoap-app-service-plan2","appSettings":{"WEBSITE_RUN_FROM_PACKAGE":"1","FUNCTIONS_EXTENSION_VERSION":"~4","FUNCTIONS_WORKER_RUNTIME":"java"},"stopAppDuringDeployment":false,"skip":false,"region":"eastus","schemaVersion":"v2","runtime":{"os":"Windows","javaVersion":"Java 17","webContainer":"Java SE"},"deployment":{"resources":[{"includes":["*.jar"],"directory":"C:\\Work\\NCHS\\XDRJavaCode\\dcp-direct-hisp/target"}]}}, configuration.runtime.os)
+[DEBUG] validate( "Java 17", {"subscriptionId":"78f4d198-9cd7-44f1-9e55-61a5e012d4e8","allowTelemetry":true,"failsOnError":true,"auth":{"type":"azure_cli"},"resourceGroup":"nchs-hehr-dev-moderate-xdr-rg","appName":"nchs-ede-dev-hehrxdr-as","appServicePlanResourceGroup":"nchs-hehr-dev-moderate-xdr-rg","appServicePlanName":"nchs-ede-hehrxdrsoap-app-service-plan2","appSettings":{"WEBSITE_RUN_FROM_PACKAGE":"1","FUNCTIONS_EXTENSION_VERSION":"~4","FUNCTIONS_WORKER_RUNTIME":"java"},"stopAppDuringDeployment":false,"skip":false,"region":"eastus","schemaVersion":"v2","runtime":{"os":"Windows","javaVersion":"Java 17","webContainer":"Java SE"},"deployment":{"resources":[{"includes":["*.jar"],"directory":"C:\\Work\\NCHS\\XDRJavaCode\\dcp-direct-hisp/target"}]}}, configuration.runtime.javaVersion)
+[DEBUG] validate( "Java 17", {"subscriptionId":"78f4d198-9cd7-44f1-9e55-61a5e012d4e8","allowTelemetry":true,"failsOnError":true,"auth":{"type":"azure_cli"},"resourceGroup":"nchs-hehr-dev-moderate-xdr-rg","appName":"nchs-ede-dev-hehrxdr-as","appServicePlanResourceGroup":"nchs-hehr-dev-moderate-xdr-rg","appServicePlanName":"nchs-ede-hehrxdrsoap-app-service-plan2","appSettings":{"WEBSITE_RUN_FROM_PACKAGE":"1","FUNCTIONS_EXTENSION_VERSION":"~4","FUNCTIONS_WORKER_RUNTIME":"java"},"stopAppDuringDeployment":false,"skip":false,"region":"eastus","schemaVersion":"v2","runtime":{"os":"Windows","javaVersion":"Java 17","webContainer":"Java SE"},"deployment":{"resources":[{"includes":["*.jar"],"directory":"C:\\Work\\NCHS\\XDRJavaCode\\dcp-direct-hisp/target"}]}}, configuration.runtime.javaVersion)
+[DEBUG] validate( "Java 17", {"subscriptionId":"78f4d198-9cd7-44f1-9e55-61a5e012d4e8","allowTelemetry":true,"failsOnError":true,"auth":{"type":"azure_cli"},"resourceGroup":"nchs-hehr-dev-moderate-xdr-rg","appName":"nchs-ede-dev-hehrxdr-as","appServicePlanResourceGroup":"nchs-hehr-dev-moderate-xdr-rg","appServicePlanName":"nchs-ede-hehrxdrsoap-app-service-plan2","appSettings":{"WEBSITE_RUN_FROM_PACKAGE":"1","FUNCTIONS_EXTENSION_VERSION":"~4","FUNCTIONS_WORKER_RUNTIME":"java"},"stopAppDuringDeployment":false,"skip":false,"region":"eastus","schemaVersion":"v2","runtime":{"os":"Windows","javaVersion":"Java 17","webContainer":"Java SE"},"deployment":{"resources":[{"includes":["*.jar"],"directory":"C:\\Work\\NCHS\\XDRJavaCode\\dcp-direct-hisp/target"}]}}, configuration.runtime.javaVersion)
+[DEBUG] validate( false, {"subscriptionId":"78f4d198-9cd7-44f1-9e55-61a5e012d4e8","allowTelemetry":true,"failsOnError":true,"auth":{"type":"azure_cli"},"resourceGroup":"nchs-hehr-dev-moderate-xdr-rg","appName":"nchs-ede-dev-hehrxdr-as","appServicePlanResourceGroup":"nchs-hehr-dev-moderate-xdr-rg","appServicePlanName":"nchs-ede-hehrxdrsoap-app-service-plan2","appSettings":{"WEBSITE_RUN_FROM_PACKAGE":"1","FUNCTIONS_EXTENSION_VERSION":"~4","FUNCTIONS_WORKER_RUNTIME":"java"},"stopAppDuringDeployment":false,"skip":false,"region":"eastus","schemaVersion":"v2","runtime":{"os":"Windows","javaVersion":"Java 17","webContainer":"Java SE"},"deployment":{"resources":[{"includes":["*.jar"],"directory":"C:\\Work\\NCHS\\XDRJavaCode\\dcp-direct-hisp/target"}]}}, configuration.skip)
+[DEBUG] validate( "eastus", {"subscriptionId":"78f4d198-9cd7-44f1-9e55-61a5e012d4e8","allowTelemetry":true,"failsOnError":true,"auth":{"type":"azure_cli"},"resourceGroup":"nchs-hehr-dev-moderate-xdr-rg","appName":"nchs-ede-dev-hehrxdr-as","appServicePlanResourceGroup":"nchs-hehr-dev-moderate-xdr-rg","appServicePlanName":"nchs-ede-hehrxdrsoap-app-service-plan2","appSettings":{"WEBSITE_RUN_FROM_PACKAGE":"1","FUNCTIONS_EXTENSION_VERSION":"~4","FUNCTIONS_WORKER_RUNTIME":"java"},"stopAppDuringDeployment":false,"skip":false,"region":"eastus","schemaVersion":"v2","runtime":{"os":"Windows","javaVersion":"Java 17","webContainer":"Java SE"},"deployment":{"resources":[{"includes":["*.jar"],"directory":"C:\\Work\\NCHS\\XDRJavaCode\\dcp-direct-hisp/target"}]}}, configuration.region)
+[DEBUG] validate( "eastus", {"subscriptionId":"78f4d198-9cd7-44f1-9e55-61a5e012d4e8","allowTelemetry":true,"failsOnError":true,"auth":{"type":"azure_cli"},"resourceGroup":"nchs-hehr-dev-moderate-xdr-rg","appName":"nchs-ede-dev-hehrxdr-as","appServicePlanResourceGroup":"nchs-hehr-dev-moderate-xdr-rg","appServicePlanName":"nchs-ede-hehrxdrsoap-app-service-plan2","appSettings":{"WEBSITE_RUN_FROM_PACKAGE":"1","FUNCTIONS_EXTENSION_VERSION":"~4","FUNCTIONS_WORKER_RUNTIME":"java"},"stopAppDuringDeployment":false,"skip":false,"region":"eastus","schemaVersion":"v2","runtime":{"os":"Windows","javaVersion":"Java 17","webContainer":"Java SE"},"deployment":{"resources":[{"includes":["*.jar"],"directory":"C:\\Work\\NCHS\\XDRJavaCode\\dcp-direct-hisp/target"}]}}, configuration.region)
+[DEBUG] validate( "eastus", {"subscriptionId":"78f4d198-9cd7-44f1-9e55-61a5e012d4e8","allowTelemetry":true,"failsOnError":true,"auth":{"type":"azure_cli"},"resourceGroup":"nchs-hehr-dev-moderate-xdr-rg","appName":"nchs-ede-dev-hehrxdr-as","appServicePlanResourceGroup":"nchs-hehr-dev-moderate-xdr-rg","appServicePlanName":"nchs-ede-hehrxdrsoap-app-service-plan2","appSettings":{"WEBSITE_RUN_FROM_PACKAGE":"1","FUNCTIONS_EXTENSION_VERSION":"~4","FUNCTIONS_WORKER_RUNTIME":"java"},"stopAppDuringDeployment":false,"skip":false,"region":"eastus","schemaVersion":"v2","runtime":{"os":"Windows","javaVersion":"Java 17","webContainer":"Java SE"},"deployment":{"resources":[{"includes":["*.jar"],"directory":"C:\\Work\\NCHS\\XDRJavaCode\\dcp-direct-hisp/target"}]}}, configuration.region)
+[DEBUG] validate( {"resources":[{"includes":["*.jar"],"directory":"C:\\Work\\NCHS\\XDRJavaCode\\dcp-direct-hisp/target"}]}, {"subscriptionId":"78f4d198-9cd7-44f1-9e55-61a5e012d4e8","allowTelemetry":true,"failsOnError":true,"auth":{"type":"azure_cli"},"resourceGroup":"nchs-hehr-dev-moderate-xdr-rg","appName":"nchs-ede-dev-hehrxdr-as","appServicePlanResourceGroup":"nchs-hehr-dev-moderate-xdr-rg","appServicePlanName":"nchs-ede-hehrxdrsoap-app-service-plan2","appSettings":{"WEBSITE_RUN_FROM_PACKAGE":"1","FUNCTIONS_EXTENSION_VERSION":"~4","FUNCTIONS_WORKER_RUNTIME":"java"},"stopAppDuringDeployment":false,"skip":false,"region":"eastus","schemaVersion":"v2","runtime":{"os":"Windows","javaVersion":"Java 17","webContainer":"Java SE"},"deployment":{"resources":[{"includes":["*.jar"],"directory":"C:\\Work\\NCHS\\XDRJavaCode\\dcp-direct-hisp/target"}]}}, configuration.deployment)
+[DEBUG] validate( {"resources":[{"includes":["*.jar"],"directory":"C:\\Work\\NCHS\\XDRJavaCode\\dcp-direct-hisp/target"}]}, {"subscriptionId":"78f4d198-9cd7-44f1-9e55-61a5e012d4e8","allowTelemetry":true,"failsOnError":true,"auth":{"type":"azure_cli"},"resourceGroup":"nchs-hehr-dev-moderate-xdr-rg","appName":"nchs-ede-dev-hehrxdr-as","appServicePlanResourceGroup":"nchs-hehr-dev-moderate-xdr-rg","appServicePlanName":"nchs-ede-hehrxdrsoap-app-service-plan2","appSettings":{"WEBSITE_RUN_FROM_PACKAGE":"1","FUNCTIONS_EXTENSION_VERSION":"~4","FUNCTIONS_WORKER_RUNTIME":"java"},"stopAppDuringDeployment":false,"skip":false,"region":"eastus","schemaVersion":"v2","runtime":{"os":"Windows","javaVersion":"Java 17","webContainer":"Java SE"},"deployment":{"resources":[{"includes":["*.jar"],"directory":"C:\\Work\\NCHS\\XDRJavaCode\\dcp-direct-hisp/target"}]}}, configuration.deployment)
+[DEBUG] validate( [{"includes":["*.jar"],"directory":"C:\\Work\\NCHS\\XDRJavaCode\\dcp-direct-hisp/target"}], {"subscriptionId":"78f4d198-9cd7-44f1-9e55-61a5e012d4e8","allowTelemetry":true,"failsOnError":true,"auth":{"type":"azure_cli"},"resourceGroup":"nchs-hehr-dev-moderate-xdr-rg","appName":"nchs-ede-dev-hehrxdr-as","appServicePlanResourceGroup":"nchs-hehr-dev-moderate-xdr-rg","appServicePlanName":"nchs-ede-hehrxdrsoap-app-service-plan2","appSettings":{"WEBSITE_RUN_FROM_PACKAGE":"1","FUNCTIONS_EXTENSION_VERSION":"~4","FUNCTIONS_WORKER_RUNTIME":"java"},"stopAppDuringDeployment":false,"skip":false,"region":"eastus","schemaVersion":"v2","runtime":{"os":"Windows","javaVersion":"Java 17","webContainer":"Java SE"},"deployment":{"resources":[{"includes":["*.jar"],"directory":"C:\\Work\\NCHS\\XDRJavaCode\\dcp-direct-hisp/target"}]}}, configuration.deployment.resources)
+[DEBUG] validate( [{"includes":["*.jar"],"directory":"C:\\Work\\NCHS\\XDRJavaCode\\dcp-direct-hisp/target"}], {"subscriptionId":"78f4d198-9cd7-44f1-9e55-61a5e012d4e8","allowTelemetry":true,"failsOnError":true,"auth":{"type":"azure_cli"},"resourceGroup":"nchs-hehr-dev-moderate-xdr-rg","appName":"nchs-ede-dev-hehrxdr-as","appServicePlanResourceGroup":"nchs-hehr-dev-moderate-xdr-rg","appServicePlanName":"nchs-ede-hehrxdrsoap-app-service-plan2","appSettings":{"WEBSITE_RUN_FROM_PACKAGE":"1","FUNCTIONS_EXTENSION_VERSION":"~4","FUNCTIONS_WORKER_RUNTIME":"java"},"stopAppDuringDeployment":false,"skip":false,"region":"eastus","schemaVersion":"v2","runtime":{"os":"Windows","javaVersion":"Java 17","webContainer":"Java SE"},"deployment":{"resources":[{"includes":["*.jar"],"directory":"C:\\Work\\NCHS\\XDRJavaCode\\dcp-direct-hisp/target"}]}}, configuration.deployment.resources)
+[DEBUG] validate( {"includes":["*.jar"],"directory":"C:\\Work\\NCHS\\XDRJavaCode\\dcp-direct-hisp/target"}, {"subscriptionId":"78f4d198-9cd7-44f1-9e55-61a5e012d4e8","allowTelemetry":true,"failsOnError":true,"auth":{"type":"azure_cli"},"resourceGroup":"nchs-hehr-dev-moderate-xdr-rg","appName":"nchs-ede-dev-hehrxdr-as","appServicePlanResourceGroup":"nchs-hehr-dev-moderate-xdr-rg","appServicePlanName":"nchs-ede-hehrxdrsoap-app-service-plan2","appSettings":{"WEBSITE_RUN_FROM_PACKAGE":"1","FUNCTIONS_EXTENSION_VERSION":"~4","FUNCTIONS_WORKER_RUNTIME":"java"},"stopAppDuringDeployment":false,"skip":false,"region":"eastus","schemaVersion":"v2","runtime":{"os":"Windows","javaVersion":"Java 17","webContainer":"Java SE"},"deployment":{"resources":[{"includes":["*.jar"],"directory":"C:\\Work\\NCHS\\XDRJavaCode\\dcp-direct-hisp/target"}]}}, configuration.deployment.resources[0])
+[DEBUG] validate( {"includes":["*.jar"],"directory":"C:\\Work\\NCHS\\XDRJavaCode\\dcp-direct-hisp/target"}, {"subscriptionId":"78f4d198-9cd7-44f1-9e55-61a5e012d4e8","allowTelemetry":true,"failsOnError":true,"auth":{"type":"azure_cli"},"resourceGroup":"nchs-hehr-dev-moderate-xdr-rg","appName":"nchs-ede-dev-hehrxdr-as","appServicePlanResourceGroup":"nchs-hehr-dev-moderate-xdr-rg","appServicePlanName":"nchs-ede-hehrxdrsoap-app-service-plan2","appSettings":{"WEBSITE_RUN_FROM_PACKAGE":"1","FUNCTIONS_EXTENSION_VERSION":"~4","FUNCTIONS_WORKER_RUNTIME":"java"},"stopAppDuringDeployment":false,"skip":false,"region":"eastus","schemaVersion":"v2","runtime":{"os":"Windows","javaVersion":"Java 17","webContainer":"Java SE"},"deployment":{"resources":[{"includes":["*.jar"],"directory":"C:\\Work\\NCHS\\XDRJavaCode\\dcp-direct-hisp/target"}]}}, configuration.deployment.resources[0])
+[DEBUG] validate( {"includes":["*.jar"],"directory":"C:\\Work\\NCHS\\XDRJavaCode\\dcp-direct-hisp/target"}, {"subscriptionId":"78f4d198-9cd7-44f1-9e55-61a5e012d4e8","allowTelemetry":true,"failsOnError":true,"auth":{"type":"azure_cli"},"resourceGroup":"nchs-hehr-dev-moderate-xdr-rg","appName":"nchs-ede-dev-hehrxdr-as","appServicePlanResourceGroup":"nchs-hehr-dev-moderate-xdr-rg","appServicePlanName":"nchs-ede-hehrxdrsoap-app-service-plan2","appSettings":{"WEBSITE_RUN_FROM_PACKAGE":"1","FUNCTIONS_EXTENSION_VERSION":"~4","FUNCTIONS_WORKER_RUNTIME":"java"},"stopAppDuringDeployment":false,"skip":false,"region":"eastus","schemaVersion":"v2","runtime":{"os":"Windows","javaVersion":"Java 17","webContainer":"Java SE"},"deployment":{"resources":[{"includes":["*.jar"],"directory":"C:\\Work\\NCHS\\XDRJavaCode\\dcp-direct-hisp/target"}]}}, configuration.deployment.resources[0])
+[DEBUG] validate( ["*.jar"], {"subscriptionId":"78f4d198-9cd7-44f1-9e55-61a5e012d4e8","allowTelemetry":true,"failsOnError":true,"auth":{"type":"azure_cli"},"resourceGroup":"nchs-hehr-dev-moderate-xdr-rg","appName":"nchs-ede-dev-hehrxdr-as","appServicePlanResourceGroup":"nchs-hehr-dev-moderate-xdr-rg","appServicePlanName":"nchs-ede-hehrxdrsoap-app-service-plan2","appSettings":{"WEBSITE_RUN_FROM_PACKAGE":"1","FUNCTIONS_EXTENSION_VERSION":"~4","FUNCTIONS_WORKER_RUNTIME":"java"},"stopAppDuringDeployment":false,"skip":false,"region":"eastus","schemaVersion":"v2","runtime":{"os":"Windows","javaVersion":"Java 17","webContainer":"Java SE"},"deployment":{"resources":[{"includes":["*.jar"],"directory":"C:\\Work\\NCHS\\XDRJavaCode\\dcp-direct-hisp/target"}]}}, configuration.deployment.resources[0].includes)
+[DEBUG] validate( ["*.jar"], {"subscriptionId":"78f4d198-9cd7-44f1-9e55-61a5e012d4e8","allowTelemetry":true,"failsOnError":true,"auth":{"type":"azure_cli"},"resourceGroup":"nchs-hehr-dev-moderate-xdr-rg","appName":"nchs-ede-dev-hehrxdr-as","appServicePlanResourceGroup":"nchs-hehr-dev-moderate-xdr-rg","appServicePlanName":"nchs-ede-hehrxdrsoap-app-service-plan2","appSettings":{"WEBSITE_RUN_FROM_PACKAGE":"1","FUNCTIONS_EXTENSION_VERSION":"~4","FUNCTIONS_WORKER_RUNTIME":"java"},"stopAppDuringDeployment":false,"skip":false,"region":"eastus","schemaVersion":"v2","runtime":{"os":"Windows","javaVersion":"Java 17","webContainer":"Java SE"},"deployment":{"resources":[{"includes":["*.jar"],"directory":"C:\\Work\\NCHS\\XDRJavaCode\\dcp-direct-hisp/target"}]}}, configuration.deployment.resources[0].includes)
+[DEBUG] validate( "*.jar", {"subscriptionId":"78f4d198-9cd7-44f1-9e55-61a5e012d4e8","allowTelemetry":true,"failsOnError":true,"auth":{"type":"azure_cli"},"resourceGroup":"nchs-hehr-dev-moderate-xdr-rg","appName":"nchs-ede-dev-hehrxdr-as","appServicePlanResourceGroup":"nchs-hehr-dev-moderate-xdr-rg","appServicePlanName":"nchs-ede-hehrxdrsoap-app-service-plan2","appSettings":{"WEBSITE_RUN_FROM_PACKAGE":"1","FUNCTIONS_EXTENSION_VERSION":"~4","FUNCTIONS_WORKER_RUNTIME":"java"},"stopAppDuringDeployment":false,"skip":false,"region":"eastus","schemaVersion":"v2","runtime":{"os":"Windows","javaVersion":"Java 17","webContainer":"Java SE"},"deployment":{"resources":[{"includes":["*.jar"],"directory":"C:\\Work\\NCHS\\XDRJavaCode\\dcp-direct-hisp/target"}]}}, configuration.deployment.resources[0].includes[0])
+[DEBUG] validate( "*.jar", {"subscriptionId":"78f4d198-9cd7-44f1-9e55-61a5e012d4e8","allowTelemetry":true,"failsOnError":true,"auth":{"type":"azure_cli"},"resourceGroup":"nchs-hehr-dev-moderate-xdr-rg","appName":"nchs-ede-dev-hehrxdr-as","appServicePlanResourceGroup":"nchs-hehr-dev-moderate-xdr-rg","appServicePlanName":"nchs-ede-hehrxdrsoap-app-service-plan2","appSettings":{"WEBSITE_RUN_FROM_PACKAGE":"1","FUNCTIONS_EXTENSION_VERSION":"~4","FUNCTIONS_WORKER_RUNTIME":"java"},"stopAppDuringDeployment":false,"skip":false,"region":"eastus","schemaVersion":"v2","runtime":{"os":"Windows","javaVersion":"Java 17","webContainer":"Java SE"},"deployment":{"resources":[{"includes":["*.jar"],"directory":"C:\\Work\\NCHS\\XDRJavaCode\\dcp-direct-hisp/target"}]}}, configuration.deployment.resources[0].includes[0])
+[DEBUG] validate( "*.jar", {"subscriptionId":"78f4d198-9cd7-44f1-9e55-61a5e012d4e8","allowTelemetry":true,"failsOnError":true,"auth":{"type":"azure_cli"},"resourceGroup":"nchs-hehr-dev-moderate-xdr-rg","appName":"nchs-ede-dev-hehrxdr-as","appServicePlanResourceGroup":"nchs-hehr-dev-moderate-xdr-rg","appServicePlanName":"nchs-ede-hehrxdrsoap-app-service-plan2","appSettings":{"WEBSITE_RUN_FROM_PACKAGE":"1","FUNCTIONS_EXTENSION_VERSION":"~4","FUNCTIONS_WORKER_RUNTIME":"java"},"stopAppDuringDeployment":false,"skip":false,"region":"eastus","schemaVersion":"v2","runtime":{"os":"Windows","javaVersion":"Java 17","webContainer":"Java SE"},"deployment":{"resources":[{"includes":["*.jar"],"directory":"C:\\Work\\NCHS\\XDRJavaCode\\dcp-direct-hisp/target"}]}}, configuration.deployment.resources[0].includes[0])
+[DEBUG] validate( "C:\\Work\\NCHS\\XDRJavaCode\\dcp-direct-hisp/target", {"subscriptionId":"78f4d198-9cd7-44f1-9e55-61a5e012d4e8","allowTelemetry":true,"failsOnError":true,"auth":{"type":"azure_cli"},"resourceGroup":"nchs-hehr-dev-moderate-xdr-rg","appName":"nchs-ede-dev-hehrxdr-as","appServicePlanResourceGroup":"nchs-hehr-dev-moderate-xdr-rg","appServicePlanName":"nchs-ede-hehrxdrsoap-app-service-plan2","appSettings":{"WEBSITE_RUN_FROM_PACKAGE":"1","FUNCTIONS_EXTENSION_VERSION":"~4","FUNCTIONS_WORKER_RUNTIME":"java"},"stopAppDuringDeployment":false,"skip":false,"region":"eastus","schemaVersion":"v2","runtime":{"os":"Windows","javaVersion":"Java 17","webContainer":"Java SE"},"deployment":{"resources":[{"includes":["*.jar"],"directory":"C:\\Work\\NCHS\\XDRJavaCode\\dcp-direct-hisp/target"}]}}, configuration.deployment.resources[0].directory)
+[DEBUG] validate( "C:\\Work\\NCHS\\XDRJavaCode\\dcp-direct-hisp/target", {"subscriptionId":"78f4d198-9cd7-44f1-9e55-61a5e012d4e8","allowTelemetry":true,"failsOnError":true,"auth":{"type":"azure_cli"},"resourceGroup":"nchs-hehr-dev-moderate-xdr-rg","appName":"nchs-ede-dev-hehrxdr-as","appServicePlanResourceGroup":"nchs-hehr-dev-moderate-xdr-rg","appServicePlanName":"nchs-ede-hehrxdrsoap-app-service-plan2","appSettings":{"WEBSITE_RUN_FROM_PACKAGE":"1","FUNCTIONS_EXTENSION_VERSION":"~4","FUNCTIONS_WORKER_RUNTIME":"java"},"stopAppDuringDeployment":false,"skip":false,"region":"eastus","schemaVersion":"v2","runtime":{"os":"Windows","javaVersion":"Java 17","webContainer":"Java SE"},"deployment":{"resources":[{"includes":["*.jar"],"directory":"C:\\Work\\NCHS\\XDRJavaCode\\dcp-direct-hisp/target"}]}}, configuration.deployment.resources[0].directory)
+[DEBUG] validate( "C:\\Work\\NCHS\\XDRJavaCode\\dcp-direct-hisp/target", {"subscriptionId":"78f4d198-9cd7-44f1-9e55-61a5e012d4e8","allowTelemetry":true,"failsOnError":true,"auth":{"type":"azure_cli"},"resourceGroup":"nchs-hehr-dev-moderate-xdr-rg","appName":"nchs-ede-dev-hehrxdr-as","appServicePlanResourceGroup":"nchs-hehr-dev-moderate-xdr-rg","appServicePlanName":"nchs-ede-hehrxdrsoap-app-service-plan2","appSettings":{"WEBSITE_RUN_FROM_PACKAGE":"1","FUNCTIONS_EXTENSION_VERSION":"~4","FUNCTIONS_WORKER_RUNTIME":"java"},"stopAppDuringDeployment":false,"skip":false,"region":"eastus","schemaVersion":"v2","runtime":{"os":"Windows","javaVersion":"Java 17","webContainer":"Java SE"},"deployment":{"resources":[{"includes":["*.jar"],"directory":"C:\\Work\\NCHS\\XDRJavaCode\\dcp-direct-hisp/target"}]}}, configuration.deployment.resources[0].directory)
+[DEBUG] validate( {"resources":[{"includes":["*.jar"],"directory":"C:\\Work\\NCHS\\XDRJavaCode\\dcp-direct-hisp/target"}]}, {"subscriptionId":"78f4d198-9cd7-44f1-9e55-61a5e012d4e8","allowTelemetry":true,"failsOnError":true,"auth":{"type":"azure_cli"},"resourceGroup":"nchs-hehr-dev-moderate-xdr-rg","appName":"nchs-ede-dev-hehrxdr-as","appServicePlanResourceGroup":"nchs-hehr-dev-moderate-xdr-rg","appServicePlanName":"nchs-ede-hehrxdrsoap-app-service-plan2","appSettings":{"WEBSITE_RUN_FROM_PACKAGE":"1","FUNCTIONS_EXTENSION_VERSION":"~4","FUNCTIONS_WORKER_RUNTIME":"java"},"stopAppDuringDeployment":false,"skip":false,"region":"eastus","schemaVersion":"v2","runtime":{"os":"Windows","javaVersion":"Java 17","webContainer":"Java SE"},"deployment":{"resources":[{"includes":["*.jar"],"directory":"C:\\Work\\NCHS\\XDRJavaCode\\dcp-direct-hisp/target"}]}}, configuration.deployment)
+[DEBUG] Using Slf4j logging framework
+Auth type: AZURE_CLI
+Default subscription: DDPHSS-NCHS-DEV-C1(78f4d198-9cd7-44f1-9e55-61a5e012d4e8)
+Username: UCN2-SU@cdc.gov
+[INFO] Subscription: DDPHSS-NCHS-DEV-C1(78f4d198-9cd7-44f1-9e55-61a5e012d4e8)
+[WARNING] 'Java 17' may not be a valid java version, recommended values are `Java 8` and `Java 11`
+[INFO] Updating target Web App nchs-ede-dev-hehrxdr-as...
+[DEBUG] validate( {"subscriptionId":"78f4d198-9cd7-44f1-9e55-61a5e012d4e8","servicePlanResourceGroup":"nchs-hehr-dev-moderate-xdr-rg","servicePlanName":"nchs-ede-hehrxdrsoap-app-service-plan2","os":"WINDOWS","region":{"name":"eastus","label":"East US"},"pricingTier":{"tier":"PremiumV3","size":"P1v3"}}, {"subscriptionId":"78f4d198-9cd7-44f1-9e55-61a5e012d4e8","servicePlanResourceGroup":"nchs-hehr-dev-moderate-xdr-rg","servicePlanName":"nchs-ede-hehrxdrsoap-app-service-plan2","os":"WINDOWS","region":{"name":"eastus","label":"East US"},"pricingTier":{"tier":"PremiumV3","size":"P1v3"}}, $)
+[DEBUG] validate( {"subscriptionId":"78f4d198-9cd7-44f1-9e55-61a5e012d4e8","servicePlanResourceGroup":"nchs-hehr-dev-moderate-xdr-rg","servicePlanName":"nchs-ede-hehrxdrsoap-app-service-plan2","os":"WINDOWS","region":{"name":"eastus","label":"East US"},"pricingTier":{"tier":"PremiumV3","size":"P1v3"}}, {"subscriptionId":"78f4d198-9cd7-44f1-9e55-61a5e012d4e8","servicePlanResourceGroup":"nchs-hehr-dev-moderate-xdr-rg","servicePlanName":"nchs-ede-hehrxdrsoap-app-service-plan2","os":"WINDOWS","region":{"name":"eastus","label":"East US"},"pricingTier":{"tier":"PremiumV3","size":"P1v3"}}, $)
+[DEBUG] validate( "nchs-ede-hehrxdrsoap-app-service-plan2", {"subscriptionId":"78f4d198-9cd7-44f1-9e55-61a5e012d4e8","servicePlanResourceGroup":"nchs-hehr-dev-moderate-xdr-rg","servicePlanName":"nchs-ede-hehrxdrsoap-app-service-plan2","os":"WINDOWS","region":{"name":"eastus","label":"East US"},"pricingTier":{"tier":"PremiumV3","size":"P1v3"}}, $.servicePlanName)
+[DEBUG] validate( "nchs-ede-hehrxdrsoap-app-service-plan2", {"subscriptionId":"78f4d198-9cd7-44f1-9e55-61a5e012d4e8","servicePlanResourceGroup":"nchs-hehr-dev-moderate-xdr-rg","servicePlanName":"nchs-ede-hehrxdrsoap-app-service-plan2","os":"WINDOWS","region":{"name":"eastus","label":"East US"},"pricingTier":{"tier":"PremiumV3","size":"P1v3"}}, $.servicePlanName)
+[DEBUG] validate( "nchs-ede-hehrxdrsoap-app-service-plan2", {"subscriptionId":"78f4d198-9cd7-44f1-9e55-61a5e012d4e8","servicePlanResourceGroup":"nchs-hehr-dev-moderate-xdr-rg","servicePlanName":"nchs-ede-hehrxdrsoap-app-service-plan2","os":"WINDOWS","region":{"name":"eastus","label":"East US"},"pricingTier":{"tier":"PremiumV3","size":"P1v3"}}, $.servicePlanName)
+[DEBUG] validate( "nchs-ede-hehrxdrsoap-app-service-plan2", {"subscriptionId":"78f4d198-9cd7-44f1-9e55-61a5e012d4e8","servicePlanResourceGroup":"nchs-hehr-dev-moderate-xdr-rg","servicePlanName":"nchs-ede-hehrxdrsoap-app-service-plan2","os":"WINDOWS","region":{"name":"eastus","label":"East US"},"pricingTier":{"tier":"PremiumV3","size":"P1v3"}}, $.servicePlanName)
+[DEBUG] validate( "nchs-ede-hehrxdrsoap-app-service-plan2", {"subscriptionId":"78f4d198-9cd7-44f1-9e55-61a5e012d4e8","servicePlanResourceGroup":"nchs-hehr-dev-moderate-xdr-rg","servicePlanName":"nchs-ede-hehrxdrsoap-app-service-plan2","os":"WINDOWS","region":{"name":"eastus","label":"East US"},"pricingTier":{"tier":"PremiumV3","size":"P1v3"}}, $.servicePlanName)
+[DEBUG] validate( "WINDOWS", {"subscriptionId":"78f4d198-9cd7-44f1-9e55-61a5e012d4e8","servicePlanResourceGroup":"nchs-hehr-dev-moderate-xdr-rg","servicePlanName":"nchs-ede-hehrxdrsoap-app-service-plan2","os":"WINDOWS","region":{"name":"eastus","label":"East US"},"pricingTier":{"tier":"PremiumV3","size":"P1v3"}}, $.os)
+[DEBUG] validate( "WINDOWS", {"subscriptionId":"78f4d198-9cd7-44f1-9e55-61a5e012d4e8","servicePlanResourceGroup":"nchs-hehr-dev-moderate-xdr-rg","servicePlanName":"nchs-ede-hehrxdrsoap-app-service-plan2","os":"WINDOWS","region":{"name":"eastus","label":"East US"},"pricingTier":{"tier":"PremiumV3","size":"P1v3"}}, $.os)
+[DEBUG] validate( "WINDOWS", {"subscriptionId":"78f4d198-9cd7-44f1-9e55-61a5e012d4e8","servicePlanResourceGroup":"nchs-hehr-dev-moderate-xdr-rg","servicePlanName":"nchs-ede-hehrxdrsoap-app-service-plan2","os":"WINDOWS","region":{"name":"eastus","label":"East US"},"pricingTier":{"tier":"PremiumV3","size":"P1v3"}}, $.os)
+[DEBUG] validate( "nchs-hehr-dev-moderate-xdr-rg", {"subscriptionId":"78f4d198-9cd7-44f1-9e55-61a5e012d4e8","servicePlanResourceGroup":"nchs-hehr-dev-moderate-xdr-rg","servicePlanName":"nchs-ede-hehrxdrsoap-app-service-plan2","os":"WINDOWS","region":{"name":"eastus","label":"East US"},"pricingTier":{"tier":"PremiumV3","size":"P1v3"}}, $.servicePlanResourceGroup)
+[DEBUG] validate( "nchs-hehr-dev-moderate-xdr-rg", {"subscriptionId":"78f4d198-9cd7-44f1-9e55-61a5e012d4e8","servicePlanResourceGroup":"nchs-hehr-dev-moderate-xdr-rg","servicePlanName":"nchs-ede-hehrxdrsoap-app-service-plan2","os":"WINDOWS","region":{"name":"eastus","label":"East US"},"pricingTier":{"tier":"PremiumV3","size":"P1v3"}}, $.servicePlanResourceGroup)
+[DEBUG] validate( "nchs-hehr-dev-moderate-xdr-rg", {"subscriptionId":"78f4d198-9cd7-44f1-9e55-61a5e012d4e8","servicePlanResourceGroup":"nchs-hehr-dev-moderate-xdr-rg","servicePlanName":"nchs-ede-hehrxdrsoap-app-service-plan2","os":"WINDOWS","region":{"name":"eastus","label":"East US"},"pricingTier":{"tier":"PremiumV3","size":"P1v3"}}, $.servicePlanResourceGroup)
+[DEBUG] validate( "nchs-hehr-dev-moderate-xdr-rg", {"subscriptionId":"78f4d198-9cd7-44f1-9e55-61a5e012d4e8","servicePlanResourceGroup":"nchs-hehr-dev-moderate-xdr-rg","servicePlanName":"nchs-ede-hehrxdrsoap-app-service-plan2","os":"WINDOWS","region":{"name":"eastus","label":"East US"},"pricingTier":{"tier":"PremiumV3","size":"P1v3"}}, $.servicePlanResourceGroup)
+[DEBUG] validate( "nchs-hehr-dev-moderate-xdr-rg", {"subscriptionId":"78f4d198-9cd7-44f1-9e55-61a5e012d4e8","servicePlanResourceGroup":"nchs-hehr-dev-moderate-xdr-rg","servicePlanName":"nchs-ede-hehrxdrsoap-app-service-plan2","os":"WINDOWS","region":{"name":"eastus","label":"East US"},"pricingTier":{"tier":"PremiumV3","size":"P1v3"}}, $.servicePlanResourceGroup)
+[DEBUG] validate( {"tier":"PremiumV3","size":"P1v3"}, {"subscriptionId":"78f4d198-9cd7-44f1-9e55-61a5e012d4e8","servicePlanResourceGroup":"nchs-hehr-dev-moderate-xdr-rg","servicePlanName":"nchs-ede-hehrxdrsoap-app-service-plan2","os":"WINDOWS","region":{"name":"eastus","label":"East US"},"pricingTier":{"tier":"PremiumV3","size":"P1v3"}}, $.pricingTier)
+[DEBUG] validate( "78f4d198-9cd7-44f1-9e55-61a5e012d4e8", {"subscriptionId":"78f4d198-9cd7-44f1-9e55-61a5e012d4e8","servicePlanResourceGroup":"nchs-hehr-dev-moderate-xdr-rg","servicePlanName":"nchs-ede-hehrxdrsoap-app-service-plan2","os":"WINDOWS","region":{"name":"eastus","label":"East US"},"pricingTier":{"tier":"PremiumV3","size":"P1v3"}}, $.subscriptionId)
+[DEBUG] validate( "78f4d198-9cd7-44f1-9e55-61a5e012d4e8", {"subscriptionId":"78f4d198-9cd7-44f1-9e55-61a5e012d4e8","servicePlanResourceGroup":"nchs-hehr-dev-moderate-xdr-rg","servicePlanName":"nchs-ede-hehrxdrsoap-app-service-plan2","os":"WINDOWS","region":{"name":"eastus","label":"East US"},"pricingTier":{"tier":"PremiumV3","size":"P1v3"}}, $.subscriptionId)
+[DEBUG] validate( "78f4d198-9cd7-44f1-9e55-61a5e012d4e8", {"subscriptionId":"78f4d198-9cd7-44f1-9e55-61a5e012d4e8","servicePlanResourceGroup":"nchs-hehr-dev-moderate-xdr-rg","servicePlanName":"nchs-ede-hehrxdrsoap-app-service-plan2","os":"WINDOWS","region":{"name":"eastus","label":"East US"},"pricingTier":{"tier":"PremiumV3","size":"P1v3"}}, $.subscriptionId)
+[DEBUG] validate( {"name":"eastus","label":"East US"}, {"subscriptionId":"78f4d198-9cd7-44f1-9e55-61a5e012d4e8","servicePlanResourceGroup":"nchs-hehr-dev-moderate-xdr-rg","servicePlanName":"nchs-ede-hehrxdrsoap-app-service-plan2","os":"WINDOWS","region":{"name":"eastus","label":"East US"},"pricingTier":{"tier":"PremiumV3","size":"P1v3"}}, $.region)
+[INFO] Successfully updated Web App nchs-ede-dev-hehrxdr-as.
+[INFO] Trying to deploy external resources to nchs-ede-dev-hehrxdr-as...
+[INFO] Successfully deployed the resources to nchs-ede-dev-hehrxdr-as
+[INFO] Trying to deploy artifact to nchs-ede-dev-hehrxdr-as...
+[INFO] Deploying (C:\Work\NCHS\XDRJavaCode\dcp-direct-hisp\target\dcp-direct-hisp-1.0.0.RELEASE.jar)[jar]  ...
+[DEBUG] [Error Resume] Try count: 0, Error: {}
+java.net.SocketTimeoutException: Connect timed out
+    at sun.nio.ch.NioSocketImpl.timedFinishConnect (NioSocketImpl.java:551)
+    at sun.nio.ch.NioSocketImpl.connect (NioSocketImpl.java:602)
+    at java.net.SocksSocketImpl.connect (SocksSocketImpl.java:327)
+    at java.net.Socket.connect (Socket.java:633)
+    at okhttp3.internal.platform.Platform.connectSocket (Platform.kt:120)
+    at okhttp3.internal.connection.RealConnection.connectSocket (RealConnection.kt:295)
+    at okhttp3.internal.connection.RealConnection.connect (RealConnection.kt:207)
+    at okhttp3.internal.connection.ExchangeFinder.findConnection (ExchangeFinder.kt:226)
+    at okhttp3.internal.connection.ExchangeFinder.findHealthyConnection (ExchangeFinder.kt:106)
+    at okhttp3.internal.connection.ExchangeFinder.find (ExchangeFinder.kt:74)
+    at okhttp3.internal.connection.RealCall.initExchange$okhttp (RealCall.kt:255)
+    at okhttp3.internal.connection.ConnectInterceptor.intercept (ConnectInterceptor.kt:32)
+    at okhttp3.internal.http.RealInterceptorChain.proceed (RealInterceptorChain.kt:109)
+    at okhttp3.internal.cache.CacheInterceptor.intercept (CacheInterceptor.kt:95)
+    at okhttp3.internal.http.RealInterceptorChain.proceed (RealInterceptorChain.kt:109)
+    at okhttp3.internal.http.BridgeInterceptor.intercept (BridgeInterceptor.kt:83)
+    at okhttp3.internal.http.RealInterceptorChain.proceed (RealInterceptorChain.kt:109)
+    at okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept (RetryAndFollowUpInterceptor.kt:76)
+    at okhttp3.internal.http.RealInterceptorChain.proceed (RealInterceptorChain.kt:109)
+    at okhttp3.internal.connection.RealCall.getResponseWithInterceptorChain$okhttp (RealCall.kt:201)
+    at okhttp3.internal.connection.RealCall$AsyncCall.run (RealCall.kt:517)
+    at java.util.concurrent.ThreadPoolExecutor.runWorker (ThreadPoolExecutor.java:1136)
+    at java.util.concurrent.ThreadPoolExecutor$Worker.run (ThreadPoolExecutor.java:635)
+    at java.lang.Thread.run (Thread.java:833)
+[DEBUG] [Error Resume] Try count: 1, Error: {}
+java.net.SocketTimeoutException: Connect timed out
+    at sun.nio.ch.NioSocketImpl.timedFinishConnect (NioSocketImpl.java:551)
+    at sun.nio.ch.NioSocketImpl.connect (NioSocketImpl.java:602)
+    at java.net.SocksSocketImpl.connect (SocksSocketImpl.java:327)
+    at java.net.Socket.connect (Socket.java:633)
+    at okhttp3.internal.platform.Platform.connectSocket (Platform.kt:120)
+    at okhttp3.internal.connection.RealConnection.connectSocket (RealConnection.kt:295)
+    at okhttp3.internal.connection.RealConnection.connect (RealConnection.kt:207)
+    at okhttp3.internal.connection.ExchangeFinder.findConnection (ExchangeFinder.kt:226)
+    at okhttp3.internal.connection.ExchangeFinder.findHealthyConnection (ExchangeFinder.kt:106)
+    at okhttp3.internal.connection.ExchangeFinder.find (ExchangeFinder.kt:74)
+    at okhttp3.internal.connection.RealCall.initExchange$okhttp (RealCall.kt:255)
+    at okhttp3.internal.connection.ConnectInterceptor.intercept (ConnectInterceptor.kt:32)
+    at okhttp3.internal.http.RealInterceptorChain.proceed (RealInterceptorChain.kt:109)
+    at okhttp3.internal.cache.CacheInterceptor.intercept (CacheInterceptor.kt:95)
+    at okhttp3.internal.http.RealInterceptorChain.proceed (RealInterceptorChain.kt:109)
+    at okhttp3.internal.http.BridgeInterceptor.intercept (BridgeInterceptor.kt:83)
+    at okhttp3.internal.http.RealInterceptorChain.proceed (RealInterceptorChain.kt:109)
+    at okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept (RetryAndFollowUpInterceptor.kt:76)
+    at okhttp3.internal.http.RealInterceptorChain.proceed (RealInterceptorChain.kt:109)
+    at okhttp3.internal.connection.RealCall.getResponseWithInterceptorChain$okhttp (RealCall.kt:201)
+    at okhttp3.internal.connection.RealCall$AsyncCall.run (RealCall.kt:517)
+    at java.util.concurrent.ThreadPoolExecutor.runWorker (ThreadPoolExecutor.java:1136)
+    at java.util.concurrent.ThreadPoolExecutor$Worker.run (ThreadPoolExecutor.java:635)
+    at java.lang.Thread.run (Thread.java:833)
+[DEBUG] [Error Resume] Try count: 2, Error: {}
+java.net.SocketTimeoutException: Connect timed out
+    at sun.nio.ch.NioSocketImpl.timedFinishConnect (NioSocketImpl.java:551)
+    at sun.nio.ch.NioSocketImpl.connect (NioSocketImpl.java:602)
+    at java.net.SocksSocketImpl.connect (SocksSocketImpl.java:327)
+    at java.net.Socket.connect (Socket.java:633)
+    at okhttp3.internal.platform.Platform.connectSocket (Platform.kt:120)
+    at okhttp3.internal.connection.RealConnection.connectSocket (RealConnection.kt:295)
+    at okhttp3.internal.connection.RealConnection.connect (RealConnection.kt:207)
+    at okhttp3.internal.connection.ExchangeFinder.findConnection (ExchangeFinder.kt:226)
+    at okhttp3.internal.connection.ExchangeFinder.findHealthyConnection (ExchangeFinder.kt:106)
+    at okhttp3.internal.connection.ExchangeFinder.find (ExchangeFinder.kt:74)
+    at okhttp3.internal.connection.RealCall.initExchange$okhttp (RealCall.kt:255)
+    at okhttp3.internal.connection.ConnectInterceptor.intercept (ConnectInterceptor.kt:32)
+    at okhttp3.internal.http.RealInterceptorChain.proceed (RealInterceptorChain.kt:109)
+    at okhttp3.internal.cache.CacheInterceptor.intercept (CacheInterceptor.kt:95)
+    at okhttp3.internal.http.RealInterceptorChain.proceed (RealInterceptorChain.kt:109)
+    at okhttp3.internal.http.BridgeInterceptor.intercept (BridgeInterceptor.kt:83)
+    at okhttp3.internal.http.RealInterceptorChain.proceed (RealInterceptorChain.kt:109)
+    at okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept (RetryAndFollowUpInterceptor.kt:76)
+    at okhttp3.internal.http.RealInterceptorChain.proceed (RealInterceptorChain.kt:109)
+    at okhttp3.internal.connection.RealCall.getResponseWithInterceptorChain$okhttp (RealCall.kt:201)
+    at okhttp3.internal.connection.RealCall$AsyncCall.run (RealCall.kt:517)
+    at java.util.concurrent.ThreadPoolExecutor.runWorker (ThreadPoolExecutor.java:1136)
+    at java.util.concurrent.ThreadPoolExecutor$Worker.run (ThreadPoolExecutor.java:635)
+    at java.lang.Thread.run (Thread.java:833)
+[ERROR] Max retries 3 times exceeded. Error Details: Connect timed out
+java.lang.RuntimeException: Max retries 3 times exceeded. Error Details: Connect timed out
+    at com.azure.core.http.policy.RetryPolicy.lambda$attemptAsync$1 (RetryPolicy.java:127)
+    at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onError (FluxOnErrorResume.java:94)
+    at reactor.core.publisher.MonoFlatMap$FlatMapMain.onError (MonoFlatMap.java:172)
+    at reactor.core.publisher.FluxHide$SuppressFuseableSubscriber.onError (FluxHide.java:141)
+    at reactor.core.publisher.MonoCreate$DefaultMonoSink.error (MonoCreate.java:189)
+    at com.azure.core.http.okhttp.OkHttpAsyncHttpClient$OkHttpCallback.onFailure (OkHttpAsyncHttpClient.java:168)
+    at okhttp3.internal.connection.RealCall$AsyncCall.run (RealCall.kt:525)
+    at java.util.concurrent.ThreadPoolExecutor.runWorker (ThreadPoolExecutor.java:1136)
+    at java.util.concurrent.ThreadPoolExecutor$Worker.run (ThreadPoolExecutor.java:635)
+    at java.lang.Thread.run (Thread.java:833)
+Caused by: java.net.SocketTimeoutException: Connect timed out
+    at sun.nio.ch.NioSocketImpl.timedFinishConnect (NioSocketImpl.java:551)
+    at sun.nio.ch.NioSocketImpl.connect (NioSocketImpl.java:602)
+    at java.net.SocksSocketImpl.connect (SocksSocketImpl.java:327)
+    at java.net.Socket.connect (Socket.java:633)
+    at okhttp3.internal.platform.Platform.connectSocket (Platform.kt:120)
+    at okhttp3.internal.connection.RealConnection.connectSocket (RealConnection.kt:295)
+    at okhttp3.internal.connection.RealConnection.connect (RealConnection.kt:207)
+    at okhttp3.internal.connection.ExchangeFinder.findConnection (ExchangeFinder.kt:226)
+    at okhttp3.internal.connection.ExchangeFinder.findHealthyConnection (ExchangeFinder.kt:106)
+    at okhttp3.internal.connection.ExchangeFinder.find (ExchangeFinder.kt:74)
+    at okhttp3.internal.connection.RealCall.initExchange$okhttp (RealCall.kt:255)
+    at okhttp3.internal.connection.ConnectInterceptor.intercept (ConnectInterceptor.kt:32)
+    at okhttp3.internal.http.RealInterceptorChain.proceed (RealInterceptorChain.kt:109)
+    at okhttp3.internal.cache.CacheInterceptor.intercept (CacheInterceptor.kt:95)
+    at okhttp3.internal.http.RealInterceptorChain.proceed (RealInterceptorChain.kt:109)
+    at okhttp3.internal.http.BridgeInterceptor.intercept (BridgeInterceptor.kt:83)
+    at okhttp3.internal.http.RealInterceptorChain.proceed (RealInterceptorChain.kt:109)
+    at okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept (RetryAndFollowUpInterceptor.kt:76)
+    at okhttp3.internal.http.RealInterceptorChain.proceed (RealInterceptorChain.kt:109)
+    at okhttp3.internal.connection.RealCall.getResponseWithInterceptorChain$okhttp (RealCall.kt:201)
+    at okhttp3.internal.connection.RealCall$AsyncCall.run (RealCall.kt:517)
+    at java.util.concurrent.ThreadPoolExecutor.runWorker (ThreadPoolExecutor.java:1136)
+    at java.util.concurrent.ThreadPoolExecutor$Worker.run (ThreadPoolExecutor.java:635)
+    at java.lang.Thread.run (Thread.java:833)
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  01:21 min
+[INFO] Finished at: 2023-11-01T14:23:25-04:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal com.microsoft.azure:azure-webapp-maven-plugin:2.2.0:deploy (default-cli) on project dcp-direct-hisp: deploy to Azure Web App with resource creation or updating: deploy artifacts to Azure Web App (nchs-ede-dev-hehrxdr-as): Max retries 3 times exceeded. Error Details: Connect timed out -> [Help 1]
+org.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal com.microsoft.azure:azure-webapp-maven-plugin:2.2.0:deploy (default-cli) on project dcp-direct-hisp: deploy to Azure Web App with resource creation or updating
+    at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute2 (MojoExecutor.java:333)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute (MojoExecutor.java:316)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:212)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:174)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.access$000 (MojoExecutor.java:75)
+    at org.apache.maven.lifecycle.internal.MojoExecutor$1.run (MojoExecutor.java:162)
+    at org.apache.maven.plugin.DefaultMojosExecutionStrategy.execute (DefaultMojosExecutionStrategy.java:39)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:159)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:105)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:73)
+    at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build (SingleThreadedBuilder.java:53)
+    at org.apache.maven.lifecycle.internal.LifecycleStarter.execute (LifecycleStarter.java:118)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:261)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:173)
+    at org.apache.maven.DefaultMaven.execute (DefaultMaven.java:101)
+    at org.apache.maven.cli.MavenCli.execute (MavenCli.java:906)
+    at org.apache.maven.cli.MavenCli.doMain (MavenCli.java:283)
+    at org.apache.maven.cli.MavenCli.main (MavenCli.java:206)
+    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0 (Native Method)
+    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke (NativeMethodAccessorImpl.java:77)
+    at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke (DelegatingMethodAccessorImpl.java:43)
+    at java.lang.reflect.Method.invoke (Method.java:568)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced (Launcher.java:283)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launch (Launcher.java:226)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode (Launcher.java:407)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.main (Launcher.java:348)
+Caused by: org.apache.maven.plugin.MojoExecutionException: deploy to Azure Web App with resource creation or updating
+    at com.microsoft.azure.maven.AbstractAzureMojo.onMojoError (AbstractAzureMojo.java:588)
+    at com.microsoft.azure.maven.AbstractAzureMojo.execute (AbstractAzureMojo.java:508)
+    at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo (DefaultBuildPluginManager.java:126)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute2 (MojoExecutor.java:328)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute (MojoExecutor.java:316)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:212)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:174)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.access$000 (MojoExecutor.java:75)
+    at org.apache.maven.lifecycle.internal.MojoExecutor$1.run (MojoExecutor.java:162)
+    at org.apache.maven.plugin.DefaultMojosExecutionStrategy.execute (DefaultMojosExecutionStrategy.java:39)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:159)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:105)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:73)
+    at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build (SingleThreadedBuilder.java:53)
+    at org.apache.maven.lifecycle.internal.LifecycleStarter.execute (LifecycleStarter.java:118)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:261)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:173)
+    at org.apache.maven.DefaultMaven.execute (DefaultMaven.java:101)
+    at org.apache.maven.cli.MavenCli.execute (MavenCli.java:906)
+    at org.apache.maven.cli.MavenCli.doMain (MavenCli.java:283)
+    at org.apache.maven.cli.MavenCli.main (MavenCli.java:206)
+    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0 (Native Method)
+    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke (NativeMethodAccessorImpl.java:77)
+    at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke (DelegatingMethodAccessorImpl.java:43)
+    at java.lang.reflect.Method.invoke (Method.java:568)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced (Launcher.java:283)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launch (Launcher.java:226)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode (Launcher.java:407)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.main (Launcher.java:348)
+Caused by: com.microsoft.azure.toolkit.lib.common.operation.AzureOperationException: deploy to Azure Web App with resource creation or updating
+    at com.microsoft.azure.toolkit.lib.common.operation.AzureOperationAspect.afterThrowing (AzureOperationAspect.java:81)
+    at com.microsoft.azure.maven.webapp.DeployMojo.doExecute (DeployMojo.java:63)
+    at com.microsoft.azure.maven.AbstractAzureMojo.execute (AbstractAzureMojo.java:503)
+    at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo (DefaultBuildPluginManager.java:126)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute2 (MojoExecutor.java:328)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute (MojoExecutor.java:316)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:212)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:174)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.access$000 (MojoExecutor.java:75)
+    at org.apache.maven.lifecycle.internal.MojoExecutor$1.run (MojoExecutor.java:162)
+    at org.apache.maven.plugin.DefaultMojosExecutionStrategy.execute (DefaultMojosExecutionStrategy.java:39)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:159)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:105)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:73)
+    at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build (SingleThreadedBuilder.java:53)
+    at org.apache.maven.lifecycle.internal.LifecycleStarter.execute (LifecycleStarter.java:118)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:261)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:173)
+    at org.apache.maven.DefaultMaven.execute (DefaultMaven.java:101)
+    at org.apache.maven.cli.MavenCli.execute (MavenCli.java:906)
+    at org.apache.maven.cli.MavenCli.doMain (MavenCli.java:283)
+    at org.apache.maven.cli.MavenCli.main (MavenCli.java:206)
+    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0 (Native Method)
+    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke (NativeMethodAccessorImpl.java:77)
+    at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke (DelegatingMethodAccessorImpl.java:43)
+    at java.lang.reflect.Method.invoke (Method.java:568)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced (Launcher.java:283)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launch (Launcher.java:226)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode (Launcher.java:407)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.main (Launcher.java:348)
+Caused by: com.microsoft.azure.toolkit.lib.common.operation.AzureOperationException: deploy artifacts to Azure Web App (nchs-ede-dev-hehrxdr-as)
+    at com.microsoft.azure.toolkit.lib.common.operation.AzureOperationAspect.afterThrowing (AzureOperationAspect.java:81)
+    at com.microsoft.azure.toolkit.lib.appservice.task.DeployWebAppTask.execute (DeployWebAppTask.java:63)
+    at com.microsoft.azure.maven.webapp.DeployMojo.deploy (DeployMojo.java:136)
+    at com.microsoft.azure.maven.webapp.DeployMojo.doExecute (DeployMojo.java:61)
+    at com.microsoft.azure.maven.AbstractAzureMojo.execute (AbstractAzureMojo.java:503)
+    at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo (DefaultBuildPluginManager.java:126)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute2 (MojoExecutor.java:328)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute (MojoExecutor.java:316)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:212)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:174)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.access$000 (MojoExecutor.java:75)
+    at org.apache.maven.lifecycle.internal.MojoExecutor$1.run (MojoExecutor.java:162)
+    at org.apache.maven.plugin.DefaultMojosExecutionStrategy.execute (DefaultMojosExecutionStrategy.java:39)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:159)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:105)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:73)
+    at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build (SingleThreadedBuilder.java:53)
+    at org.apache.maven.lifecycle.internal.LifecycleStarter.execute (LifecycleStarter.java:118)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:261)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:173)
+    at org.apache.maven.DefaultMaven.execute (DefaultMaven.java:101)
+    at org.apache.maven.cli.MavenCli.execute (MavenCli.java:906)
+    at org.apache.maven.cli.MavenCli.doMain (MavenCli.java:283)
+    at org.apache.maven.cli.MavenCli.main (MavenCli.java:206)
+    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0 (Native Method)
+    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke (NativeMethodAccessorImpl.java:77)
+    at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke (DelegatingMethodAccessorImpl.java:43)
+    at java.lang.reflect.Method.invoke (Method.java:568)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced (Launcher.java:283)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launch (Launcher.java:226)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode (Launcher.java:407)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.main (Launcher.java:348)
+Caused by: java.lang.RuntimeException: Max retries 3 times exceeded. Error Details: Connect timed out
+    at com.azure.core.http.policy.RetryPolicy.lambda$attemptAsync$1 (RetryPolicy.java:127)
+    at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onError (FluxOnErrorResume.java:94)
+    at reactor.core.publisher.MonoFlatMap$FlatMapMain.onError (MonoFlatMap.java:172)
+    at reactor.core.publisher.FluxHide$SuppressFuseableSubscriber.onError (FluxHide.java:141)
+    at reactor.core.publisher.MonoCreate$DefaultMonoSink.error (MonoCreate.java:189)
+    at com.azure.core.http.okhttp.OkHttpAsyncHttpClient$OkHttpCallback.onFailure (OkHttpAsyncHttpClient.java:168)
+    at okhttp3.internal.connection.RealCall$AsyncCall.run (RealCall.kt:525)
+    at java.util.concurrent.ThreadPoolExecutor.runWorker (ThreadPoolExecutor.java:1136)
+    at java.util.concurrent.ThreadPoolExecutor$Worker.run (ThreadPoolExecutor.java:635)
+    at java.lang.Thread.run (Thread.java:833)
+    Suppressed: java.lang.Exception: #block terminated with an error
+        at reactor.core.publisher.BlockingSingleSubscriber.blockingGet (BlockingSingleSubscriber.java:99)
+        at reactor.core.publisher.Mono.block (Mono.java:1703)
+        at com.azure.resourcemanager.appservice.implementation.WebAppImpl.deploy (WebAppImpl.java:298)
+        at com.microsoft.azure.toolkit.lib.appservice.service.impl.WebApp.deploy (WebApp.java:120)
+        at com.microsoft.azure.toolkit.lib.appservice.task.DeployWebAppTask.lambda$deployArtifacts$2 (DeployWebAppTask.java:74)
+        at java.util.ArrayList.forEach (ArrayList.java:1511)
+        at com.microsoft.azure.toolkit.lib.appservice.task.DeployWebAppTask.deployArtifacts (DeployWebAppTask.java:74)
+        at com.microsoft.azure.toolkit.lib.appservice.task.DeployWebAppTask.execute (DeployWebAppTask.java:58)
+        at com.microsoft.azure.maven.webapp.DeployMojo.deploy (DeployMojo.java:136)
+        at com.microsoft.azure.maven.webapp.DeployMojo.doExecute (DeployMojo.java:61)
+        at com.microsoft.azure.maven.AbstractAzureMojo.execute (AbstractAzureMojo.java:503)
+        at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo (DefaultBuildPluginManager.java:126)
+        at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute2 (MojoExecutor.java:328)
+        at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute (MojoExecutor.java:316)
+        at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:212)
+        at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:174)
+        at org.apache.maven.lifecycle.internal.MojoExecutor.access$000 (MojoExecutor.java:75)
+        at org.apache.maven.lifecycle.internal.MojoExecutor$1.run (MojoExecutor.java:162)
+        at org.apache.maven.plugin.DefaultMojosExecutionStrategy.execute (DefaultMojosExecutionStrategy.java:39)
+        at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:159)
+        at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:105)
+        at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:73)
+        at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build (SingleThreadedBuilder.java:53)
+        at org.apache.maven.lifecycle.internal.LifecycleStarter.execute (LifecycleStarter.java:118)
+        at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:261)
+        at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:173)
+        at org.apache.maven.DefaultMaven.execute (DefaultMaven.java:101)
+        at org.apache.maven.cli.MavenCli.execute (MavenCli.java:906)
+        at org.apache.maven.cli.MavenCli.doMain (MavenCli.java:283)
+        at org.apache.maven.cli.MavenCli.main (MavenCli.java:206)
+        at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0 (Native Method)
+        at jdk.internal.reflect.NativeMethodAccessorImpl.invoke (NativeMethodAccessorImpl.java:77)
+        at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke (DelegatingMethodAccessorImpl.java:43)
+        at java.lang.reflect.Method.invoke (Method.java:568)
+        at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced (Launcher.java:283)
+        at org.codehaus.plexus.classworlds.launcher.Launcher.launch (Launcher.java:226)
+        at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode (Launcher.java:407)
+        at org.codehaus.plexus.classworlds.launcher.Launcher.main (Launcher.java:348)
+Caused by: java.net.SocketTimeoutException: Connect timed out
+    at sun.nio.ch.NioSocketImpl.timedFinishConnect (NioSocketImpl.java:551)
+    at sun.nio.ch.NioSocketImpl.connect (NioSocketImpl.java:602)
+    at java.net.SocksSocketImpl.connect (SocksSocketImpl.java:327)
+    at java.net.Socket.connect (Socket.java:633)
+    at okhttp3.internal.platform.Platform.connectSocket (Platform.kt:120)
+    at okhttp3.internal.connection.RealConnection.connectSocket (RealConnection.kt:295)
+    at okhttp3.internal.connection.RealConnection.connect (RealConnection.kt:207)
+    at okhttp3.internal.connection.ExchangeFinder.findConnection (ExchangeFinder.kt:226)
+    at okhttp3.internal.connection.ExchangeFinder.findHealthyConnection (ExchangeFinder.kt:106)
+    at okhttp3.internal.connection.ExchangeFinder.find (ExchangeFinder.kt:74)
+    at okhttp3.internal.connection.RealCall.initExchange$okhttp (RealCall.kt:255)
+    at okhttp3.internal.connection.ConnectInterceptor.intercept (ConnectInterceptor.kt:32)
+    at okhttp3.internal.http.RealInterceptorChain.proceed (RealInterceptorChain.kt:109)
+    at okhttp3.internal.cache.CacheInterceptor.intercept (CacheInterceptor.kt:95)
+    at okhttp3.internal.http.RealInterceptorChain.proceed (RealInterceptorChain.kt:109)
+    at okhttp3.internal.http.BridgeInterceptor.intercept (BridgeInterceptor.kt:83)
+    at okhttp3.internal.http.RealInterceptorChain.proceed (RealInterceptorChain.kt:109)
+    at okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept (RetryAndFollowUpInterceptor.kt:76)
+    at okhttp3.internal.http.RealInterceptorChain.proceed (RealInterceptorChain.kt:109)
+    at okhttp3.internal.connection.RealCall.getResponseWithInterceptorChain$okhttp (RealCall.kt:201)
+    at okhttp3.internal.connection.RealCall$AsyncCall.run (RealCall.kt:517)
+    at java.util.concurrent.ThreadPoolExecutor.runWorker (ThreadPoolExecutor.java:1136)
+    at java.util.concurrent.ThreadPoolExecutor$Worker.run (ThreadPoolExecutor.java:635)
+    at java.lang.Thread.run (Thread.java:833)
+[ERROR] 
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException
+[DEBUG] Shutting down adapter factory; available factories [file-lock, rwlock-local, semaphore-local, noop]; available name mappers [discriminating, file-gav, file-hgav, file-static, gav, static]
+[DEBUG] Shutting down 'file-lock' factory
+[DEBUG] Shutting down 'rwlock-local' factory
+[DEBUG] Shutting down 'semaphore-local' factory
+[DEBUG] Shutting down 'noop' factory
