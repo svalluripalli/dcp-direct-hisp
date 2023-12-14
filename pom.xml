@@ -246,7 +246,7 @@
 				<sourceType>wsdl</sourceType>
 					<sources>
 						<source>
-							${project.basedir}/src/main/resources/static/services/HISP_DocumentRepository_Service.wsdl</source>
+							${project.basedir}/src/main/resources/static/HISP_DocumentRepository_Service.wsdl</source>
 					</sources>
 				</configuration>
 			</plugin>
