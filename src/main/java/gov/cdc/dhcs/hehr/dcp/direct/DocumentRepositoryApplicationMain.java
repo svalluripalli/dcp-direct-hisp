@@ -25,7 +25,7 @@ import org.springframework.messaging.Message;
 /**
  * @author Sai Valluripalli
  */
-@SpringBootApplication(exclude = ContextFunctionCatalogAutoConfiguration.class)
+@SpringBootApplication
 public class DocumentRepositoryApplicationMain extends SpringBootServletInitializer {
 	
 	private static final Logger logger = LoggerFactory.getLogger(DocumentRepositoryApplicationMain.class);
