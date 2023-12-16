@@ -134,8 +134,43 @@
                 </plugin>
             </plugins>
         </pluginManagement>
-
         <plugins>
+            <plugin>
+                <groupId>com.microsoft.azure</groupId>
+                <artifactId>azure-functions-maven-plugin</artifactId>
+                <configuration>
+                    <resourceGroup>${resourceGroup}</resourceGroup>
+                    <appName>${functionAppName}</appName>
+                    <region>${functionAppRegion}</region>
+                    <appServicePlanName>${functionAppServicePlanName}</appServicePlanName>
+                    <pricingTier>${pricingTier}</pricingTier>
+                    <!-- <runtime>
+                        <os>docker</os>
+                    <image>${functionDockerImageName}</image>
+                    <serverId></serverId>
+                        <registryUrl></registryUrl>
+                    </runtime> -->
+                    <runtime>
+                        <os>linux</os>
+                        <javaVersion>${java.version}</javaVersion>
+                    </runtime>
+
+                    <appSettings>
+                        <property>
+                            <name>FUNCTIONS_EXTENSION_VERSION</name>
+                            <value>~4</value>
+                        </property>
+                    </appSettings>
+                </configuration>
+                <executions>
+                    <execution>
+                        <id>package-functions</id>
+                        <goals>
+                            <goal>package</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-deploy-plugin</artifactId>
@@ -175,34 +210,35 @@
             </plugin>
             <plugin>
                 <groupId>com.microsoft.azure</groupId>
-                <artifactId>azure-functions-maven-plugin</artifactId>
+                <artifactId>azure-webapp-maven-plugin</artifactId>
+                <version>2.12.0</version>
                 <configuration>
-                    <resourceGroup>${functionResourceGroup}</resourceGroup>
-                    <appName>${functionAppName}</appName>
-                    <region>${functionAppRegion}</region>
-                    <appServicePlanName>${functionAppServicePlanName}</appServicePlanName>
-                    <pricingTier>EP1</pricingTier>					
-                    <runtime>
-                        <os>linux</os>
-                        <javaVersion>17</javaVersion>
-                    </runtime>
-
-<<<<<<< HEAD
-                    <appSettings>
-                        <property>
-                            <name>FUNCTIONS_EXTENSION_VERSION</name>
-                            <value>~4</value>
-                        </property>
-                    </appSettings>
+                    <authentication>
+                        <serverId>azure-auth</serverId>
+                    </authentication>
+                    <resourceGroup>${resourceGroup}</resourceGroup>
+                    <appName>${springBootAppName}</appName>
+                    <region>${appDeploymentRegion}</region>
+                    <javaVersion>${java.version}</javaVersion>
+                    <deploymentType>ftp</deploymentType>
+                    <stopAppDuringDeployment>true</stopAppDuringDeployment>
+                    <resources>
+                        <resource>
+                            <directory>${project.basedir}/target</directory>
+                            <targetPath>/site/wwwroot/</targetPath>
+                            <includes>
+                                <include>*.jar</include>
+                            </includes>
+                        </resource>
+                        <resource>
+                            <directory>${project.basedir}</directory>
+                            <targetPath>/site/wwwroot/</targetPath>
+                            <includes>
+                                <include>web.config</include>
+                            </includes>
+                        </resource>
+                    </resources>
                 </configuration>
-                <executions>
-                    <execution>
-                        <id>package-functions</id>
-                        <goals>
-                            <goal>package</goal>
-                        </goals>
-                    </execution>
-                </executions>
             </plugin>
             <plugin>
                 <artifactId>maven-resources-plugin</artifactId>
@@ -244,9 +280,10 @@
                     </execution>
                 </executions>
                 <configuration>
-                    <sourceType>wsdl</sourceType>
                     <sources>
-                        <source>${project.basedir}/src/main/resources/static/HISP_DocumentRepository_Service.wsdl</source>
+                        <source>
+                            ${project.basedir}/src/main/resources/static/services/XDS.b_DocumentRepositoryMTOM.xsd
+                        </source>
                     </sources>
                 </configuration>
             </plugin>
@@ -255,79 +292,8 @@
                 <artifactId>spring-boot-maven-plugin</artifactId>
             </plugin>
         </plugins>
-=======
-					<appSettings>
-						<property>
-							<name>FUNCTIONS_EXTENSION_VERSION</name>
-							<value>~4</value>
-						</property>
-					</appSettings>
-				</configuration>
-				<executions>
-					<execution>
-						<id>package-functions</id>
-						<goals>
-							<goal>package</goal>
-						</goals>
-					</execution>
-				</executions>
-			</plugin>
-			<plugin>
-				<artifactId>maven-resources-plugin</artifactId>
-				<executions>
-					<execution>
-						<id>copy-resources</id>
-						<phase>package</phase>
-						<goals>
-							<goal>copy-resources</goal>
-						</goals>
-						<configuration>
-							<overwrite>true</overwrite>
-							<outputDirectory>
-								${stagingDirectory}
-							</outputDirectory>
-							<resources>
-								<resource>
-									<directory>${project.basedir}/src/main/azure
-									</directory>
-									<includes>
-										<include>**</include>
-									</includes>
-								</resource>
-							</resources>
-						</configuration>
-					</execution>
-				</executions>
-			</plugin>
-			<plugin>
-				<groupId>org.codehaus.mojo</groupId>
-				<artifactId>jaxb2-maven-plugin</artifactId>
-				<version>3.1.0</version>
-				<executions>
-					<execution>
-						<id>xjc</id>
-						<goals>
-							<goal>xjc</goal>
-						</goals>
-					</execution>
-				</executions>
-				<configuration>
-				<sourceType>wsdl</sourceType>
-					<sources>
-						<source>
-							${project.basedir}/src/main/resources/static/HISP_DocumentRepository_Service.wsdl</source>
-					</sources>
-				</configuration>
-			</plugin>
-			<plugin>
-				<groupId>org.springframework.boot</groupId>
-				<artifactId>spring-boot-maven-plugin</artifactId>
-			</plugin>
-		</plugins>
->>>>>>> a1f573de8b991a92133193ea7d1aa5822abe5f50
-
     </build>
-
+            
     <repositories>
         <repository>
             <id>spring-snapshots</id>
