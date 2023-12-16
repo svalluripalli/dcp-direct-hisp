@@ -17,6 +17,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
+import org.springframework.cloud.function.context.config.ContextFunctionCatalogAutoConfiguration;
 import org.springframework.cloud.function.json.JsonMapper;
 import org.springframework.context.annotation.Bean;
 import org.springframework.messaging.Message;
@@ -24,7 +25,7 @@ import org.springframework.messaging.Message;
 /**
  * @author Sai Valluripalli
  */
-@SpringBootApplication
+@SpringBootApplication(exclude = ContextFunctionCatalogAutoConfiguration.class)
 public class DocumentRepositoryApplicationMain extends SpringBootServletInitializer {
 	
 	private static final Logger logger = LoggerFactory.getLogger(DocumentRepositoryApplicationMain.class);
