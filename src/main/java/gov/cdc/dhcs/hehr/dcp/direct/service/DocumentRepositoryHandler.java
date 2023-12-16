@@ -21,11 +21,10 @@ public class DocumentRepositoryHandler implements SOAPHandler<SOAPMessageContext
 
     @Override
     public Set<QName> getHeaders() {
-    	QName securityHeader = new QName("http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd", 
-                "Security"); 
-        HashSet<QName> headers = new HashSet<QName>(); 
-        headers.add(securityHeader);         
-        return headers; 
+    	Set<QName> set = new HashSet<QName>();
+    	set.add(new QName("http://www.w3.org/2005/08/addressing", "Action")); 
+    	set.add(new QName("http://www.w3.org/2005/08/addressing", "To"));         
+        return set; 
     }
 
     @Override
