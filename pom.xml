@@ -280,10 +280,10 @@
                     </execution>
                 </executions>
                 <configuration>
+                    <sourceType>wsdl</sourceType>
                     <sources>
                         <source>
-                            ${project.basedir}/src/main/resources/static/services/XDS.b_DocumentRepositoryMTOM.xsd
-                        </source>
+                            ${project.basedir}/src/main/resources/static/HISP_DocumentRepository_Service.wsdl</source>
                     </sources>
                 </configuration>
             </plugin>
