@@ -9,6 +9,7 @@ import jakarta.xml.ws.handler.MessageContext;
 import jakarta.xml.ws.handler.soap.SOAPHandler;
 import jakarta.xml.ws.handler.soap.SOAPMessageContext;
 import java.util.Collections;
+import java.util.HashSet;
 import java.util.Set;
 import javax.xml.namespace.QName;
 
@@ -20,7 +21,11 @@ public class DocumentRepositoryHandler implements SOAPHandler<SOAPMessageContext
 
     @Override
     public Set<QName> getHeaders() {
-        return Collections.emptySet();
+    	QName securityHeader = new QName("http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd", 
+                "Security"); 
+        HashSet<QName> headers = new HashSet<QName>(); 
+        headers.add(securityHeader);         
+        return headers; 
     }
 
     @Override
