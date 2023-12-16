@@ -22,6 +22,8 @@ import org.springframework.ws.wsdl.wsdl11.Wsdl11Definition;
 import org.springframework.xml.xsd.SimpleXsdSchema;
 import org.springframework.xml.xsd.XsdSchema;
 
+import jakarta.jws.HandlerChain;
+
 /**
  * 
  * @author Sai Valluripalli
@@ -29,6 +31,7 @@ import org.springframework.xml.xsd.XsdSchema;
  */
 @EnableWs
 @Configuration
+@HandlerChain(file="handler-chain.xml")
 public class WebServiceConfig extends WsConfigurerAdapter {
 	
 	@Bean

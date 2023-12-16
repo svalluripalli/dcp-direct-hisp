@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<endpoints xmlns='http://java.sun.com/xml/ns/jax-ws/ri/runtime'
+           xmlns:javaee="https://jakarta.ee/xml/ns/jakartaee" version='2.0'>
+    <endpoint name='DocumentRepositoryEndpoint'
+              implementation='gov.cdc.dhcs.hehr.dcp.direct.service.DocumentRepositoryEndpoint'
+              wsdl='src/main/resources/static/HISP_DocumentRepository_Service.wsdl'
+              service='{http://localhost:8080/services}HISP_DocumentRepository_Service'
+              port='{http://localhost:8080/services}HISP_DocumentRepository_ServiceHttpsSoap12Endpoint'
+              url-pattern='/addnumbers'/>
+    <javaee:handler-chain>
+        <javaee:handler-chain-name>DocumentRepositoryHandler</javaee:handler-chain-name>
+        <javaee:handler>
+            <javaee:handler-name>DocumentRepositoryHandler</javaee:handler-name>
+            <javaee:handler-class>gov.cdc.dhcs.hehr.dcp.direct.service.DocumentRepositoryHandler
+            </javaee:handler-class>
+        </javaee:handler>
+    </javaee:handler-chain>
+</endpoints>
