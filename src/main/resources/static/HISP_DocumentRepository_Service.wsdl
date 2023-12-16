@@ -165,7 +165,7 @@
 		<wsdl:port
 			name="HISP_DocumentRepository_ServiceHttpsSoap12Endpoint"
 			binding="ihe:HISP_DocumentRepository_ServiceSoap12Binding">
-			<soap12:address location="http://localhost:8082" />
+			<soap12:address location="http://localhost:8080/services" />
 		</wsdl:port>
 	</wsdl:service>
 	<wsp:Policy wsu:Id="servicePolicy"

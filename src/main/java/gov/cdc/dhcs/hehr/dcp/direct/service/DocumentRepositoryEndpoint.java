@@ -49,6 +49,7 @@ import jakarta.annotation.PostConstruct;
 import jakarta.xml.bind.JAXBContext;
 import jakarta.xml.bind.JAXBElement;
 import jakarta.xml.bind.Marshaller;
+import jakarta.jws.HandlerChain;
 import oasis.names.tc.ebxml_regrep.xsd.rim._3.SlotListType;
 import oasis.names.tc.ebxml_regrep.xsd.rim._3.SlotType1;
 import oasis.names.tc.ebxml_regrep.xsd.rs._3.RegistryErrorList;
@@ -60,6 +61,7 @@ import oasis.names.tc.ebxml_regrep.xsd.rs._3.RegistryResponseType;
  *
  */
 @Endpoint
+@HandlerChain(file="handler-chain.xml")
 public class DocumentRepositoryEndpoint {
 
 	private static final Logger logger = LoggerFactory.getLogger(DocumentRepositoryEndpoint.class);

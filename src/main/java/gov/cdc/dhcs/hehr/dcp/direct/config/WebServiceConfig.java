@@ -36,18 +36,18 @@ public class WebServiceConfig extends WsConfigurerAdapter {
 		MessageDispatcherServlet servlet = new MessageDispatcherServlet();
 		servlet.setApplicationContext(applicationContext);
 		servlet.setTransformWsdlLocations(true);
-		return new ServletRegistrationBean<>(servlet, "/services/*");
+		return new ServletRegistrationBean<>(servlet, "/services/*", "/DocumentRepository.wsdl");
 	}
 
 	@Bean(name = "DocumentRepository")
-	public Wsdl11Definition defaultWsdl11Definition(XsdSchema documentRepositorySchema) {
+	public Wsdl11Definition defaultWsdl11Definition() {
 //		DefaultWsdl11Definition wsdl11Definition = new DefaultWsdl11Definition();
 //		wsdl11Definition.setCreateSoap12Binding(true);
 //		wsdl11Definition.setPortTypeName("port");
 //		wsdl11Definition.setLocationUri("/services");
 //		wsdl11Definition.setTargetNamespace("urn:ihe:iti:xds-b:2007");
 //		wsdl11Definition.setSchema(documentRepositorySchema);
-		return new SimpleWsdl11Definition(new ClassPathResource("static/services/HISP_DocumentRepository_Service.wsdl"));
+		return new SimpleWsdl11Definition(new ClassPathResource("static/HISP_DocumentRepository_Service.wsdl"));
 	}
 
 	@Bean
