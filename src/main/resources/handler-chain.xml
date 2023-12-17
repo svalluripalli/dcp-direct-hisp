@@ -1,9 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<handler-chains xmlns="http://java.sun.com/xml/ns/javaee">
-  <handler-chain>
-    <handler>
-      <handler-name>gov.cdc.dhcs.hehr.dcp.direct.service.DocumentRepositoryHandler</handler-name>
-      <handler-class>gov.cdc.dhcs.hehr.dcp.direct.service.DocumentRepositoryHandler</handler-class>
-    </handler>
-  </handler-chain>
-</handler-chains>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<javaee:handler-chains
+     xmlns:javaee="http://java.sun.com/xml/ns/javaee"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <javaee:handler-chain>
+    <javaee:handler>
+      <javaee:handler-class>gov.cdc.dhcs.hehr.dcp.direct.service.DocumentRepositorySoapHeaders</javaee:handler-class>
+    </javaee:handler>
+  </javaee:handler-chain>
+</javaee:handler-chains>
