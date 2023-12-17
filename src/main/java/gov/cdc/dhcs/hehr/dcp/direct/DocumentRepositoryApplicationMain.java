@@ -1,19 +1,3 @@
-/*
- * Copyright 2012-2013 the original author or authors.
- *
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- *      http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
- */
-
 package gov.cdc.dhcs.hehr.dcp.direct;
 
 import java.util.List;
@@ -38,22 +22,26 @@ import org.springframework.cloud.function.json.JsonMapper;
 import org.springframework.context.annotation.Bean;
 import org.springframework.messaging.Message;
 
+/**
+ * @author Sai Valluripalli
+ */
 @SpringBootApplication
-public class DocumentRepositoryApplicationMain {
-
+public class DocumentRepositoryApplicationMain extends SpringBootServletInitializer {
+	
 	private static final Logger logger = LoggerFactory.getLogger(DocumentRepositoryApplicationMain.class);
 
-	@Autowired
-	private AzureBlobService azureBlobService;
+	@Override
+	protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
+		return application.sources(DocumentRepositoryApplicationMain.class);
+	}
 
 	public static void main(String[] args) throws Exception {
 		SpringApplication.run(DocumentRepositoryApplicationMain.class, args);
 	}
-	
-	protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
-		return application.sources(DocumentRepositoryApplicationMain.class);
-	}
-	
+
+	@Autowired
+	private AzureBlobService azureBlobService;
+
 	@Bean
 	public Function<Message<Map<String, List<String>>>, String> archiveFiles() {
 		return message -> {
@@ -68,5 +56,4 @@ public class DocumentRepositoryApplicationMain {
 	public Function<String, String> echo() {
 		return payload -> payload;
 	}
-	
 }

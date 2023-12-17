@@ -31,6 +31,7 @@ import jakarta.jws.HandlerChain;
  */
 @EnableWs
 @Configuration
+@HandlerChain(file="handler-chain.xml")
 public class WebServiceConfig extends WsConfigurerAdapter {
 	
 	@Bean

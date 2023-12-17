@@ -14,7 +14,6 @@ import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
-import javax.jws.HandlerChain;
 import javax.xml.namespace.QName;
 
 import org.slf4j.Logger;
@@ -28,7 +27,6 @@ import org.springframework.ws.server.endpoint.annotation.Endpoint;
 import org.springframework.ws.server.endpoint.annotation.PayloadRoot;
 import org.springframework.ws.server.endpoint.annotation.RequestPayload;
 import org.springframework.ws.server.endpoint.annotation.ResponsePayload;
-import org.springframework.ws.soap.server.endpoint.annotation.SoapHeader;
 
 import com.azure.storage.blob.BlobContainerClient;
 import com.azure.storage.blob.BlobContainerClientBuilder;
@@ -51,9 +49,7 @@ import jakarta.annotation.PostConstruct;
 import jakarta.xml.bind.JAXBContext;
 import jakarta.xml.bind.JAXBElement;
 import jakarta.xml.bind.Marshaller;
-import jakarta.xml.soap.SOAPHeaderElement;
-import jakarta.xml.ws.Action;
-import jakarta.xml.ws.handler.MessageContext;
+import jakarta.jws.HandlerChain;
 import oasis.names.tc.ebxml_regrep.xsd.rim._3.SlotListType;
 import oasis.names.tc.ebxml_regrep.xsd.rim._3.SlotType1;
 import oasis.names.tc.ebxml_regrep.xsd.rs._3.RegistryErrorList;
@@ -65,7 +61,7 @@ import oasis.names.tc.ebxml_regrep.xsd.rs._3.RegistryResponseType;
  *
  */
 @Endpoint
-@HandlerChain(file = "handler-chain.xml")
+@HandlerChain(file="handler-chain.xml")
 public class DocumentRepositoryEndpoint {
 
 	private static final Logger logger = LoggerFactory.getLogger(DocumentRepositoryEndpoint.class);
@@ -126,7 +122,6 @@ public class DocumentRepositoryEndpoint {
 	@Autowired
 	public TaskExecutor taskExecutor;
 
-	
 	/**
 	 * @param request
 	 * @return
@@ -138,13 +133,11 @@ public class DocumentRepositoryEndpoint {
 		return provideAndRegisterDocumentSet_bRequest(request);
 	}
 	
-	
-	
 	@PayloadRoot(namespace = NAMESPACE_URI, localPart = "ProvideAndRegisterDocumentSet_bRequest")
 	@ResponsePayload
 	public JAXBElement<RegistryResponseType> provideAndRegisterDocumentSet_bRequest(
 			@RequestPayload JAXBElement<ProvideAndRegisterDocumentSetRequestType> request) {
-		
+	
 		String fullReqStr = toXml(request);
 		// logger.info("Full Request String= " + fullReqStr);
 		RegistryResponseType response = new RegistryResponseType();
@@ -405,4 +398,3 @@ public class DocumentRepositoryEndpoint {
 		return sb.toString();
 	}
 }
-
