@@ -9,8 +9,6 @@ import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
 
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
@@ -32,8 +30,6 @@ import jakarta.annotation.PostConstruct;
  */
 @Component
 public class AzureBlobService {
-	
-	private static final Logger logger = LoggerFactory.getLogger(AzureBlobService.class);
 
 	@Autowired
 	private DocumentRepositoryUtil documentRepositoryUtil;
@@ -83,7 +79,7 @@ public class AzureBlobService {
 			}
 
 		} catch (Exception e) {
-			logger.error("Exception while file download zipping and uploading the file", e);
+			System.out.println("Exception while file download zipping and uploading the file"+ e);
 			response = "Failed to archive files. "+ e.getMessage();
 		}
 		return response;
@@ -100,7 +96,7 @@ public class AzureBlobService {
 		BlobClient blob = blobContainerClient.getBlobClient(fileName);
 
 		String content = blob.downloadContent().toString();
-		logger.debug("Blob contents: %s%n", content);
+		System.out.println("Blob contents: %s%n"+ content);
 		return content.getBytes();
 
 	}

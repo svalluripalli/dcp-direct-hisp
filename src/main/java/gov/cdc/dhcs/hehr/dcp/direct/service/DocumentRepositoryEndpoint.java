@@ -16,8 +16,6 @@ import java.util.Set;
 
 import javax.xml.namespace.QName;
 
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.core.task.TaskExecutor;
@@ -63,8 +61,6 @@ import oasis.names.tc.ebxml_regrep.xsd.rs._3.RegistryResponseType;
 @Endpoint
 @HandlerChain(file="handler-chain.xml")
 public class DocumentRepositoryEndpoint {
-
-	private static final Logger logger = LoggerFactory.getLogger(DocumentRepositoryEndpoint.class);
 
 	private static final String NAMESPACE_URI = "urn:ihe:iti:xds-b:2007";
 	private static final DateTimeFormatter FILENAME_DATETIME_FORMAT = DateTimeFormatter
@@ -150,7 +146,7 @@ public class DocumentRepositoryEndpoint {
 		String documentUniqueId = StringUtil.EMPTY_STRING;
 		List<String> fileList = new ArrayList<String>();
 		List<Runnable> executions = new ArrayList<Runnable>();
-		logger.info("ProvideAndRegisterDocumentSetRequest received. RequestID=" + requestId);
+		System.out.println("ProvideAndRegisterDocumentSetRequest received. RequestID=" + requestId);
 
 		SlotListType slotListType = new SlotListType();
 		RegistryErrorList registryErrorList = new RegistryErrorList();
@@ -181,7 +177,7 @@ public class DocumentRepositoryEndpoint {
 					try {
 						output.write(dataHandler, 0, dataHandler.length);
 					} catch (Exception e) {
-						logger.error("IOException while dataHandler.writeTo(output)", e);
+						System.out.println("IOException while dataHandler.writeTo(output)"+ e);
 					}
 
 					String documentData = new String(Base64.getEncoder().encode(output.toByteArray()));
@@ -208,7 +204,7 @@ public class DocumentRepositoryEndpoint {
 			response.setStatus("SUCCESS: Documents stored successfully");
 
 		} catch (Exception e) {
-			logger.error("Exception while storing document", e);
+			System.out.println("Exception while storing document"+e);
 			String errorMessage = e.getMessage();
 			response.setStatus("ERROR: Failed to store all documents");
 			throw new RuntimeException("ERROR: Failed to store documents. " + errorMessage);
@@ -228,7 +224,7 @@ public class DocumentRepositoryEndpoint {
 			executions.add(new AzureBlobFileUploadExecutor(storeContainerClient, requestBlobFilename, fullReqStr.getBytes(StandardCharsets.UTF_8)));
 			executions.add(new AzureBlobFileUploadExecutor(storeContainerClient, responseBlobFilename, toXml(jaxbEl).getBytes(StandardCharsets.UTF_8)));
 		}
-		logger.info("ProvideAndRegisterDocumentSetRequest Completed. RequestID=" + requestId);
+		System.out.println("ProvideAndRegisterDocumentSetRequest Completed. RequestID=" + requestId);
 		if(enableBlobStoreFileArchive) {
 			Map<String, List<String>> fileArchiveApiPayload = new HashMap<String, List<String>>();
 			fileList.add(requestBlobFilename);
@@ -264,7 +260,7 @@ public class DocumentRepositoryEndpoint {
 		String documentUniqueId = StringUtil.EMPTY_STRING;
 		List<String> fileList = new ArrayList<String>();
 		List<Runnable> executions = new ArrayList<Runnable>();
-		logger.info("RetrieveDocumentSetRequest received. RequestID=" + requestId);
+		System.out.println("RetrieveDocumentSetRequest received. RequestID=" + requestId);
 
 		Set<String> documentIds = new HashSet<String>();
 
@@ -280,7 +276,7 @@ public class DocumentRepositoryEndpoint {
 			});
 		}
 
-		logger.info("Requested document IDs=" + documentIds.toString());
+		System.out.println("Requested document IDs=" + documentIds.toString());
 
 		if (documentIds.size() == 0) {
 			documentIds.addAll(documentRepository.getDocumentNameList());
@@ -324,7 +320,7 @@ public class DocumentRepositoryEndpoint {
 			executions.add(new AzureBlobFileUploadExecutor(storeContainerClient, requestBlobFilename, fullReqStr.getBytes(StandardCharsets.UTF_8)));
 			executions.add(new AzureBlobFileUploadExecutor(storeContainerClient, responseBlobFilename, toXml(jaxbEl).getBytes(StandardCharsets.UTF_8)));
 		}
-		logger.info("RetrieveDocumentSetRequest Completed. RequestID=" + requestId);
+		System.out.println("RetrieveDocumentSetRequest Completed. RequestID=" + requestId);
 
 		if(enableBlobStoreFileArchive) {
 			Map<String, List<String>> fileArchiveApiPayload = new HashMap<String, List<String>>();
@@ -382,7 +378,7 @@ public class DocumentRepositoryEndpoint {
 			marshaller.marshal(element, baos);
 			return baos.toString();
 		} catch (Exception e) {
-			logger.error("Exception while converting XML document to String", e);
+			System.out.println("Exception while converting XML document to String"+ e);
 		}
 		return "";
 	}
