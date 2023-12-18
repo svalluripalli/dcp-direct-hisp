@@ -9,8 +9,6 @@ import java.util.Map.Entry;
 import java.util.zip.ZipEntry;
 import java.util.zip.ZipOutputStream;
 
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Component;
 import org.springframework.util.Assert;
 
@@ -21,9 +19,7 @@ import org.springframework.util.Assert;
  */
 @Component
 public class DocumentRepositoryUtil {
-	
-	private static final Logger logger = LoggerFactory.getLogger(DocumentRepositoryUtil.class);
-	
+
 	/**
 	 * @param base64EncStr
 	 * @return
@@ -43,7 +39,7 @@ public class DocumentRepositoryUtil {
 				for (Entry<String, byte[]> fileEntry : fileContents.entrySet()) {
 
 					ByteArrayInputStream bais = new ByteArrayInputStream(fileEntry.getValue());
-					logger.debug(
+					System.out.println(
 							"fileName " + fileEntry.getKey() + " fileEntry.getValue() " + fileEntry.getValue());
 
 					ZipEntry zipEntry = new ZipEntry(fileEntry.getKey());
@@ -62,7 +58,7 @@ public class DocumentRepositoryUtil {
 				responseBytes = zipBytes;
 			}
 		} catch (IOException e) {
-			logger.error("IOException while creating .zip file", e);
+			System.out.println("IOException while creating .zip file"+e);
 		}
 		return responseBytes;
 	}

@@ -5,8 +5,6 @@ import java.util.List;
 import java.util.Map;
 import java.util.Optional;
 
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 import org.springframework.cloud.function.adapter.azure.FunctionInvoker;
 import org.springframework.messaging.Message;
 import org.springframework.messaging.support.MessageBuilder;
@@ -24,7 +22,7 @@ import com.microsoft.azure.functions.annotation.HttpTrigger;
  * @author Sai Valluripalli
  */
 public class FileArchiveHandler extends FunctionInvoker<Message<Map<String, List<String>>>, String> {
-	private static final Logger logger = LoggerFactory.getLogger(FileArchiveHandler.class);
+
 	@SuppressWarnings("unused")
 	private static final String CONNECTION_NAME = "AzureWebJobsStorage";
 
@@ -33,18 +31,18 @@ public class FileArchiveHandler extends FunctionInvoker<Message<Map<String, List
 			HttpMethod.POST }, authLevel = AuthorizationLevel.ANONYMOUS) HttpRequestMessage<Optional<String>> request,
 			ExecutionContext context) {
 		String requestString = request.getBody().get();
-		logger.debug("File archive function request received. Payload=" + requestString);
+		System.out.println("File archive function request received. Payload=" + requestString);
 		Map<String, List<String>> zipFilesMap = new HashMap<String, List<String>>();
 		String errorMessage = "";
 		ObjectMapper objectMapper = new ObjectMapper();
 		try {
 			zipFilesMap = objectMapper.readValue(request.getBody().get(), Map.class);
-			logger.debug("zipFilesMap=" + zipFilesMap.toString());
+			System.out.println("zipFilesMap=" + zipFilesMap.toString());
 			if (zipFilesMap.size() == 0) {
 				errorMessage = "Payload object preparation failed";
 			}
 		} catch (JsonProcessingException e) {
-			logger.error("JsonProcessingException while executing FileArchive Function App HttpTrigger", e);
+			System.out.println("JsonProcessingException while executing FileArchive Function App HttpTrigger"+ e);
 			errorMessage = "Failed to parse payload json value. expected json payload body format {zipFilename:[file1,file2]}.";
 			errorMessage = errorMessage + " " + e.getMessage();
 		}
@@ -55,7 +53,7 @@ public class FileArchiveHandler extends FunctionInvoker<Message<Map<String, List
 
 		Message<Map<String, List<String>>> message = MessageBuilder.withPayload(zipFilesMap)
 				.copyHeaders(request.getHeaders()).build();
-		logger.debug("Received zip file request. Message=" + message.getPayload());
+		System.out.println("Received zip file request. Message=" + message.getPayload());
 
 		return handleRequest(message, context);
 	}

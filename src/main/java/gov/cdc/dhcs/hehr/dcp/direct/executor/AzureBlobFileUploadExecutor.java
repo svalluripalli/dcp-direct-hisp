@@ -4,9 +4,6 @@ import java.io.ByteArrayInputStream;
 import java.util.List;
 import java.util.Map;
 
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
-
 import com.azure.storage.blob.BlobClient;
 import com.azure.storage.blob.BlobContainerClient;
 
@@ -17,7 +14,7 @@ import com.azure.storage.blob.BlobContainerClient;
  */
 public class AzureBlobFileUploadExecutor implements Runnable {
 	
-	private static final Logger logger = LoggerFactory.getLogger(AzureBlobFileUploadExecutor.class);
+	//private static final Logger logger = LoggerFactory.getLogger(AzureBlobFileUploadExecutor.class);
 	
 	private Map<String, List<String>> fileArchiveApiPayload;
 	
@@ -36,12 +33,12 @@ public class AzureBlobFileUploadExecutor implements Runnable {
 
 	@Override
 	public void run() {
-		logger.info("Trying to upload document file to Azure Blob");
-		logger.debug("DocumentFilename=", documentFilename);
-		logger.debug("FileArchiveApiPayload=", fileArchiveApiPayload);
+		System.out.println("Trying to upload document file to Azure Blob");
+		System.out.println("DocumentFilename="+ documentFilename);
+		System.out.println("FileArchiveApiPayload="+ fileArchiveApiPayload);
 		BlobClient blob = storeContainerClient.getBlobClient(documentFilename);
 		blob.upload(new ByteArrayInputStream(documentData), true);
-		logger.info("File upload completed");
+		System.out.println("File upload completed");
 	}
 
 	public String toString() {

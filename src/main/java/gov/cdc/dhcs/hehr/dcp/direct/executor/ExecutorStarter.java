@@ -2,8 +2,6 @@ package gov.cdc.dhcs.hehr.dcp.direct.executor;
 
 import java.util.List;
 
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 import org.springframework.core.task.SyncTaskExecutor;
 import org.springframework.core.task.TaskExecutor;
 
@@ -14,7 +12,7 @@ import org.springframework.core.task.TaskExecutor;
  */
 public class ExecutorStarter implements Runnable {
 	
-	private static final Logger logger = LoggerFactory.getLogger(ExecutorStarter.class);
+	//private static final Logger logger = LoggerFactory.getLogger(ExecutorStarter.class);
 	
 	private List<Runnable> executions;
 	
@@ -27,12 +25,12 @@ public class ExecutorStarter implements Runnable {
 
 	@Override
 	public void run() {
-		logger.info("Number of executions="+executions.size());
+		System.out.println("Number of executions="+executions.size());
 		executions.forEach(e -> {
-			logger.info("Executing "+e);
+			System.out.println("Executing "+e);
 			executor.execute(e);
 		});
-		logger.info("All executions completed");
+		System.out.println("All executions completed");
 	}
 
 }
